@@ -6,13 +6,16 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import io
 from dotenv import load_dotenv
-from discord.ext import commands
+from discord.ext import commands, tasks
 import random
 import requests
 import imageio
 import json
 import textwrap
 import nltk.corpus
+from maincog import MainCog
+import asyncio
+import datetime
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -25,9 +28,22 @@ intents.guild_messages = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
+reactions = [] # list to store available reactions
+
+async def setup(bot):
+    await bot.add_cog(MainCog(bot))
+
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
+    await setup(bot)
+    update_reactions.start() # start background task to update reactions
+    bot.loop.create_task(schedule_image())
+
+@bot.command(name='t')
+async def tcall(ctx):
+    main_cog = bot.get_cog("MainCog")
+    await main_cog.tspeak(ctx)
 
 @bot.command(name='commands')
 async def helpcommands(ctx):
@@ -52,7 +68,7 @@ async def quote(ctx):
     await ctx.send(random.choice(quotes))
     
 
-@bot.command(name='revuegif')
+@bot.command(name='gif')
 async def revuegif(ctx):
 
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
@@ -159,7 +175,6 @@ async def mrwhite(ctx):
 
 @bot.command(name='shitpostchar')
 async def revueshitpostchar(ctx):
-    print('successful call')
     # set the apikey and limit
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
     lmt = 1
@@ -206,9 +221,8 @@ async def revueshitpostchar(ctx):
     else:
         top_8gifs = None
 
-@bot.command(name='shitpostquote')
+@bot.command(name='shitpost')
 async def revueshitpostquote(ctx):
-    print('successful call')
     # set the apikey and limit
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
     lmt = 1
@@ -257,30 +271,164 @@ async def revueshitpostquote(ctx):
 
         await loadingmessage.delete()
         return
+    
+@bot.command(name='sticker')
+async def relivesticker(ctx):
+    png_url = get_random_png_url()
+    await ctx.send(png_url)
+
+@bot.command(name='bday')
+async def relivebday(ctx):
+    text, file = get_random_bday_voice()
+    await ctx.send(text, file=file)
+
+@bot.command(name='voice')
+async def relivevoice(ctx):
+    text, file = get_random_voice()
+    await ctx.send(text, file=file)
+
+@tasks.loop(hours=24)
+async def update_reactions():
+    guild = bot.get_guild(593878082654568458)
+    if guild:
+        emojis = await guild.fetch_emojis()
+        global reactions
+        reactions = [emoji for emoji in emojis if emoji.animated == False]
+    
+
+
+@update_reactions.before_loop
+async def before_update_reactions():
+    await bot.wait_until_ready() # wait until the bot is ready
+
+
 
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
         return
 
-    if random.random() < 0.02: # 2% chance of replying
+    if random.random() < 0.03: # 3% chance of replying
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
 
-    if random.random() < 0.02: # 2% chance of replying
-        folder = 'talking' # Replace with the actual path to your folder
+    if random.random() < 0.03: # 3% chance of replying
+        folder = 'talking'
         images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
-        # Create a list of file paths to all .png images in the folder
-        if images: # If there are images in the folder
+        if images:
             await message.reply(file=discord.File(random.choice(images)))
-            # Send a randomly selected image as a reply
-        else: # If there are no images in the folder
+        else:
             await message.reply("No images found.")
-
+    
+    if 'white' in message.content.lower():
+        file = discord.File(os.path.join(os.getcwd(), 'hikariwhite.png'))
+        await message.channel.send(file=file)
+    
+    if random.random() < 0.03: # 3% chance of reacting
+        if reactions:
+            reaction = random.choice(reactions)
+            try:
+                await message.add_reaction(reaction)
+            except:
+                pass
+        else:
+            await message.reply("tried to send reaction but none found")
+    
+    if random.random() < 0.03: # 3% chance of replying with a sticker
+        png_url = get_random_png_url()
+        await message.reply(png_url)
+    
+    if random.random() < 0.03: # 3% chance of replying with a voice line
+        text, file = get_random_voice()
+        await message.reply(text, file=file)
     await bot.process_commands(message)
+
+
+
+def get_random_png_url():
+    png_endpoint = 'https://cdn.karth.top/api/assets/ww/res_en/res/item_root/medium'
+    response = requests.get(png_endpoint)
+    png_list = response.json()['response_data']
+
+    filenames = [png['filename'] for png in png_list if png['type'] == 'image']
+
+    random_filename = random.choice(filenames)
+
+    png_url = f'https://cdn.karth.top/api/assets/ww/res_en/res/item_root/medium/{random_filename}'
+
+    return png_url
+
+
+
+def get_random_bday_voice():
+    random_number = random.randint(101, 109)
+    random_numberstr = str(random_number)
+    voices = f'https://cdn.karth.top/api/assets/jp/res/sound/voice/{random_numberstr}'
+    voicesresponse = requests.get(voices)
+    wav_list = voicesresponse.json()['response_data']
+    filenames = [wav['filename'] for wav in wav_list if wav['type'] == 'audio']
+    random_filename = random.choice(filenames)
+    voice_url = f'https://cdn.karth.top/api/assets/jp/res/sound/voice/{random_number}/{random_filename}'
+
+    character = "default"
+    match random_number:
+        case 101: character = "Karen"
+        case 102: character = "Hikari"
+        case 103: character = "Mahiru"
+        case 104: character = "Claudine"
+        case 105: character = "Maya"
+        case 106: character = "Junna"
+        case 107: character = "Nana"
+        case 108: character = "Futaba"
+        case 109: character = "Kaoruko"
+
+    character1 = character + " would like to say something:\n"
+    character2 = character + " has this to say:\n"
+    character3 = character + " has a message:\n"
+
+    characterw = random.choice([character1, character2, character3])
+
+    response = requests.get(voice_url)
+    file = discord.File(io.BytesIO(response.content), filename='message.wav')
+
+    return characterw, file
+
+def get_random_voice():
+    advjson = 'https://karth.top/api/adventure.json'
+    advresponse = requests.get(advjson)
+    advdata = advresponse.json()
+    ids = []  # Initialize an empty list to store the ids
+
+    for key in advdata['main_story'].keys():
+        ids.append(advdata['main_story'][key]['id'])
+
+    random_event = random.choice(ids)
+    reventjson = f'https://cdn.karth.top/api/assets/dlc/res/scenario/voice/{random_event}'
+    reventresponse = requests.get(reventjson)
+    reventdata = reventresponse.json()
+
+    filenames = [item['filename'] for item in reventdata['response_data'] if item['type'] == 'audio' and item['filename'].endswith('.wav')]
+
+    random_filename = random.choice(filenames)
+
+    voice_url = f'https://cdn.karth.top/api/assets/dlc/res/scenario/voice/{random_event}/{random_filename}'
+
+    response = requests.get(voice_url)
+    file = discord.File(io.BytesIO(response.content), filename='message.wav')
+
+    m1 = "Hold on, why don't you listen to what this character has to say:\n"
+    m2 = "This character has this to say about that:\n"
+    m3 = "Wait, let this character say their opinion:\n"
+    m4 = "That's really interesting, but have you considered:\n"
+    m5 = "About that. We just received this message from Seisho Music Academy:\n"
+    m6 = "Hmm, OK. But what if I were to get a Revue Starlight character to say this:\n"
+
+    characterw = random.choice([m1, m2, m3, m4, m5, m6])
+
+    return characterw, file
 
 
 async def create_image_with_caption(image, caption, max_width_ratio=0.3):
@@ -329,5 +477,85 @@ async def create_image_with_caption(image, caption, max_width_ratio=0.3):
     buf.seek(0)
 
     return discord.File(buf, filename='captioned.gif' if image.format == 'GIF' else 'captioned.png')
+
+
+
+async def send_gm_image(channel_ids):
+    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    lmt = 2
+    ckey = "mrwhitebot"
+
+    search_term = "revue starlight good morning"
+
+    r = requests.get(
+        "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s" % (search_term, apikey, ckey,  lmt))
+
+    if r.status_code == 200:
+        top_2gifs = json.loads(r.content)
+        gif_urls = [gif['url'] for gif in top_2gifs['results']]
+        random_url = random.choice(gif_urls)
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 10AM!\n" + random_url)
+    else:
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 10AM!\n" + "there was an error but good morning anyway")
+
+async def send_ga_image(channel_ids):
+    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    lmt = 2
+    ckey = "mrwhitebot"
+
+    search_term = "revue starlight good afternoon"
+
+    r = requests.get(
+        "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s" % (search_term, apikey, ckey,  lmt))
+
+    if r.status_code == 200:
+        top_2gifs = json.loads(r.content)
+        gif_urls = [gif['url'] for gif in top_2gifs['results']]
+        random_url = random.choice(gif_urls)
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 2PM!\n" + random_url)
+    else:
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 2PM!\n" + "there was an error but good afternoon anyway")
+
+async def send_gn_image(channel_ids):
+    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    lmt = 2
+    ckey = "mrwhitebot"
+
+    search_term = "revue starlight good night"
+
+    r = requests.get(
+        "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s" % (search_term, apikey, ckey,  lmt))
+
+    if r.status_code == 200:
+        top_2gifs = json.loads(r.content)
+        gif_urls = [gif['url'] for gif in top_2gifs['results']]
+        random_url = random.choice(gif_urls)
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 10PM!\n" + random_url)
+    else:
+        for channel_id in channel_ids:
+            channel = bot.get_channel(channel_id)
+            await channel.send("It's 10PM!\n" + "there was an error but good night anyway")
+
+async def schedule_image():
+    await bot.wait_until_ready()
+    while not bot.is_closed():
+        now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
+        if now.hour == 10 and now.minute == 0 and now.second == 0:
+            await send_gm_image([593878082654568460, 545321213858414603])
+        elif now.hour == 14 and now.minute == 0 and now.second == 0:
+            await send_ga_image([593878082654568460, 545321213858414603])
+        elif now.hour == 22 and now.minute == 0 and now.second == 0:
+            await send_gn_image([593878082654568460, 545321213858414603])
+        await asyncio.sleep(1)
 
 bot.run(TOKEN)
