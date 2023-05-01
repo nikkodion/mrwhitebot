@@ -215,9 +215,14 @@ async def revueshitpostchar(ctx):
         caption = f'{random_quote.strip()}'
         image_with_caption = await create_image_with_caption(image, caption)
 
-        # Send the captioned image/gif
-        await ctx.send(file=image_with_caption)
-        await loadingmessage.delete()
+        # Check if the file size exceeds the maximum allowed size
+        if image_with_caption > 8000000:  # 8 MB in bytes
+            await ctx.send("File was too large, try again")
+        else:
+            try:
+                await ctx.send(file=image_with_caption)
+            except discord.errors.HTTPException as error:
+                await ctx.send("File was too large, try again")
         return
     else:
         top_8gifs = None
@@ -264,11 +269,14 @@ async def revueshitpostquote(ctx):
         caption = f'{random_quote.strip()}'
         image_with_caption = await create_image_with_caption(image, caption)
 
-        # Send the captioned image/gif
-        try:
-            await ctx.send(file=image_with_caption)
-        except discord.errors.HTTPException as error:
+        # Check if the file size exceeds the maximum allowed size
+        if image_with_caption > 8000000:  # 8 MB in bytes
             await ctx.send("File was too large, try again")
+        else:
+            try:
+                await ctx.send(file=image_with_caption)
+            except discord.errors.HTTPException as error:
+                await ctx.send("File was too large, try again")
 
         await loadingmessage.delete()
         return
