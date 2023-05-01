@@ -375,16 +375,15 @@ def get_random_bday_voice():
     voice_url = f'https://cdn.karth.top/api/assets/jp/res/sound/voice/{random_number}/{random_filename}'
 
     character = "default"
-    match random_number:
-        case 101: character = "Karen"
-        case 102: character = "Hikari"
-        case 103: character = "Mahiru"
-        case 104: character = "Claudine"
-        case 105: character = "Maya"
-        case 106: character = "Junna"
-        case 107: character = "Nana"
-        case 108: character = "Futaba"
-        case 109: character = "Kaoruko"
+    if random_number == 101: character = "Karen"
+    elif random_number == 102: character = "Hikari"
+    elif random_number == 103: character = "Mahiru"
+    elif random_number == 104: character = "Claudine"
+    elif random_number == 105: character = "Maya"
+    elif random_number == 106: character = "Junna"
+    elif random_number == 107: character = "Nana"
+    elif random_number == 108: character = "Futaba"
+    elif random_number == 109: character = "Kaoruko"
 
     character1 = character + " would like to say something:\n"
     character2 = character + " has this to say:\n"
