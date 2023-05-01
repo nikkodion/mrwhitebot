@@ -21,3 +21,5 @@ The bot will also sometimes randomly reply (3% chance) to user messages with:
 - a random reaction from NCSU FGC Discord server
 
 It will also automatically send a "good morning," "good afternoon," or "good night" GIF depending on the time of day.
+
+there is also a secret function
