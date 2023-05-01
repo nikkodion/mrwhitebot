@@ -216,7 +216,7 @@ async def revueshitpostchar(ctx):
         image_with_caption = await create_image_with_caption(image, caption)
 
         # Check if the file size exceeds the maximum allowed size
-        if image_with_caption > 8000000:  # 8 MB in bytes
+        if image_with_caption.size > 8000000:  # 8 MB in bytes
             await ctx.send("File was too large, try again")
         else:
             try:
@@ -270,7 +270,7 @@ async def revueshitpostquote(ctx):
         image_with_caption = await create_image_with_caption(image, caption)
 
         # Check if the file size exceeds the maximum allowed size
-        if image_with_caption > 8000000:  # 8 MB in bytes
+        if image_with_caption.size > 8000000:  # 8 MB in bytes
             await ctx.send("File was too large, try again")
         else:
             try:
