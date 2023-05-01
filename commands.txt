@@ -5,8 +5,8 @@
 `!revuegif` - send a random GIF from Tenor with the keywords 'revue starlight'
 `!gm` - send a random Blingee good morning Revue Starlight GIF
 `!ga` - send a random Blingee good afternoon Revue Starlight GIF
-`!gn` - send a random Blingee good night Revue Starlight GIF.
-`!revueshitpostchar` - randomly generates a Revue Starlight meme with a random gif from Tenor with a character's name
-'!revueshitpostquote' - same as above except it uses a quote from the Revue Starlight movie
+`!gn` - send a random Blingee good night Revue Starlight GIF
+`!shitpostchar` - randomly generates a Revue Starlight meme with a random gif from Tenor with a character's name
+`!shitpostquote` - same as above except it uses a quote from the Revue Starlight movie
 
 The bot will also sometimes randomly reply to user messages with either a Revue Starlight movie quote or a character's image with a speech bubble.

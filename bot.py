@@ -25,14 +25,20 @@ intents.guild_messages = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-bot = commands.Bot(intents=intents,command_prefix='!')
-
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
 
 @bot.command(name='commands')
 async def helpcommands(ctx):
+    with open('commands.txt') as f:
+        textcommands = f.read()
+    await ctx.send(textcommands)
+
+bot.remove_command('help')
+
+@bot.command(name='help')
+async def helpcommands1(ctx):
     with open('commands.txt') as f:
         textcommands = f.read()
     await ctx.send(textcommands)
@@ -48,7 +54,6 @@ async def quote(ctx):
 
 @bot.command(name='revuegif')
 async def revuegif(ctx):
-    print('successful call')
 
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
     lmt = 1
@@ -68,7 +73,6 @@ async def revuegif(ctx):
 
 @bot.command(name='gm')
 async def good_morning(ctx):
-    print('successful call')
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
     lmt = 2
     ckey = "mrwhitebot"
@@ -88,7 +92,6 @@ async def good_morning(ctx):
 
 @bot.command(name='ga')
 async def good_afternoon(ctx):
-    print('successful call')
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
     lmt = 2
     ckey = "mrwhitebot"
@@ -108,7 +111,6 @@ async def good_afternoon(ctx):
 
 @bot.command(name='gn')
 async def good_night(ctx):
-    print('successful call')
     apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
     lmt = 2
     ckey = "mrwhitebot"
@@ -128,12 +130,11 @@ async def good_night(ctx):
 
 @bot.command(name='mrwhite')
 async def mrwhite(ctx):
-    print('test')
     if ctx.message.attachments:
             for attachment in ctx.message.attachments:
                 if attachment.content_type.startswith('image/'):
                     image_data = await attachment.read()
-                    await ctx.send('loading mr white image')
+                    loadingmessage = await ctx.send('loading mr white image')
                     image = cv2.imdecode(np.frombuffer(image_data, np.uint8), -1)
                     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
                     face_cascade = cv2.CascadeClassifier('lbpcascade_animeface.xml')
@@ -150,18 +151,19 @@ async def mrwhite(ctx):
                         img_bytes.seek(0)
                         await ctx.send(file=discord.File(fp=img_bytes, filename='mrwhiteface.png'))
                     else:
-                         await ctx.send("no faces found")
+                        await ctx.send("no faces found")
     else:
         await ctx.send('please include an image to mr whiteify')
+    await loadingmessage.delete()
 
 
-@bot.command(name='revueshitpostchar')
+@bot.command(name='shitpostchar')
 async def revueshitpostchar(ctx):
     print('successful call')
     # set the apikey and limit
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"  # click to set to your apikey
+    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
     lmt = 1
-    ckey = "mrwhitebot"  # set the client_key for the integration and use the same value for all API calls
+    ckey = "mrwhitebot" 
 
     # Load the list of words from the NLTK corpus
     words = nltk.corpus.words.words()
@@ -204,11 +206,11 @@ async def revueshitpostchar(ctx):
     else:
         top_8gifs = None
 
-@bot.command(name='revueshitpostquote')
+@bot.command(name='shitpostquote')
 async def revueshitpostquote(ctx):
     print('successful call')
     # set the apikey and limit
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"  # click to set to your apikey
+    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
     lmt = 1
     ckey = "mrwhitebot"  # set the client_key for the integration and use the same value for all API calls
 
@@ -255,156 +257,31 @@ async def revueshitpostquote(ctx):
 
         await loadingmessage.delete()
         return
-    else:
-        top_8gifs = None
-
-@bot.command(name='revuecaption')
-async def caption_image(ctx):
-    # Get the most recent message sent by the user
-    if len(ctx.message.attachments) == 0:
-        async for message in ctx.channel.history(limit=2, before=ctx.message):
-            # Check if the message contains any attachments
-            if len(message.attachments) > 0:
-                attachment = message.attachments[0]
-                if attachment.content_type.startswith('image/') or attachment.content_type.startswith('video/'):
-                    await ctx.send('loading revue starlight shitpost')
-                    # Read quotes from file
-                    with open('quotes.txt') as f:
-                        quotes = f.read().splitlines()
-
-                    # Get a random quote
-                    random_quote = random.choice(quotes)
-
-                    # Read the image/gif file
-                    image_data = await attachment.read()
-                    image = Image.open(io.BytesIO(image_data))
-                    if image.format == 'GIF':
-                        await ctx.send('the given image is a gif, may take a while')
-
-                    # Create the captioned image/gif
-                    caption = f'{random_quote.strip()}'
-                    image_with_caption = await create_image_with_caption(image, caption)
-
-                    # Send the captioned image/gif
-                    await ctx.send(file=image_with_caption)
-                    return
-            elif len(message.content) > 0:
-                print('message found')
-                link = message.content.strip()
-                print('link: ' + link)
-                if link.endswith('.jpg') or link.endswith('.jpeg') or link.endswith('.png') or link.endswith('.gif'):
-                    print('link found')
-                    await ctx.send('loading revue starlight shitpost')
-                    # Read quotes from file
-                    with open('quotes.txt') as f:
-                        quotes = f.read().splitlines()
-
-                    # Get a random quote
-                    random_quote = random.choice(quotes)
-
-                    # Download the image/gif from the link
-                    response = requests.get(link)
-                    image_data = response.content
-                    image = Image.open(io.BytesIO(image_data))
-                    if image.format == 'GIF':
-                        await ctx.send('the given image is a gif, may take a while')
-
-                    # Create the captioned image/gif
-                    caption = f'{random_quote.strip()}'
-                    image_with_caption = await create_image_with_caption(image, caption)
-
-                    # Send the captioned image/gif
-                    await ctx.send(file=image_with_caption)
-                    return
-                elif link.startswith('https://tenor.com'):
-                    print('tenor link found')
-                    # Get the GIF URL from the Tenor link
-                    response = requests.get(link)
-                    if response.ok and "json" in response.headers["content-type"]:
-                        gif_url = response.json()["url"]
-                        # Do something with the GIF URL
-                    else:
-                        print("Invalid response")
-
-                    # Download the GIF
-                    gif_content = requests.get(gif_url).content
-
-                    # Convert the GIF content to an imageio-readable format
-                    gif_bytes = bytearray(gif_content)
-
-                    # Read the GIF using imageio
-                    gif_image = imageio.imread(gif_bytes, "gif")
-
-                    # Save the GIF to a file
-                    imageio.mimsave("tenor.gif", [gif_image])
-
-                    await ctx.send('loading revue starlight shitpost')
-                    # Read quotes from file
-                    with open('quotes.txt') as f:
-                        quotes = f.read().splitlines()
-
-                    # Get a random quote
-                    random_quote = random.choice(quotes)
-
-                    # Download the image/gif from the link
-                    response = requests.get(gif_image)
-                    image_data = gif_content
-                    image = gif_image
-                    if image.format == 'GIF':
-                        await ctx.send('the given image is a gif, may take a while')
-
-                    # Create the captioned image/gif
-                    caption = f'{random_quote.strip()}'
-                    image_with_caption = await create_image_with_caption(image, caption)
-
-                    # Send the captioned image/gif
-                    await ctx.send(file=image_with_caption)
-                    
-    else:
-        attachment = ctx.message.attachments[0]
-        if attachment.content_type.startswith('image/') or attachment.content_type.startswith('video/'):
-            await ctx.send('loading revue starlight shitpost')
-            # Read quotes from file
-            with open('quotes.txt') as f:
-                quotes = f.read().splitlines()
-
-            # Get a random quote
-            random_quote = random.choice(quotes)
-
-            # Read the image/gif file
-            image_data = await attachment.read()
-            image = Image.open(io.BytesIO(image_data))
-            if image.format == 'GIF':
-                await ctx.send('the given image is a gif, may take a while')
-
-            # Create the captioned image/gif
-            caption = f'{random_quote.strip()}'
-            image_with_caption = await create_image_with_caption(image, caption)
-
-            # Send the captioned image/gif
-            await ctx.send(file=image_with_caption)
-            return
-
-    # If no attachment is found in the most recent message, send an error message
-    await ctx.send('Please attach an image or gif to caption')
 
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
         return
 
-    if random.random() < 0.05:  # 5% chance of replying
+    if random.random() < 0.02: # 2% chance of replying
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
-        # Process any commands in the message
-        await bot.process_commands(message)
-    else:
-        # Process any commands in the message
-        await bot.process_commands(message)
-        return
+
+    if random.random() < 0.02: # 2% chance of replying
+        folder = 'talking' # Replace with the actual path to your folder
+        images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
+        # Create a list of file paths to all .png images in the folder
+        if images: # If there are images in the folder
+            await message.reply(file=discord.File(random.choice(images)))
+            # Send a randomly selected image as a reply
+        else: # If there are no images in the folder
+            await message.reply("No images found.")
+
+    await bot.process_commands(message)
+
 
 async def create_image_with_caption(image, caption, max_width_ratio=0.3):
     # Create a draw object

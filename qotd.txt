@@ -871,8 +871,7 @@ Dialogue: 0,1:15:34.38,1:15:38.18,Moepii,,0,0,0,,ugly fruit that's ashamed to li
 Dialogue: 0,1:15:38.18,1:15:40.76,Moepii,,0,0,0,,You've lost your hope in the distance of the stars.
 Dialogue: 0,1:15:40.76,1:15:44.01,Moepii,,0,0,0,,Thou shalt not die.
 Dialogue: 0,1:15:49.64,1:15:52.38,Moepii,,0,0,0,,99th Class, Daiba Nana.
-Dialogue: 0,1:15:53.46,1:15:57.79,Moepii,,0,0,0,,If it is fate that you must ripen and fall, then now,
-Dialogue: 0,1:15:57.79,1:16:00.53,Moepii,,0,0,0,,I'll offer you a beautiful end.
+Dialogue: 0,1:15:53.46,1:15:57.79,Moepii,,0,0,0,,If it is fate that you must ripen and fall, then now, I'll offer you a beautiful end.
 Dialogue: 0,1:16:27.22,1:16:29.40,Moepii,,0,0,0,,Even if you run away, it's futile.
 Dialogue: 0,1:16:29.40,1:16:33.65,Moepii,,0,0,0,,You can't take hold of your star anymore.
 Dialogue: 0,1:16:34.44,1:16:39.78,Hiichan,,0,0,0,,Even if I can't see my star, I must advance forward on my path!
