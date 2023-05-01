@@ -19,6 +19,7 @@ import datetime
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
+TENOR_TOKEN = os.getenv('TENOR_TOKEN')
 
 intents = discord.Intents.all()
 intents.members = True
@@ -71,7 +72,7 @@ async def quote(ctx):
 @bot.command(name='gif')
 async def revuegif(ctx):
 
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
+    apikey = TENOR_TOKEN 
     lmt = 1
     ckey = "mrwhitebot" 
 
@@ -89,7 +90,7 @@ async def revuegif(ctx):
 
 @bot.command(name='gm')
 async def good_morning(ctx):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
@@ -108,7 +109,7 @@ async def good_morning(ctx):
 
 @bot.command(name='ga')
 async def good_afternoon(ctx):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
@@ -127,7 +128,7 @@ async def good_afternoon(ctx):
 
 @bot.command(name='gn')
 async def good_night(ctx):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
@@ -176,7 +177,7 @@ async def mrwhite(ctx):
 @bot.command(name='shitpostchar')
 async def revueshitpostchar(ctx):
     # set the apikey and limit
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
+    apikey = TENOR_TOKEN 
     lmt = 1
     ckey = "mrwhitebot" 
 
@@ -224,7 +225,7 @@ async def revueshitpostchar(ctx):
 @bot.command(name='shitpost')
 async def revueshitpostquote(ctx):
     # set the apikey and limit
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU" 
+    apikey = TENOR_TOKEN 
     lmt = 1
     ckey = "mrwhitebot"  # set the client_key for the integration and use the same value for all API calls
 
@@ -481,7 +482,7 @@ async def create_image_with_caption(image, caption, max_width_ratio=0.3):
 
 
 async def send_gm_image(channel_ids):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
@@ -503,7 +504,7 @@ async def send_gm_image(channel_ids):
             await channel.send("It's 10AM!\n" + "there was an error but good morning anyway")
 
 async def send_ga_image(channel_ids):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
@@ -525,7 +526,7 @@ async def send_ga_image(channel_ids):
             await channel.send("It's 2PM!\n" + "there was an error but good afternoon anyway")
 
 async def send_gn_image(channel_ids):
-    apikey = "AIzaSyA7f0xuVkCkyqdxKOPLUxsBh72xswUPjnU"
+    apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
 
