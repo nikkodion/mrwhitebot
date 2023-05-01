@@ -1,0 +1,1357 @@
+Dialogue: 0,0:00:36.93,0:00:38.01,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:00:42.27,0:00:43.94,Mimorin,,0,0,0,,We... cannot be together.
+Dialogue: 0,0:00:48.81,0:00:51.36,Mimorin,,0,0,0,,This stage is... a stage for the sake of parting.
+Dialogue: 0,0:00:57.32,0:00:59.02,Default,,0,0,0,,Aahhh! What is this?!
+Dialogue: 0,0:01:00.54,0:01:02.33,Default,,0,0,0,,I won't, I won't, I won't, I won't— I won't, I won't, I won't—
+Dialogue: 0,0:01:03.54,0:01:04.66,Default,,0,0,0,,I won't make it in time!
+Dialogue: 0,0:01:06.18,0:01:10.04,Moyochan,,0,0,0,,But the two of us... finally... got to do Starlight together...
+Dialogue: 0,0:01:19.74,0:01:22.38,Mimorin,,0,0,0,,Then, what comes after that?
+Dialogue: 0,0:01:22.38,0:01:24.38,Mimorin,,0,0,0,,What's the next line?
+Dialogue: 0,0:01:24.38,0:01:26.96,Mimorin,,0,0,0,,When is your next appearance? Which act?
+Dialogue: 0,0:01:35.90,0:01:38.96,Default,,0,0,0,,Is it already over?!
+Dialogue: 0,0:01:38.96,0:01:41.78,Default,,0,0,0,,Have I... missed it?!
+Dialogue: 0,0:01:44.16,0:01:47.12,Default,,0,0,0,,No, that's not it.
+Dialogue: 0,0:01:47.12,0:01:50.28,Default,,0,0,0,,The performance has started, just now!
+Dialogue: 0,0:01:53.56,0:01:56.72,Mimorin,,0,0,0,,Now is the time to get down from the tower.
+Dialogue: 0,0:02:08.35,0:02:10.36,Moyochan,,0,0,0,,I don't know...
+Dialogue: 0,0:02:17.26,0:02:19.72,Moyochan,,0,0,0,,Hikari-chan!
+Dialogue: 0,0:02:30.10,0:02:32.13,Mimorin,,0,0,0,,Try to pierce through me with your brilliance.
+Dialogue: 0,0:02:43.72,0:02:48.84,Default,,0,0,0,,Starlight is... a tragedy of inevitable parting.
+Dialogue: 0,0:02:52.65,0:02:54.02,Moyochan,,0,0,0,,Position... Zero.
+Dialogue: 0,0:02:57.22,0:02:59.29,Default,,0,0,0,,I understand.
+Dialogue: 0,0:03:10.16,0:03:12.89,Mimorin,,0,0,0,,With the light reborn in my heart, my new flesh and blood seeks life.
+Dialogue: 0,0:03:16.02,0:03:19.88,Mimorin,,0,0,0,,To sing, dance, and battle.
+Dialogue: 0,0:03:19.88,0:03:22.66,Mimorin,,0,0,0,,If those are our wild instincts, then—
+Dialogue: 0,0:03:23.20,0:03:26.68,Mimorin,,0,0,0,,99th Class, Kagura Hikari.
+Dialogue: 0,0:03:26.68,0:03:32.32,Mimorin,,0,0,0,,Fate changes. So does the stage.
+Dialogue: 0,0:03:59.30,0:04:00.24,Mimorin,,0,0,0,,Farewell, Aijo Karen.
+Dialogue: 0,0:04:43.06,0:04:44.56,Moyochan,,0,0,0,,Good morning!
+Dialogue: 0,0:04:45.28,0:04:46.51,Default,,0,0,0,,Good morning!
+Dialogue: 0,0:04:47.09,0:04:50.06,Default,,0,0,0,,From the 101st Stage Actress Class, group number 6, thank you for being our guide today!
+Dialogue: 0,0:04:53.24,0:04:55.10,Default,,0,0,0,,Thank you!
+Dialogue: 0,0:04:56.42,0:05:01.36,Moyochan,,0,0,0,,Until your acting training, we'll observe demonstrations in the other classrooms.
+Dialogue: 0,0:05:01.36,0:05:04.10,Moyochan,,0,0,0,,Today, I'm in charge of group number 6, 99th Class, Aijo Karen.
+Dialogue: 0,0:05:14.23,0:05:17.79,Mahonee,,0,0,0,,I'm student number 18, Tendo Maya.
+Dialogue: 0,0:05:19.79,0:05:21.42,Default,,0,0,0,,So you're applying for it, as expected? The New National First Theater Troupe.
+Dialogue: 0,0:05:25.17,0:05:26.19,Mahonee,,0,0,0,,Yes. While inheriting numerous famous works, their innovation never stops—the world's greatest theater company.
+Dialogue: 0,0:05:33.88,0:05:37.16,Mahonee,,0,0,0,,I believe you're well acquainted with it, as well.
+Dialogue: 0,0:05:37.76,0:05:40.10,Default,,0,0,0,,It's really strict, over there.
+Dialogue: 0,0:05:40.10,0:05:41.93,Mahonee,,0,0,0,,It's what I'm hoping for. In order to challenge an even higher and more distant world, I shall go forth to the greatest stage.
+Dialogue: 0,0:05:53.54,0:05:57.08,Aiai,,0,0,0,,I'm student number 11, Saijo Claudine.
+Dialogue: 0,0:05:58.24,0:05:59.97,Default,,0,0,0,,Theatre du Flamme... You've been scouted by a prestigious troupe in France?
+Dialogue: 0,0:06:04.82,0:06:08.83,Aiai,,0,0,0,,My sponsor had seen the Seisho Festival, it seems, and asked if I wanted to perform with them.
+Dialogue: 0,0:06:11.55,0:06:13.72,Default,,0,0,0,,What an honor, hm?
+Dialogue: 0,0:06:15.01,0:06:17.24,Aiai,,0,0,0,,Everyone has an equal chance, but whether it can be grasped is up to the person.
+Dialogue: 0,0:06:20.56,0:06:24.11,Aiai,,0,0,0,,So right now, I think I'll go where my passion takes me, and put myself up to the challenge.
+Dialogue: 0,0:06:31.55,0:06:34.74,Haruchan,,0,0,0,,I'm student number 17, Tsuyuzaki Mahiru.
+Dialogue: 0,0:06:35.94,0:06:38.87,Default,,0,0,0,,So you're hoping to join a troupe as well, Tsuyuzaki?
+Dialogue: 0,0:06:39.87,0:06:43.88,Haruchan,,0,0,0,,I learned a ton of things at this academy.
+Dialogue: 0,0:06:44.85,0:06:48.58,Haruchan,,0,0,0,,From singing, to acting, to what it means to live on stage.
+Dialogue: 0,0:06:48.58,0:06:52.97,Haruchan,,0,0,0,,I will use all of it as fuel to stand on the stage I've longed for, the stage of the New National First Theater Troupe.
+Dialogue: 0,0:06:58.39,0:07:03.29,Haruchan,,0,0,0,,And become a star who brings smiles to everyone's faces.
+Dialogue: 0,0:07:10.53,0:07:13.81,Ayasa,,0,0,0,,I've learnt what I could learn here, and it's about time for me to succeed to the title...
+Dialogue: 0,0:07:16.98,0:07:18.04,Default,,0,0,0,,I see.
+Dialogue: 0,0:07:21.68,0:07:24.62,Ayasa,,0,0,0,,I thought "maybe I should run away" many a time, but... attending this academy did help me realize a lot of things.
+Dialogue: 0,0:07:29.32,0:07:32.38,Ayasa,,0,0,0,,So, it won't be going home... but rather a new start, I'd say.
+Dialogue: 0,0:07:38.02,0:07:38.81,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:07:39.90,0:07:43.69,Ayasa,,0,0,0,,Student number 22, Hanayagi Kaoruko.
+Dialogue: 0,0:07:43.69,0:07:46.08,Ayasa,,0,0,0,,I plan to become the world's greatest in Kyoto.
+Dialogue: 0,0:07:49.65,0:07:52.57,Terurin,,0,0,0,,I'm student number 2, Isurugi Futaba.
+Dialogue: 0,0:07:54.69,0:07:58.91,Terurin,,0,0,0,,I know that it will be difficult to enter the troupe with my skill level.
+Dialogue: 0,0:07:59.46,0:08:02.08,Terurin,,0,0,0,,There will be applicants from all around the world, and the acceptance rate is less than 2%.
+Dialogue: 0,0:08:04.73,0:08:05.60,Terurin,,0,0,0,,But... If I don't try, I'll never get anywhere.
+Dialogue: 0,0:08:09.48,0:08:10.48,Default,,0,0,0,,That's true.
+Dialogue: 0,0:08:11.44,0:08:12.73,Terurin,,0,0,0,,Yeah.
+Dialogue: 0,0:08:12.73,0:08:15.96,Terurin,,0,0,0,,I realized that from watching everyone else.
+Dialogue: 0,0:08:15.96,0:08:19.64,Terurin,,0,0,0,,So I can aim even higher, to the summit, my next step has to be as high as it can possibly be.
+Dialogue: 0,0:08:23.93,0:08:25.60,Terurin,,0,0,0,,That's why... That's why, I'm aiming for it. The New National!
+Dialogue: 0,0:08:32.78,0:08:35.87,Moepii,,0,0,0,,I'm student number 15, Daiba Nana.
+Dialogue: 0,0:08:37.15,0:08:40.87,Default,,0,0,0,,Whether to stand on stage, or be the one creating it.
+Dialogue: 0,0:08:42.12,0:08:46.11,Moepii,,0,0,0,,I learned of it for the first time after coming to Seisho Music Academy.
+Dialogue: 0,0:08:47.08,0:08:49.36,Moepii,,0,0,0,,How dazzling it is to stand on stage with everyone, and the delight of creating a stage with everyone.
+Dialogue: 0,0:08:52.51,0:08:55.01,Default,,0,0,0,,Thank you, Daiba-san!
+Dialogue: 0,0:08:53.40,0:08:55.01,Moepii,,0,0,0,,I know.
+Dialogue: 0,0:08:55.01,0:08:57.51,Moepii,,0,0,0,,Amemiya-san's in the zone, huh!
+Dialogue: 0,0:08:55.01,0:08:58.68,Moepii,,0,0,0,,That I have to choose... that eventually this will end.
+Dialogue: 0,0:08:57.51,0:09:01.14,Default,,0,0,0,,Yeah! By the kick-off party tomorrow, Shion-chan has to finish the first—
+Dialogue: 0,0:09:00.05,0:09:01.01,Moepii,,0,0,0,,But...
+Dialogue: 0,0:09:01.01,0:09:04.05,Moepii,,0,0,0,,Standing on the stage, and creating it—
+Dialogue: 0,0:09:01.14,0:09:03.83,Default,,0,0,0,,I'm giving you the first draft tomorrow, okay!
+Dialogue: 0,0:09:04.05,0:09:08.02,Moepii,,0,0,0,,both of them are precious things that I love.
+Dialogue: 0,0:09:08.52,0:09:11.69,Default,,0,0,0,,You can't decide what's next, huh.
+Dialogue: 0,0:09:16.15,0:09:19.66,Hiichan,,0,0,0,,We are jesters on heaven's stage...
+Dialogue: 0,0:09:19.66,0:09:23.79,Hiichan,,0,0,0,,If I get just one performance, I will play as I please!
+Dialogue: 0,0:09:25.79,0:09:27.67,Moyochan,,0,0,0,,Salvatore!
+Dialogue: 0,0:09:27.67,0:09:29.96,Moyochan,,0,0,0,,Are you saying you'll throw it all away?
+Dialogue: 0,0:09:29.96,0:09:32.19,Moyochan,,0,0,0,,Her Majesty, our Queen, and our homeland of España?
+Dialogue: 0,0:09:34.84,0:09:36.80,Hiichan,,0,0,0,,I'm sorry, Alejandro.
+Dialogue: 0,0:09:37.33,0:09:38.93,Hiichan,,0,0,0,,My friend.
+Dialogue: 0,0:09:39.93,0:09:42.33,Hiichan,,0,0,0,,I must set out on my voyage!
+Dialogue: 0,0:09:42.76,0:09:44.81,Hiichan,,0,0,0,,To the open sea!
+Dialogue: 0,0:09:45.56,0:09:49.07,Hiichan,,0,0,0,,I'm student number 25, Hoshimi Junna.
+Dialogue: 0,0:09:50.25,0:09:52.19,Default,,0,0,0,,So you're continuing on to university?
+Dialogue: 0,0:09:52.19,0:09:55.19,Hiichan,,0,0,0,,Right now, I want to study more.
+Dialogue: 0,0:09:55.19,0:09:57.95,Hiichan,,0,0,0,,About the stage, more objectively, in depth...
+Dialogue: 0,0:10:00.20,0:10:03.31,Hiichan,,0,0,0,,"Some are born great," "Some achieve greatness." William Shakespeare.
+Dialogue: 0,0:10:11.59,0:10:13.93,Hiichan,,0,0,0,,So, don't stop me!
+Dialogue: 0,0:10:14.68,0:10:16.16,Moyochan,,0,0,0,,Then... What should my goal be?
+Dialogue: 0,0:10:19.18,0:10:22.24,Moyochan,,0,0,0,,I boarded this ship following you!
+Dialogue: 0,0:10:22.93,0:10:25.04,Moyochan,,0,0,0,,From here on, what should I aim for?!
+Dialogue: 0,0:10:35.17,0:10:36.25,Moyochan,,0,0,0,,Why...
+Dialogue: 0,0:10:38.05,0:10:39.00,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:10:39.66,0:10:41.25,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:10:41.80,0:10:43.25,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:10:43.65,0:10:44.81,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:10:46.49,0:10:47.26,Moyochan,,0,0,0,,Why... are you leaving?
+Dialogue: 0,0:10:49.85,0:10:51.50,Moepii,,0,0,0,,My friend.
+Dialogue: 0,0:10:54.24,0:10:55.48,Moyochan,,0,0,0,,Excuse me.
+Dialogue: 0,0:11:04.26,0:11:07.64,Default,,0,0,0,,Student number 1.
+Dialogue: 0,0:11:07.64,0:11:09.44,Default,,0,0,0,,Aijo Karen.
+Dialogue: 0,0:11:32.42,0:11:35.55,Default,,0,0,0,,Why... are you leaving.
+Dialogue: 0,0:11:36.82,0:11:38.05,Default,,0,0,0,,My friend.
+Dialogue: 0,0:11:41.61,0:11:44.07,Mimorin,,0,0,0,,We are jesters on heaven's stage...
+Dialogue: 0,0:11:44.61,0:11:49.61,Mimorin,,0,0,0,,If I get just one performance, I will play as I please.
+Dialogue: 0,0:11:50.62,0:11:52.20,Mimorin,,0,0,0,,I'm sorry, my friend,
+Dialogue: 0,0:11:52.74,0:11:56.58,Mimorin,,0,0,0,,I must set out on my voyage to the open sea.
+Dialogue: 0,0:12:04.95,0:12:06.83,Mimorin,,0,0,0,,I'm sorry, my friend.
+Dialogue: 0,0:12:07.83,0:12:10.62,Mimorin,,0,0,0,,I must set out on my voyage.
+Dialogue: 0,0:12:14.24,0:12:18.35,Default,,0,0,0,,Yes. We finished moving in yesterday,
+Dialogue: 0,0:12:18.85,0:12:21.24,Default,,0,0,0,,so thank you, starting from today.
+Dialogue: 0,0:12:21.71,0:12:23.80,Default,,0,0,0,,No, no, it's my pleasure.
+Dialogue: 0,0:12:24.34,0:12:25.45,Default,,0,0,0,,Hikari?
+Dialogue: 0,0:12:25.45,0:12:26.30,Mimorin,,0,0,0,,Hm?
+Dialogue: 0,0:12:26.30,0:12:30.15,Default,,0,0,0,,This is Karen-chan, who will be going with you to kindergarten from today.
+Dialogue: 0,0:12:35.10,0:12:37.23,Mimorin,,0,0,0,,I'm Kagura Hikari!
+Dialogue: 0,0:12:37.23,0:12:39.23,Mimorin,,0,0,0,,How do you do?
+Dialogue: 0,0:12:41.14,0:12:42.24,Default,,0,0,0,,This girl... she got the role of the mean and spoiled miss Lavinia in her next play, and she's been like this ever since.
+Dialogue: 0,0:12:50.05,0:12:53.40,Default,,0,0,0,,A play! Wow!
+Dialogue: 0,0:12:53.40,0:12:56.11,Default,,0,0,0,,Come on, Karen, say hello as well.
+Dialogue: 0,0:12:58.22,0:13:02.08,Default,,0,0,0,,Ahh, this kid... I'm sorry about her!
+Dialogue: 0,0:13:06.52,0:13:09.92,Default,,0,0,0,,Being in a play at age 5, isn't that a surprise?
+Dialogue: 0,0:13:10.94,0:13:13.53,Moyochan,,0,0,0,,Huh... really?
+Dialogue: 0,0:13:15.57,0:13:19.84,Default,,0,0,0,,Do you think you'll get along well with Hikari-chan?
+Dialogue: 0,0:13:19.84,0:13:21.40,Moyochan,,0,0,0,,Hmm... ,I dunno.
+Dialogue: 0,0:13:26.30,0:13:28.13,Mimorin,,0,0,0,,How do you do?
+Dialogue: 0,0:13:32.66,0:13:34.91,Moyochan,,0,0,0,,G-good morning!
+Dialogue: 0,0:13:41.50,0:13:43.46,Default,,0,0,0,,I'm gonna get you~
+Dialogue: 0,0:13:43.46,0:13:44.94,Default,,0,0,0,,Come on, wait!
+Dialogue: 0,0:13:48.44,0:13:50.24,Default,,0,0,0,,Do you want to play too, Karen-chan?
+Dialogue: 0,0:15:45.93,0:15:53.94,Default - Top,done,0,0,0,,*Karen wrote re (れ) as wa (わ)
+Dialogue: 0,0:15:45.93,0:15:53.94,Handwriting,done,0,0,0,,Aijo Kawan
+Dialogue: 0,0:16:19.18,0:16:22.49,Default,,0,0,0,,Hikari, you'll fall! Be careful!
+Dialogue: 0,0:16:22.49,0:16:24.09,Mimorin,,0,0,0,,I know!
+Dialogue: 0,0:16:32.93,0:16:37.28,Default,,0,0,0,,If you're making outfits in Kiramira, the pleated skirt is good!
+Dialogue: 0,0:16:37.28,0:16:40.22,Default,,0,0,0,,I have two of the same one, so I'll give you it!
+Dialogue: 0,0:16:40.22,0:16:42.56,Moyochan,,0,0,0,,T-thanks!
+Dialogue: 0,0:16:50.40,0:16:51.24,Moyochan,,0,0,0,,Ah!
+Dialogue: 0,0:16:51.24,0:16:52.61,Moyochan,,0,0,0,,Hikari-chan!
+Dialogue: 0,0:16:59.79,0:17:01.12,Default,,0,0,0,,Hikari?
+Dialogue: 0,0:17:01.93,0:17:04.37,Default,,0,0,0,,Karen, we're going home!
+Dialogue: 0,0:17:12.10,0:17:13.95,Mimorin,,0,0,0,,Do you like it?
+Dialogue: 0,0:17:14.65,0:17:15.95,Moyochan,,0,0,0,,What?
+Dialogue: 0,0:17:16.93,0:17:18.10,Mimorin,,0,0,0,,That.
+Dialogue: 0,0:17:19.14,0:17:20.64,Moyochan,,0,0,0,,Ah... Kiramira?
+Dialogue: 0,0:17:22.41,0:17:25.44,Moyochan,,0,0,0,,Hmm... I dunno.
+Dialogue: 0,0:17:26.14,0:17:31.95,Mimorin,,0,0,0,,I know something even more sparkling and exciting, though!
+Dialogue: 0,0:17:32.34,0:17:33.18,Moyochan,,0,0,0,,Huh?
+Dialogue: 0,0:17:33.65,0:17:36.76,Mimorin,,0,0,0,,Wanna know? You'll definitely like it!
+Dialogue: 0,0:17:36.76,0:17:39.32,Moyochan,,0,0,0,,Hmm... I dunno.
+Dialogue: 0,0:17:39.32,0:17:41.41,Mimorin,,0,0,0,,It's really amazing, okay?
+Dialogue: 0,0:17:41.41,0:17:44.12,Mimorin,,0,0,0,,Singing, dancing, and acting!
+Dialogue: 0,0:17:44.12,0:17:47.33,Mimorin,,0,0,0,,Wanna know? I can show you, you know!
+Dialogue: 0,0:17:47.33,0:17:48.29,Moyochan,,0,0,0,,Huhhh?
+Dialogue: 0,0:17:48.29,0:17:50.75,Mimorin,,0,0,0,,You wanna see it, right? You wanna see it!
+Dialogue: 0,0:17:50.75,0:17:51.70,Moyochan,,0,0,0,,Umm...
+Dialogue: 0,0:17:51.70,0:17:52.92,Mimorin,,0,0,0,,Right?
+Dialogue: 0,0:17:54.88,0:17:57.38,Moyochan,,0,0,0,,Y-yeah.
+Dialogue: 0,0:17:57.38,0:17:59.63,Mimorin,,0,0,0,,It's decided!
+Dialogue: 0,0:18:01.09,0:18:01.93,Moyochan,,0,0,0,,Huh?
+Dialogue: 0,0:18:02.92,0:18:03.95,Mimorin,,0,0,0,,Here!
+Dialogue: 0,0:18:09.23,0:18:11.39,Moyochan,,0,0,0,,A letter?
+Dialogue: 0,0:18:13.94,0:18:17.24,Mimorin,,0,0,0,,So tomorrow, I'll come pick you up, okay?
+Dialogue: 0,0:18:17.24,0:18:19.57,Mimorin,,0,0,0,,Karen.
+Dialogue: 0,0:18:32.16,0:18:33.34,Aiai,,0,0,0,,What's this?
+Dialogue: 0,0:18:33.34,0:18:34.63,Haruchan,,0,0,0,,Notes of questions to ask.
+Dialogue: 0,0:18:34.63,0:18:37.70,Haruchan,,0,0,0,,Since tomorrow's the field trip to the New National, right?
+Dialogue: 0,0:18:37.70,0:18:39.05,Aiai,,0,0,0,,Isn't it too long?
+Dialogue: 0,0:18:39.05,0:18:41.05,Haruchan,,0,0,0,,Futaba-chan's is even longer.
+Dialogue: 0,0:18:41.05,0:18:42.08,Haruchan,,0,0,0,,Wanna see?
+Dialogue: 0,0:18:42.64,0:18:44.08,Aiai,,0,0,0,,I'll pass.
+Dialogue: 0,0:18:44.50,0:18:46.08,Aiai,,0,0,0,,Getting all excited... Everyone's like freshmen.
+Dialogue: 0,0:18:47.93,0:18:48.93,Haruchan,,0,0,0,,Huh?
+Dialogue: 0,0:18:50.01,0:18:54.13,Aiai,,0,0,0,,Well, if you join the New National, you'll all be freshmen, I guess.
+Dialogue: 0,0:18:54.74,0:18:58.75,Aiai,,0,0,0,,Now is the only time we can look good for our juniors, too.
+Dialogue: 0,0:18:58.75,0:19:01.25,Haruchan,,0,0,0,,If I can get accepted, that is.
+Dialogue: 0,0:19:05.39,0:19:07.20,Haruchan,,0,0,0,,You're going to France, huh?
+Dialogue: 0,0:19:07.20,0:19:08.18,Haruchan,,0,0,0,,Clau-chan.
+Dialogue: 0,0:19:09.06,0:19:12.77,Aiai,,0,0,0,,"Going"... or maybe you could say I'm "returning".
+Dialogue: 0,0:19:14.27,0:19:17.12,Haruchan,,0,0,0,,We're graduating... huh.
+Dialogue: 0,0:19:20.74,0:19:21.82,Terurin,,0,0,0,,HUH?!
+Dialogue: 0,0:19:23.37,0:19:25.26,Terurin,,0,0,0,,What do you mean you're not going?!
+Dialogue: 0,0:19:26.02,0:19:27.57,Ayasa,,0,0,0,,It's pointless, ain't it?
+Dialogue: 0,0:19:27.57,0:19:30.58,Ayasa,,0,0,0,,Since I ain't planning on joining the New National.
+Dialogue: 0,0:19:30.58,0:19:32.00,Hiichan,,0,0,0,,You can't do that all of a sudden!
+Dialogue: 0,0:19:32.00,0:19:35.52,Hiichan,,0,0,0,,The plans for tomorrow's tour were made a long time ago, you know?
+Dialogue: 0,0:19:35.52,0:19:37.90,Ayasa,,0,0,0,,Well, just say I ain't feeling too good.
+Dialogue: 0,0:19:38.57,0:19:41.13,Mahonee,,0,0,0,,The New National First Theater Troupe.
+Dialogue: 0,0:19:41.13,0:19:43.03,Mahonee,,0,0,0,,With a legacy of 100 years, a company that has raised world-class stage performers.
+Dialogue: 0,0:19:47.41,0:19:49.95,Mahonee,,0,0,0,,Shakespeare, Molière, from contemporary to historical dramas.
+Dialogue: 0,0:19:52.17,0:19:56.71,Mahonee,,0,0,0,,Leading the theater world with its genre-transcending performances and immense number of shows,
+Dialogue: 0,0:19:56.71,0:19:57.32,Mahonee,,0,0,0,,the world's—
+Dialogue: 0,0:19:57.32,0:20:00.03,Ayasa,,0,0,0,,The world's greatest theater troupe?
+Dialogue: 0,0:20:00.03,0:20:01.25,Ayasa,,0,0,0,,Ain't it?
+Dialogue: 0,0:20:01.25,0:20:02.66,Ayasa,,0,0,0,,Useless.
+Dialogue: 0,0:20:03.95,0:20:04.80,Haruchan,,0,0,0,,Wh... What do you mean by that, Kaoruko-chan?
+Dialogue: 0,0:20:07.10,0:20:10.02,Haruchan,,0,0,0,,Useless... the New National Theater Troupe is? Or do you mean—
+Dialogue: 0,0:20:11.45,0:20:12.46,Ayasa,,0,0,0,,Today... Do y'all remember what day it is?
+Dialogue: 0,0:20:14.18,0:20:14.69,Haruchan,,0,0,0,,Huh?
+Dialogue: 0,0:20:15.12,0:20:16.27,Terurin,,0,0,0,,Today...?
+Dialogue: 0,0:20:18.16,0:20:20.28,Ayasa,,0,0,0,,Well, it's just nostalgic, ain't it.
+Dialogue: 0,0:20:20.28,0:20:22.82,Ayasa,,0,0,0,,Aiming for the self I want to become... Putting the stage I want to stand on on the line.
+Dialogue: 0,0:20:25.22,0:20:28.24,Ayasa,,0,0,0,,The blood-boiling, cuttingly painful, desire revealing—
+Dialogue: 0,0:20:30.93,0:20:31.93,Mahonee,,0,0,0,,Auditions.
+Dialogue: 0,0:20:33.68,0:20:35.91,Ayasa,,0,0,0,,I've always been waiting. For the next auditions. But I wasn't called.
+Dialogue: 0,0:20:40.32,0:20:44.22,Ayasa,,0,0,0,,Maybe somewhere, someone other than me's become the top star.
+Dialogue: 0,0:20:44.87,0:20:46.89,Ayasa,,0,0,0,,Thinking about that, I just...
+Dialogue: 0,0:20:48.80,0:20:50.22,Ayasa,,0,0,0,,Have you forgotten?
+Dialogue: 0,0:20:50.22,0:20:51.31,Ayasa,,0,0,0,,Have you given up?
+Dialogue: 0,0:20:51.31,0:20:52.83,Ayasa,,0,0,0,,Have you accepted it?
+Dialogue: 0,0:20:52.83,0:20:53.89,Ayasa,,0,0,0,,That you're all... That you're all not the top star?!
+Dialogue: 0,0:20:56.52,0:20:58.23,Ayasa,,0,0,0,,Have ya?!
+Dialogue: 0,0:21:07.82,0:21:09.15,Ayasa,,0,0,0,,Useless...!
+Dialogue: 0,0:21:10.07,0:21:11.15,Haruchan,,0,0,0,,Kaoruko-chan?
+Dialogue: 0,0:21:12.62,0:21:13.62,Terurin,,0,0,0,,Kaoruko...
+Dialogue: 0,0:21:32.89,0:21:34.44,Ayasa,,0,0,0,,Y-you're!
+Dialogue: 0,0:21:42.45,0:21:47.16,Ayasa,,0,0,0,,I'm... the most useless of 'em all.
+Dialogue: 0,0:21:50.04,0:21:51.51,Moepii,,0,0,0,,Everyone's... sure chatting up a storm, aren't they.
+Dialogue: 0,0:22:06.64,0:22:09.28,Terurin,,0,0,0,,I must set out on my voyage!
+Dialogue: 0,0:22:09.28,0:22:11.76,Haruchan,,0,0,0,,To the open sea!
+Dialogue: 0,0:22:11.17,0:22:14.23,Moepii,,0,0,0,,You've been super excited since yesterday, huh?
+Dialogue: 0,0:22:11.76,0:22:13.57,Terurin,,0,0,0,,It's really so great, isn't it~?
+Dialogue: 0,0:22:13.57,0:22:15.17,Terurin,,0,0,0,,The Distant El Dorado!
+Dialogue: 0,0:22:14.23,0:22:15.22,Moyochan,,0,0,0,,Yeah!
+Dialogue: 0,0:22:15.17,0:22:17.31,Haruchan,,0,0,0,,Yeah! El Dorado!
+Dialogue: 0,0:22:15.22,0:22:18.86,Moyochan,,0,0,0,,We'll get to see The Distant El Dorado on such a stage!
+Dialogue: 0,0:22:17.31,0:22:19.01,Mahonee,,0,0,0,,Because it's their greatest work!
+Dialogue: 0,0:22:18.86,0:22:20.53,Moyochan,,0,0,0,,How could I not be?
+Dialogue: 0,0:22:19.01,0:22:20.53,Mahonee,,0,0,0,,That troupe's.
+Dialogue: 0,0:22:20.53,0:22:22.39,Moepii,,0,0,0,,Karen-chan, have you seen it before?
+Dialogue: 0,0:22:20.53,0:22:22.41,Mahonee,,0,0,0,,Even though it's the same program, every time it's performed, it becomes a completely new play.
+Dialogue: 0,0:22:26.44,0:22:30.53,Mahonee,,0,0,0,,The responsibility and pride of being at the forefront of the theater world.
+Dialogue: 0,0:22:30.53,0:22:34.04,Mahonee,,0,0,0,,That's what the New National First Theater Troupe's greatest work—
+Dialogue: 0,0:22:33.47,0:22:36.08,Terurin,,0,0,0,,Woah, Salvatore flies in the sky!
+Dialogue: 0,0:22:40.33,0:22:42.53,Aiai,,0,0,0,,There's so much. You're full of things to ask!
+Dialogue: 0,0:22:42.53,0:22:43.92,Hiichan,,0,0,0,,I-it's fine, right?
+Dialogue: 0,0:22:43.92,0:22:46.63,Hiichan,,0,0,0,,Opportunities like this don't come often...
+Dialogue: 0,0:22:46.63,0:22:48.16,Aiai,,0,0,0,,That's true.
+Dialogue: 0,0:22:47.57,0:22:49.66,Terurin,,0,0,0,,They've stood on such amazing stages!
+Dialogue: 0,0:22:48.16,0:22:49.63,Aiai,,0,0,0,,Everyone's so enthused.
+Dialogue: 0,0:22:49.63,0:22:52.00,Aiai,,0,0,0,,Like that, they're just like your average fans.
+Dialogue: 0,0:22:49.66,0:22:52.69,Terurin,,0,0,0,,This is really such a great experience!
+Dialogue: 0,0:22:52.69,0:22:54.80,Mahonee,,0,0,0,,Yes. It'll be a great experience.
+Dialogue: 0,0:22:55.01,0:22:56.91,Aiai,,0,0,0,,What's up with you~?
+Dialogue: 0,0:22:57.37,0:23:00.53,Moyochan,,0,0,0,,That's the New National First Theater Troupe!
+Dialogue: 0,0:22:59.48,0:23:02.82,Hiichan,,0,0,0,,The one who recommended the New National to Isurugi-san...
+Dialogue: 0,0:23:00.53,0:23:02.82,Moepii,,0,0,0,,You know your stuff, Karen-chan!
+Dialogue: 0,0:23:02.82,0:23:04.36,Hiichan,,0,0,0,,Saijo-san, it was you, right?
+Dialogue: 0,0:23:04.36,0:23:05.40,Aiai,,0,0,0,,Not really?
+Dialogue: 0,0:23:05.40,0:23:07.68,Aiai,,0,0,0,,"You're Futaba, so won't you make it?" That's all I said.
+Dialogue: 0,0:23:09.70,0:23:11.21,Aiai,,0,0,0,,Are you okay with it, Junna? Not applying for the New National.
+Dialogue: 0,0:23:15.30,0:23:19.06,Hiichan,,0,0,0,,I'm no match for people like Tendo-san, or you.
+Dialogue: 0,0:23:21.15,0:23:22.42,Hiichan,,0,0,0,,But... That's just for now!
+Dialogue: 0,0:23:25.15,0:23:27.82,Hiichan,,0,0,0,,In order to take hold of the leading role one day, for now...
+Dialogue: 0,0:23:30.88,0:23:34.69,Aiai,,0,0,0,,Well, you're Junna, so I think you'll get there.
+Dialogue: 0,0:23:33.89,0:23:36.67,Mahonee,,0,0,0,,If you challenge it confidently, then surely—
+Dialogue: 0,0:23:34.69,0:23:36.71,Aiai,,0,0,0,,At least to Tendo Maya's level.
+Dialogue: 0,0:23:38.03,0:23:42.53,Caption,done,0,0,0,,We are already on the stage
+Dialogue: 0,0:23:38.46,0:23:40.39,Mahonee,,0,0,0,,Saijo-san, what are you talking about?
+Dialogue: 0,0:23:38.77,0:23:42.52,Moyochan,,0,0,0,,We are already... on the stage?
+Dialogue: 0,0:23:40.39,0:23:42.52,Aiai,,0,0,0,,Oh my! As expected of the head of the class.
+Dialogue: 0,0:23:42.52,0:23:44.06,Aiai,,0,0,0,,Talk about a sharp ear.
+Dialogue: 0,0:23:44.06,0:23:45.47,Mahonee,,0,0,0,,What are you on about?
+Dialogue: 0,0:23:45.47,0:23:47.04,Aiai,,0,0,0,,What do you mean what am I on about?
+Dialogue: 0,0:23:47.04,0:23:50.04,Caption,done,0,0,0,,The train will go to the next station without fail—
+Dialogue: 0,0:23:47.04,0:23:50.04,Caption,done,0,0,0,,Then, what about the stage?
+Dialogue: 0,0:23:47.04,0:23:50.04,Caption,done,0,0,0,,What about all of you?
+Dialogue: 0,0:23:50.70,0:23:53.53,Ayasa,,0,0,0,,How long is this gonna keep rattling along for?
+Dialogue: 1,0:23:54.84,0:23:57.08,Ayasa,,0,0,0,,It's like we'll never arrive at it, the next station.
+Dialogue: 0,0:23:59.55,0:24:03.06,Default,,0,0,0,,Hoshimi-san, group 2 and group 3 are both here~
+Dialogue: 0,0:24:03.06,0:24:07.05,Default,,0,0,0,,Huh? Tendo-san and the others still haven't arrived?
+Dialogue: 0,0:24:07.48,0:24:09.42,Mahonee,,0,0,0,,It's that aspect which—
+Dialogue: 0,0:25:20.91,0:25:21.95,Hiichan,,0,0,0,,Nana?
+Dialogue: 0,0:25:34.47,0:25:37.58,Moepii,,0,0,0,,The train will go to the next station without fail.
+Dialogue: 0,0:25:37.58,0:25:39.43,Moepii,,0,0,0,,Then, what about the stage?
+Dialogue: 0,0:25:39.43,0:25:41.68,Moepii,,0,0,0,,What about us?
+Dialogue: 0,0:25:50.76,0:25:53.03,Default,,0,0,0,,The Revue of Annihilation. Begins!
+Dialogue: 0,0:25:54.90,0:25:59.32,Default,,0,0,0,,Sing, dance, and battle!
+Dialogue: 0,0:26:10.17,0:26:12.09,Mahonee,,0,0,0,,Daiba...
+Dialogue: 0,0:26:12.09,0:26:12.67,Aiai,,0,0,0,,Nana!
+Dialogue: 0,0:26:12.67,0:26:16.02,Moepii - Top,,0,0,0,,Do you understand?
+Dialogue: 0,0:26:16.02,0:26:19.51,Moepii - Top,,0,0,0,,Do you understand the rules?
+Dialogue: 0,0:26:22.78,0:26:26.66,Moepii - Top,,0,0,0,,Sing, dance, and battle
+Dialogue: 0,0:26:26.66,0:26:32.42,Moepii - Top,,0,0,0,,When your life ends, the flowers scatter
+Dialogue: 0,0:26:32.42,0:26:37.14,Moepii - Top,,0,0,0,,And then, what next? What next? What next?
+Dialogue: 0,0:26:37.14,0:26:39.30,Moepii - Top,,0,0,0,,Where will you go?
+Dialogue: 0,0:26:43.32,0:26:47.37,Ayasa,,0,0,0,,It's started again... the auditions!
+Dialogue: 0,0:26:50.64,0:26:53.39,Caption,done,0,0,0,,Mind the doors
+Dialogue: 0,0:26:51.32,0:26:52.82,Moepii,,0,0,0,,It's finally here.
+Dialogue: 0,0:26:59.22,0:27:02.48,Moepii - Top,,0,0,0,,What happened to your brilliance?
+Dialogue: 0,0:27:02.48,0:27:05.14,Moepii - Top,,0,0,0,,This is boring, is that all you've got?
+Dialogue: 0,0:27:05.14,0:27:07.60,Moepii - Top,,0,0,0,,You're all bark and no bite
+Dialogue: 0,0:27:07.60,0:27:15.84,Moepii - Top,,0,0,0,,You can't use anything as an excuse to run away
+Dialogue: 0,0:27:12.80,0:27:13.94,Ayasa,,0,0,0,,This time...!
+Dialogue: 0,0:27:13.94,0:27:17.28,Ayasa,,0,0,0,,I'll become the top star—
+Dialogue: 0,0:27:15.84,0:27:18.51,Moepii - Top,,0,0,0,,You can't
+Dialogue: 0,0:27:18.51,0:27:22.78,Moepii - Top,,0,0,0,,Even if you step off of it, you're on stage
+Dialogue: 0,0:27:19.46,0:27:22.04,Moepii,,0,0,0,,This is not an audition.
+Dialogue: 0,0:27:23.74,0:27:31.29,Moepii - Top,,0,0,0,,You can't get by with nothing but words, don't you know that?
+Dialogue: 0,0:27:33.14,0:27:36.30,Moepii - Top,,0,0,0,,Come on, give it your all
+Dialogue: 0,0:27:35.80,0:27:38.80,Moepii,,0,0,0,,I'm telling you, this isn't an audition.
+Dialogue: 0,0:27:46.28,0:27:47.26,Hiichan,,0,0,0,,Nana...
+Dialogue: 0,0:27:53.19,0:27:56.32,Hiichan,,0,0,0,,I don't know... this Nana.
+Dialogue: 0,0:28:02.32,0:28:10.50,Moepii - Top,,0,0,0,,la la la la la la la la♪
+Dialogue: 0,0:28:14.29,0:28:18.28,Moepii - Top,,0,0,0,,It's nature's providence, isn't it
+Dialogue: 0,0:28:18.28,0:28:20.98,Moepii,,0,0,0,,The train will go to the next station without fail.
+Dialogue: 0,0:28:20.98,0:28:24.28,Moepii,,0,0,0,,Then, what about the stage? What about us?
+Dialogue: 0,0:28:24.28,0:28:25.80,Aiai,,0,0,0,,Huh?
+Dialogue: 0,0:28:31.74,0:28:34.35,Mahonee,,0,0,0,,If the stage and the audience long for it,
+Dialogue: 0,0:28:34.35,0:28:37.23,Mahonee,,0,0,0,,I am already on the stage.
+Dialogue: 0,0:28:41.82,0:28:44.92,Moepii - Top,,0,0,0,,Beautiful mademoiselle
+Dialogue: 0,0:28:42.44,0:28:44.92,Aiai,,0,0,0,,What on earth have you guys been saying?
+Dialogue: 0,0:28:44.92,0:28:48.06,Moepii - Top,,0,0,0,,Is there wildness within you?
+Dialogue: 0,0:28:48.06,0:28:53.50,Moepii - Top,,0,0,0,,The ones who will survive until the end are:
+Dialogue: 0,0:28:49.34,0:28:52.74,Aiai,,0,0,0,,Hold on! Tendo Maya!
+Dialogue: 0,0:28:52.74,0:28:53.94,Aiai,,0,0,0,,Nana!
+Dialogue: 0,0:28:53.50,0:28:59.30,Moepii - Top,,0,0,0,,If one were to become another's flesh and blood
+Dialogue: 0,0:28:55.78,0:28:59.13,Aiai,,0,0,0,,Don't... ignore... my lines!
+Dialogue: 0,0:28:59.30,0:29:01.92,Moepii - Top,,0,0,0,,Giving up their life
+Dialogue: 0,0:28:59.64,0:29:02.30,Moepii,,0,0,0,,Clau-chan, you're a bit... too talkative!
+Dialogue: 0,0:29:01.92,0:29:05.10,Moepii - Top,,0,0,0,,Living, unliving, unliving
+Dialogue: 0,0:29:05.10,0:29:07.10,Moepii - Top,,0,0,0,,Living, unliving
+Dialogue: 0,0:29:07.10,0:29:10.26,Moepii - Top,,0,0,0,,Wanting to live
+Dialogue: 0,0:29:22.24,0:29:26.24,Moepii,,0,0,0,,Somehow it feels like... I just drank some strong alcohol.
+Dialogue: 0,0:29:29.99,0:29:30.95,Hiichan,,0,0,0,,Huh?
+Dialogue: 0,0:29:32.04,0:29:35.56,Moepii,,0,0,0,,Somehow it feels like... I just drank some strong alcohol.
+Dialogue: 0,0:29:37.80,0:29:39.50,Hiichan,,0,0,0,,Nana...
+Dialogue: 0,0:29:39.88,0:29:41.50,Moepii,,0,0,0,,I'm saying, somehow it feels like... I just drank some strong alcohol.
+Dialogue: 0,0:29:47.26,0:29:49.14,Hiichan,,0,0,0,,What are you saying?
+Dialogue: 0,0:29:49.14,0:29:52.18,Hiichan,,0,0,0,,I mean, we're minors...?
+Dialogue: 0,0:30:01.15,0:30:02.27,Terurin,,0,0,0,,Kaoruko—
+Dialogue: 0,0:30:02.27,0:30:03.52,Terurin,,0,0,0,,Kaoruko!
+Dialogue: 0,0:30:09.91,0:30:12.12,Mahonee,,0,0,0,,Don't panic!
+Dialogue: 0,0:30:14.96,0:30:17.83,Mahonee,,0,0,0,,It's stage equipment.
+Dialogue: 0,0:30:19.25,0:30:21.88,Moepii,,0,0,0,,The train will go to the next station without fail.
+Dialogue: 0,0:30:22.38,0:30:24.54,Moepii,,0,0,0,,Then, what about the stage?
+Dialogue: 0,0:30:24.54,0:30:26.18,Moepii,,0,0,0,,What about us?
+Dialogue: 0,0:30:27.17,0:30:28.30,Moepii,,0,0,0,,We're... already... dead.
+Dialogue: 0,0:30:57.04,0:30:58.83,Ayasa,,0,0,0,,It's sweet.
+Dialogue: 0,0:31:02.96,0:31:07.18,Mimorin,,0,0,0,,So tomorrow, I'll come pick you up, okay? Karen.
+Dialogue: 0,0:31:10.73,0:31:13.63,Default,,0,0,0,,A play? Karen?
+Dialogue: 0,0:31:13.63,0:31:14.99,Default,,0,0,0,,Yep.
+Dialogue: 0,0:31:14.99,0:31:19.06,Default,,0,0,0,,A girl from her kindergarten is in the troupe.
+Dialogue: 0,0:31:19.06,0:31:21.61,Default,,0,0,0,,What did her dad say?
+Dialogue: 0,0:31:21.61,0:31:22.88,Default,,0,0,0,,"That'd be nice!"
+Dialogue: 0,0:31:24.04,0:31:27.41,Default,,0,0,0,,Well, you could say Karen is a bit withdrawn.
+Dialogue: 0,0:31:28.83,0:31:30.05,Default,,0,0,0,,Really?
+Dialogue: 0,0:31:30.86,0:31:34.33,Default,,0,0,0,,So I thought, why not let her go learn about it?
+Dialogue: 0,0:31:34.33,0:31:35.74,Default,,0,0,0,,Hmm...
+Dialogue: 0,0:31:36.34,0:31:38.00,Default,,0,0,0,,Just until recently, though,
+Dialogue: 0,0:31:38.00,0:31:41.29,Default,,0,0,0,,she was begging me to buy her cards for this.
+Dialogue: 0,0:31:43.84,0:31:45.38,Default,,0,0,0,,Karen!
+Dialogue: 0,0:31:45.38,0:31:47.06,Default,,0,0,0,,She's here to pick you up!
+Dialogue: 0,0:31:47.06,0:31:48.38,Moyochan,,0,0,0,,Okay!
+Dialogue: 0,0:31:51.52,0:31:53.14,Default,,0,0,0,,But, you know...
+Dialogue: 0,0:31:53.14,0:31:59.60,Default,,0,0,0,,Sis, isn't it just that you want to see Karen dressed in all kinds of outfits?
+Dialogue: 0,0:32:00.13,0:32:01.77,Default,,0,0,0,,Yeah! I want to!
+Dialogue: 0,0:32:01.77,0:32:02.95,Default,,0,0,0,,What?
+Dialogue: 0,0:32:07.12,0:32:10.01,Default,,0,0,0,,I want to see it, and I want to let her do it.
+Dialogue: 0,0:32:10.01,0:32:12.53,Default,,0,0,0,,If Karen's potential were to grow.
+Dialogue: 0,0:32:12.82,0:32:15.53,Default,,0,0,0,,Hmm...
+Dialogue: 0,0:32:35.37,0:32:37.05,Mimorin,,0,0,0,,Starlight.
+Dialogue: 0,0:32:38.08,0:32:45.33,Mimorin,,0,0,0,,It is a story of the goddesses guided by the light of the stars, and the connections they forge as they collide, quarrel, and pass by each other.
+Dialogue: 0,0:32:52.11,0:32:53.49,Mimorin,,0,0,0,,However... it is a tragedy, with an eternal parting waiting.
+Dialogue: 0,0:33:01.79,0:33:04.00,Moyochan,,0,0,0,,What... is this?
+Dialogue: 0,0:33:04.61,0:33:06.64,Mimorin,,0,0,0,,This is the stage!
+Dialogue: 0,0:33:08.10,0:33:12.30,Mimorin,,0,0,0,,On the stage, any kind of miracle can happen!
+Dialogue: 0,0:33:13.89,0:33:15.84,Mimorin,,0,0,0,,On the stage, I can become any kind of myself!
+Dialogue: 0,0:33:26.37,0:33:31.26,Moyochan,,0,0,0,,This is the first time I've seen something this pretty...
+Dialogue: 0,0:33:31.26,0:33:33.09,Mimorin,,0,0,0,,Yeah.
+Dialogue: 0,0:33:33.09,0:33:35.15,Mimorin,,0,0,0,,It's really beautiful.
+Dialogue: 0,0:33:36.96,0:33:38.22,Mimorin,,0,0,0,,But..
+Dialogue: 0,0:33:39.03,0:33:40.22,Moyochan,,0,0,0,,Huh?
+Dialogue: 0,0:33:47.68,0:33:50.21,Moyochan,,0,0,0,,Let's go, to that stage!
+Dialogue: 0,0:33:50.70,0:33:51.68,Mimorin,,0,0,0,,Huh?
+Dialogue: 0,0:33:53.09,0:33:55.26,Moyochan,,0,0,0,,To become shining stars... Together!
+Dialogue: 0,0:34:00.76,0:34:02.22,Mimorin,,0,0,0,,Yeah!
+Dialogue: 0,0:34:09.30,0:34:10.83,Mimorin,,0,0,0,,Mooom!
+Dialogue: 0,0:34:10.83,0:34:12.52,Mimorin,,0,0,0,,Take a picture!
+Dialogue: 0,0:34:13.31,0:34:14.49,Default,,0,0,0,,Okay, okay.
+Dialogue: 0,0:34:14.49,0:34:16.16,Default,,0,0,0,,I'm taking it!
+Dialogue: 0,0:34:18.02,0:34:20.54,Default,,0,0,0,,Karen, you're too tense!
+Dialogue: 0,0:34:30.53,0:34:32.65,Moepii,,0,0,0,,So she was born on that day, then.
+Dialogue: 0,0:34:32.65,0:34:35.46,Moepii,,0,0,0,,The stage girl, Aijo Karen.
+Dialogue: 0,0:34:40.13,0:34:42.16,Moyochan,,0,0,0,,What...?
+Dialogue: 0,0:34:42.16,0:34:43.68,Moepii,,0,0,0,,Banana muffins,
+Dialogue: 0,0:34:43.68,0:34:45.31,Moepii,,0,0,0,,banana pudding,
+Dialogue: 0,0:34:45.31,0:34:46.69,Moepii,,0,0,0,,banananciers.
+Dialogue: 0,0:34:48.28,0:34:50.74,Moepii,,0,0,0,,I fed you lots of them, didn't I.
+Dialogue: 0,0:34:51.78,0:34:53.21,Moepii,,0,0,0,,But everyone is... seeking a new role, stage to stand on.
+Dialogue: 0,0:34:57.05,0:35:00.21,Moepii,,0,0,0,,Quickly hungering and thirsting.
+Dialogue: 0,0:35:02.80,0:35:05.00,Moepii,,0,0,0,,But, Karen-chan.
+Dialogue: 0,0:35:05.00,0:35:07.50,Moepii,,0,0,0,,Only you still aren't.
+Dialogue: 0,0:35:21.12,0:35:24.14,Moepii,,0,0,0,,So, you have no choice but to find it.
+Dialogue: 0,0:35:25.08,0:35:26.76,Moyochan,,0,0,0,,What...?
+Dialogue: 0,0:35:26.76,0:35:30.86,Moepii,,0,0,0,,As everyone has a stage they must stand on, you must find your own stage at the end of this path.
+Dialogue: 0,0:35:58.07,0:36:00.89,Moepii,,0,0,0,,And I have to go back...
+Dialogue: 0,0:36:04.89,0:36:07.78,Moyochan,,0,0,0,,A stage that's only for me...
+Dialogue: 0,0:36:25.12,0:36:26.16,Default,,0,0,0,,I'm taking it!
+Dialogue: 0,0:36:26.16,0:36:27.03,Default,,0,0,0,,Yay!
+Dialogue: 0,0:36:46.18,0:36:48.19,Aiai,,0,0,0,,Why... is she the only one who...
+Dialogue: 0,0:37:08.95,0:37:11.11,Default,,0,0,0,,You've worked hard.
+Dialogue: 0,0:37:11.11,0:37:12.03,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:13.54,0:37:15.62,Default,,0,0,0,,It's a mess in here.
+Dialogue: 0,0:37:15.62,0:37:16.81,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:17.86,0:37:20.14,Default,,0,0,0,,You look awful.
+Dialogue: 0,0:37:20.14,0:37:21.34,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:22.11,0:37:25.28,Default,,0,0,0,,But, you've written this much.
+Dialogue: 0,0:37:36.13,0:37:37.35,Default,,0,0,0,,Wait.
+Dialogue: 0,0:37:40.07,0:37:41.88,Default,,0,0,0,,Wait...
+Dialogue: 0,0:37:42.96,0:37:46.22,Default,,0,0,0,,We promised, didn't we? That it would be until the kick-off party.
+Dialogue: 0,0:37:50.56,0:37:51.63,Default,,0,0,0,,But...
+Dialogue: 0,0:37:52.40,0:37:54.69,Default,,0,0,0,,I know that you're scared.
+Dialogue: 0,0:37:54.69,0:37:57.29,Default,,0,0,0,,But, we have to carry on.
+Dialogue: 0,0:37:58.13,0:38:00.21,Default,,0,0,0,,Everyone is waiting.
+Dialogue: 0,0:38:01.04,0:38:04.89,Default,,0,0,0,,Even if it's incomplete, for now.
+Dialogue: 0,0:38:05.60,0:38:06.69,Default,,0,0,0,,Aaah—
+Dialogue: 0,0:38:06.69,0:38:08.40,Default,,0,0,0,,Test, test! Mic test!
+Dialogue: 0,0:38:10.75,0:38:16.61,Default,,0,0,0,,Thank you very much for gathering at the 101st Seisho Festival kick-off party.
+Dialogue: 0,0:38:16.61,0:38:19.90,Default,,0,0,0,,I'm in Group B as the director, Masai.
+Dialogue: 0,0:38:17.99,0:38:20.56,Default,,0,0,0,,Since it's the last, I want the lighting to be really good.
+Dialogue: 0,0:38:19.90,0:38:24.53,Default,,0,0,0,,The final Starlight that will be the culmination of all our time here.
+Dialogue: 0,0:38:24.53,0:38:27.59,Default,,0,0,0,,We're handing out the first draft of its script.
+Dialogue: 0,0:38:32.03,0:38:34.59,Hiichan,,0,0,0,,This script... the ending is still...
+Dialogue: 0,0:38:37.04,0:38:38.67,Default,,0,0,0,,Yes. It's incomplete.
+Dialogue: 0,0:38:38.67,0:38:42.18,Default,,0,0,0,,What? Incomplete? It really is!
+Dialogue: 0,0:38:42.18,0:38:44.43,Default,,0,0,0,,What is all of this?
+Dialogue: 0,0:38:48.00,0:38:49.59,Default,,0,0,0,,AAAAAHHH!
+Dialogue: 0,0:38:49.59,0:38:54.15,Default,,0,0,0,,I'M SCAAAAARED!!
+Dialogue: 0,0:39:00.37,0:39:01.75,Default,,0,0,0,,The 100th,
+Dialogue: 0,0:39:01.75,0:39:05.70,Default,,0,0,0,,I'm really scared about whether we can surpass that Starlight!
+Dialogue: 0,0:39:05.70,0:39:08.78,Default,,0,0,0,,But, it's natural to be scared.
+Dialogue: 0,0:39:08.78,0:39:12.47,Default,,0,0,0,,I mean, a graduation performance like this is a first for all of us!
+Dialogue: 0,0:39:12.47,0:39:16.80,Default,,0,0,0,,And I think our seniors must have been scared, too.
+Dialogue: 0,0:39:16.80,0:39:19.72,Default,,0,0,0,,But, if it's with everyone, then!
+Dialogue: 0,0:39:19.72,0:39:24.69,Default,,0,0,0,,This is the last play we'll create together as the 99th Class!
+Dialogue: 0,0:39:24.69,0:39:26.61,Default,,0,0,0,,We can't stop here!
+Dialogue: 0,0:39:28.50,0:39:32.34,Default,,0,0,0,,I want to finish it to the end, together with everyone!
+Dialogue: 0,0:39:35.39,0:39:41.10,Default,,0,0,0,,"Those who are trapped and do not change will decay and die before long."
+Dialogue: 0,0:39:41.66,0:39:43.27,Default,,0,0,0,,It's great, Amemiya-san!
+Dialogue: 0,0:39:43.27,0:39:45.95,Default,,0,0,0,,I want to say this goddess's line!
+Dialogue: 0,0:39:51.99,0:39:53.91,Default,,0,0,0,,Everyone... I'm sorry that I couldn't finish writing it.
+Dialogue: 0,0:39:57.41,0:39:59.00,Default,,0,0,0,,But, I'll definitely make it the best final chapter!
+Dialogue: 0,0:40:04.04,0:40:05.71,Default,,0,0,0,,So... So...!
+Dialogue: 0,0:40:13.86,0:40:17.57,Default,,0,0,0,,"Be reborn, destroying your old body,"
+Dialogue: 0,0:40:17.57,0:40:19.89,Default,,0,0,0,,"and into it, breathe new life."
+Dialogue: 0,0:40:19.89,0:40:23.30,Default,,0,0,0,,"Go beyond the place you stand at now, tomorrow."
+Dialogue: 0,0:40:23.30,0:40:26.65,Default,,0,0,0,,"Turn your back to the top that you arrived at."
+Dialogue: 0,0:40:28.43,0:40:30.07,Default,,0,0,0,,Ready, go!
+Dialogue: 0,0:40:30.40,0:40:32.79,Default,,0,0,0,,Amemiya-san, I want to act this out too!
+Dialogue: 0,0:40:33.86,0:40:36.04,Default,,0,0,0,,Ready, go!
+Dialogue: 0,0:40:36.41,0:40:39.06,Default,,0,0,0,,Me too! I want to act it out with all my might!
+Dialogue: 0,0:40:39.06,0:40:40.17,Default,,0,0,0,,I'm fired up!
+Dialogue: 0,0:40:40.92,0:40:42.83,Default,,0,0,0,,Ready, go!
+Dialogue: 0,0:40:44.17,0:40:47.21,Aiai,,0,0,0,,"Now is the time to get down from the tower."
+Dialogue: 0,0:40:49.44,0:40:51.20,Default,,0,0,0,,Ready, go!
+Dialogue: 0,0:41:08.27,0:41:11.12,Mahonee,,0,0,0,,We are already... on the stage.
+Dialogue: 0,0:41:17.20,0:41:18.35,Ayasa,,0,0,0,,It's so pretty...
+Dialogue: 0,0:41:21.49,0:41:24.58,Moepii,,0,0,0,,Snack time is over now.
+Dialogue: 0,0:41:24.42,0:41:26.33,Default,,0,0,0,,"I've arrived, Claire."
+Dialogue: 0,0:41:24.58,0:41:29.04,Moepii,,0,0,0,,To hunger, thirst, and seek a new stage.
+Dialogue: 0,0:41:26.33,0:41:27.90,Default,,0,0,0,,"To your side."
+Dialogue: 0,0:41:28.80,0:41:31.16,Default,,0,0,0,,"Starlight gathering is forgiveness of sins."
+Dialogue: 0,0:41:29.81,0:41:32.37,Moepii,,0,0,0,,That's what a stage girl is.
+Dialogue: 0,0:41:31.16,0:41:33.10,Default,,0,0,0,,"Starlight gathering is a wonder of night."
+Dialogue: 0,0:41:33.57,0:41:36.11,Moepii,,0,0,0,,So, how about all of you?
+Dialogue: 0,0:41:37.87,0:41:41.07,Mahonee,,0,0,0,,"If we gather the stars, fate will change."
+Dialogue: 0,0:41:38.66,0:41:42.73,Aiai,,0,0,0,,I am already on the stage.
+Dialogue: 0,0:41:41.07,0:41:42.17,Mahonee,,0,0,0,,"Flora, now is the time to get down from the tower."
+Dialogue: 0,0:41:43.22,0:41:45.01,Aiai,,0,0,0,,So that's why— only she...
+Dialogue: 0,0:42:01.03,0:42:04.21,Moepii,,0,0,0,,That day, I saw it. At the end of the reenactment—our deaths.
+Dialogue: 0,0:42:08.78,0:42:10.21,Moepii,,0,0,0,,That's why...
+Dialogue: 0,0:42:20.47,0:42:22.78,Aiai,,0,0,0,,I'll get up on the stage, once more.
+Dialogue: 0,0:42:24.16,0:42:27.28,Haruchan,,0,0,0,,Even if I get cut, get hurt, and spill blood.
+Dialogue: 0,0:42:28.87,0:42:30.53,Terurin,,0,0,0,,I'll put an end to it. To my spoiled self of up until now.
+Dialogue: 0,0:42:35.81,0:42:37.45,Moepii,,0,0,0,,I, too, will return to my own role. To my obsession with that girl. To putting an end to her.
+Dialogue: 0,0:42:45.57,0:42:48.30,Hiichan,,0,0,0,,Putting an end... to what?
+Dialogue: 0,0:42:51.06,0:42:54.80,Mahonee,,0,0,0,,Greedily, ferociously, in order to continue acting on stage, we will go to the next stage.
+Dialogue: 0,0:43:02.48,0:43:07.17,Default,,0,0,0,,Your existences continue to mesmerize me.
+Dialogue: 0,0:43:07.17,0:43:08.42,Default,,0,0,0,,Yes...
+Dialogue: 0,0:43:08.42,0:43:12.98,Default,,0,0,0,,I am your food, your fuel!
+Dialogue: 0,0:43:12.98,0:43:16.90,Default,,0,0,0,,Now, for the greatest stage!
+Dialogue: 0,0:43:18.16,0:43:20.61,Default,,0,0,0,,I understand.
+Dialogue: 0,0:43:25.27,0:43:27.63,Default,,0,0,0,,We are already on the stage.
+Dialogue: 0,0:43:31.13,0:43:34.91,Default,,0,0,0,,There are two more co-stars.
+Dialogue: 0,0:43:41.28,0:43:45.20,Moyochan,,0,0,0,,Waaaaah!!
+Dialogue: 0,0:43:45.20,0:43:48.07,Moyochan,,0,0,0,,Hikari-chan, if you go to Don-don,
+Dialogue: 0,0:43:48.07,0:43:49.18,Mimorin,,0,0,0,,London!
+Dialogue: 0,0:43:49.18,0:43:54.40,Moyochan,,0,0,0,,I can't do Starlight by myself!
+Dialogue: 0,0:44:00.02,0:44:01.43,Mimorin,,0,0,0,,I've decided!
+Dialogue: 0,0:44:01.43,0:44:04.24,Mimorin,,0,0,0,,I won't come back until I become a star!
+Dialogue: 0,0:44:04.24,0:44:05.80,Mimorin,,0,0,0,,And I won't see you, either!
+Dialogue: 0,0:44:05.01,0:44:05.80,Moyochan,,0,0,0,,Why?
+Dialogue: 0,0:44:05.80,0:44:08.07,Moyochan,,0,0,0,,Hgh... Whyyy?
+Dialogue: 0,0:44:08.07,0:44:09.82,Moyochan,,0,0,0,,Why... why?!
+Dialogue: 0,0:44:09.82,0:44:12.59,Mimorin,,0,0,0,,Because if you're with me, you always act too spoiled, Karen!
+Dialogue: 0,0:44:12.59,0:44:13.83,Moyochan,,0,0,0,,No, that's...
+Dialogue: 0,0:44:13.83,0:44:14.88,Moyochan,,0,0,0,,What about phone calls?
+Dialogue: 0,0:44:14.88,0:44:15.76,Mimorin,,0,0,0,,No!
+Dialogue: 0,0:44:15.76,0:44:16.87,Moyochan,,0,0,0,,U-um...
+Dialogue: 0,0:44:16.87,0:44:18.67,Moyochan,,0,0,0,,Um, then...
+Dialogue: 0,0:44:18.67,0:44:20.22,Moyochan,,0,0,0,,What about letters?!
+Dialogue: 0,0:44:20.22,0:44:21.12,Mimorin,,0,0,0,,Mngh...
+Dialogue: 0,0:44:21.12,0:44:23.80,Moyochan,,0,0,0,,You don't have to write back,
+Dialogue: 0,0:44:23.80,0:44:26.40,Moyochan,,0,0,0,,I'll be the only one sending, okay?
+Dialogue: 0,0:44:26.40,0:44:27.35,Moyochan,,0,0,0,,Okay?!
+Dialogue: 0,0:44:29.75,0:44:31.21,Mimorin,,0,0,0,,Okay...
+Dialogue: 0,0:44:36.21,0:44:38.69,Mimorin,,0,0,0,,I'll see you on stage, okay?
+Dialogue: 0,0:44:38.69,0:44:39.37,Moyochan,,0,0,0,,Yeah!
+Dialogue: 0,0:44:39.37,0:44:40.70,Moyochan,,0,0,0,,It's a promise!
+Dialogue: 0,0:44:40.70,0:44:44.45,Mimorin,,0,0,0,,Nope! It's FATE!
+Dialogue: 0,0:44:44.45,0:44:46.48,Moyochan,,0,0,0,,Fate...?
+Dialogue: 0,0:44:46.48,0:44:50.23,Mimorin,,0,0,0,,Yes! We'll stand on the stage of fate.
+Dialogue: 0,0:44:50.78,0:44:55.83,Mimorin,,0,0,0,,So, let's trade our tickets to our stage of fate!
+Dialogue: 0,0:45:00.37,0:45:01.84,Moyochan,,0,0,0,,Yeah!
+Dialogue: 0,0:45:03.92,0:45:05.77,Default,,0,0,0,,Thank you for your hard work.
+Dialogue: 0,0:45:13.49,0:45:14.59,Default,,0,0,0,,Karen?
+Dialogue: 0,0:45:15.77,0:45:17.24,Moyochan,,0,0,0,,Whaaat?
+Dialogue: 0,0:45:17.24,0:45:20.41,Default,,0,0,0,,We received a letter from Hikari-chan's mom!
+Dialogue: 0,0:45:20.64,0:45:21.86,Moyochan,,0,0,0,,Huh?
+Dialogue: 0,0:45:22.87,0:45:25.26,Default,,0,0,0,,A letter came from London.
+Dialogue: 0,0:45:32.24,0:45:34.37,Default,,0,0,0,,What are you doing under there?
+Dialogue: 0,0:45:35.80,0:45:39.04,Default,,0,0,0,,From London's... erm...
+Dialogue: 0,0:45:39.04,0:45:41.30,Default,,0,0,0,,West Acton, it says.
+Dialogue: 0,0:45:41.73,0:45:42.92,Default,,0,0,0,,She wrote about Hikari-chan, too—
+Dialogue: 0,0:45:42.92,0:45:44.77,Moyochan,,0,0,0,,I won't look at it!
+Dialogue: 0,0:45:45.54,0:45:47.14,Moyochan,,0,0,0,,I promised!
+Dialogue: 0,0:45:47.14,0:45:49.89,Moyochan,,0,0,0,,That when I see Hikari-chan, it'll be on stage!
+Dialogue: 0,0:45:49.89,0:45:52.97,Moyochan,,0,0,0,,It's fate, so I won't look, and I won't listen!
+Dialogue: 0,0:45:53.75,0:45:55.30,Moyochan,,0,0,0,,Because it's fate!
+Dialogue: 0,0:45:55.30,0:45:57.60,Moyochan,,0,0,0,,I won't look, and I won't listen!
+Dialogue: 0,0:46:10.88,0:46:14.09,Moyochan,,0,0,0,,The end... of this path...
+Dialogue: 0,0:46:14.09,0:46:17.01,Moyochan,,0,0,0,,The stage I must stand on...
+Dialogue: 0,0:46:18.35,0:46:23.02,Moyochan,,0,0,0,,My own stage... what is it?
+Dialogue: 0,0:46:39.53,0:46:43.54,Caption,done,0,0,0,,The dry tech is already underway
+Dialogue: 0,0:46:52.33,0:46:54.80,Mimorin,,0,0,0,,My appearance should be over already.
+Dialogue: 0,0:47:02.37,0:47:06.26,Default,,0,0,0,,The train will go to the next station without fail.
+Dialogue: 0,0:47:06.26,0:47:08.17,Default,,0,0,0,,Then, what about the stage?
+Dialogue: 0,0:47:08.17,0:47:09.76,Default,,0,0,0,,What about you?
+Dialogue: 0,0:47:09.76,0:47:11.91,Default,,0,0,0,,What about Aijo Karen-san?
+Dialogue: 0,0:47:13.14,0:47:14.86,Mimorin,,0,0,0,,Did something happen?
+Dialogue: 0,0:47:14.86,0:47:16.44,Mimorin,,0,0,0,,To Karen?
+Dialogue: 0,0:47:17.73,0:47:21.75,Default,,0,0,0,,All co-stars must make their way to the stage.
+Dialogue: 0,0:47:24.98,0:47:25.44,Mimorin,,0,0,0,,Karen.
+Dialogue: 0,0:47:41.19,0:47:42.50,Default,,0,0,0,,Sara!
+Dialogue: 0,0:47:42.50,0:47:44.82,Moyochan,,0,0,0,,Go down, Cathy!
+Dialogue: 0,0:47:44.82,0:47:46.21,Moyochan,,0,0,0,,It's okay!
+Dialogue: 0,0:47:46.21,0:47:48.67,Moyochan,,0,0,0,,I'll never let it touch you!
+Dialogue: 0,0:47:48.67,0:47:50.47,Default,,0,0,0,,HISS!
+Dialogue: 0,0:47:51.44,0:47:55.47,Moyochan,,0,0,0,,You're really a kind bear, aren't you?
+Dialogue: 0,0:47:56.66,0:47:57.71,Moyochan,,0,0,0,,So, making such a dark face as that is a non-non!
+Dialogue: 0,0:48:03.05,0:48:04.27,Default,,0,0,0,,Okay!
+Dialogue: 0,0:48:05.63,0:48:09.47,Moyochan,,0,0,0,,We will definitely catch that rainbow!
+Dialogue: 0,0:48:09.47,0:48:12.24,Moyochan,,0,0,0,,Let's go! Beyond the blue skies!
+Dialogue: 0,0:48:12.72,0:48:15.74,Default,,0,0,0,,Let's go! Beyond the blue skies!
+Dialogue: 0,0:48:27.59,0:48:29.41,Default,,0,0,0,,She really nailed it, didn't she!
+Dialogue: 0,0:48:29.41,0:48:30.85,Default,,0,0,0,,That last part!
+Dialogue: 0,0:48:34.18,0:48:36.68,Default,,0,0,0,,Karen, the lead actress, huh?
+Dialogue: 0,0:48:36.68,0:48:39.50,Default,,0,0,0,,With this, you're already a praiseworthy star!
+Dialogue: 0,0:48:39.50,0:48:41.79,Moyochan,,0,0,0,,I'm not there yet, because I'm alone!
+Dialogue: 0,0:48:42.68,0:48:45.67,Moyochan,,0,0,0,,To become shining stars, together!
+Dialogue: 0,0:48:47.58,0:48:49.76,Default,,0,0,0,,Hikari-chan, was it?
+Dialogue: 0,0:48:49.76,0:48:51.54,Default,,0,0,0,,Are you still in contact?
+Dialogue: 0,0:48:52.08,0:48:55.25,Default,,0,0,0,,She makes sure to send a letter every month.
+Dialogue: 0,0:48:55.25,0:48:56.64,Default,,0,0,0,,Karen does, that is.
+Dialogue: 0,0:48:57.52,0:48:58.79,Default,,0,0,0,,Karen does?
+Dialogue: 0,0:48:59.33,0:49:04.14,Default,,0,0,0,,The promise was that only Karen could send letters, apparently.
+Dialogue: 0,0:49:04.14,0:49:06.02,Default,,0,0,0,,Since when?
+Dialogue: 0,0:49:06.02,0:49:08.07,Default,,0,0,0,,It was when they were five, so...
+Dialogue: 0,0:49:08.07,0:49:09.70,Default,,0,0,0,,Seven years already?
+Dialogue: 0,0:49:09.70,0:49:11.30,Default,,0,0,0,,Seven years?!
+Dialogue: 0,0:49:12.05,0:49:16.21,Default,,0,0,0,,We receive letters from Hikari-chan's mom every now and then, though.
+Dialogue: 0,0:49:16.21,0:49:20.11,Default,,0,0,0,,With like season's greetings, or Hikari-chan's photos.
+Dialogue: 0,0:49:20.11,0:49:22.92,Default,,0,0,0,,Karen always refuses to read them.
+Dialogue: 0,0:49:22.92,0:49:26.06,Default,,0,0,0,,Woah, she's really distinguished!
+Dialogue: 0,0:49:26.84,0:49:28.90,Moyochan,,0,0,0,,I promised!
+Dialogue: 0,0:49:28.90,0:49:31.32,Moyochan,,0,0,0,,That when I see Hikari-chan, it'll be on stage!
+Dialogue: 0,0:49:32.11,0:49:34.48,Moyochan,,0,0,0,,So I won't look and I won't listen!
+Dialogue: 0,0:49:36.81,0:49:38.82,Default,,0,0,0,,Hmm...
+Dialogue: 0,0:49:40.63,0:49:43.24,Default,,0,0,0,,You won't look Hikari-chan up?
+Dialogue: 0,0:49:44.37,0:49:45.75,Moyochan,,0,0,0,,I won't look her up!
+Dialogue: 0,0:49:48.13,0:49:49.25,Default,,0,0,0,,I see.
+Dialogue: 0,0:49:50.44,0:49:52.42,Default,,0,0,0,,Are you scared?
+Dialogue: 0,0:49:54.42,0:49:56.05,Moyochan,,0,0,0,,What?
+Dialogue: 0,0:49:56.93,0:50:01.18,Default,,0,0,0,,Of like, whether Hikari-chan forgot your promise.
+Dialogue: 0,0:50:02.01,0:50:04.90,Moyochan,,0,0,0,,I'm not scared, or anything!
+Dialogue: 0,0:50:06.29,0:50:08.86,Moyochan,,0,0,0,,I'm not... scared...
+Dialogue: 0,0:50:11.48,0:50:15.97,Default,,0,0,0,,Then, you'd better aim for somewhere like Seisho.
+Dialogue: 0,0:50:15.97,0:50:16.74,Moyochan,,0,0,0,,Huh?
+Dialogue: 0,0:50:19.49,0:50:21.44,Moyochan,,0,0,0,,Seisho?
+Dialogue: 0,0:50:23.68,0:50:25.07,Moyochan,,0,0,0,,Seisho?!
+Dialogue: 0,0:50:43.00,0:50:46.78,Moyochan,,0,0,0,,I've safely finished the performance of Beyond the Blue Skies.
+Dialogue: 0,0:50:47.41,0:50:50.49,Moyochan,,0,0,0,,Starting from my next performance, I'll be a middle schooler!
+Dialogue: 0,0:50:50.49,0:50:52.79,Moyochan,,0,0,0,,Singing, dancing, and acting.
+Dialogue: 0,0:50:52.79,0:50:55.39,Moyochan,,0,0,0,,I have to refine myself even more!
+Dialogue: 0,0:50:55.93,0:50:58.54,Moyochan,,0,0,0,,So that I can stand on any stage.
+Dialogue: 0,0:50:58.54,0:51:01.79,Moyochan,,0,0,0,,Because I want to stand with you on our promised stage.
+Dialogue: 0,0:51:02.53,0:51:03.60,Moyochan,,0,0,0,,So, I'll aim for Seisho Music Academy. The best place I can aim for right now.
+Dialogue: 0,0:51:10.07,0:51:11.90,Moyochan,,0,0,0,,Hikari-chan, are you aiming for our promised stage, too?
+Dialogue: 0,0:51:39.32,0:51:43.07,Moyochan,,0,0,0,,It must be fate, right.
+Dialogue: 0,0:51:46.15,0:51:46.89,Default,,0,0,0,,Oh? Oh? Oooh!
+Dialogue: 0,0:51:51.26,0:51:53.09,Default,,0,0,0,,You finally changed your phone!
+Dialogue: 0,0:51:53.09,0:51:55.46,Default,,0,0,0,,You were the only one left with a flip phone, Karen.
+Dialogue: 0,0:51:56.20,0:51:57.28,Moyochan,,0,0,0,,Yeah.
+Dialogue: 0,0:51:57.28,0:51:58.72,Default,,0,0,0,,Did you sign up?
+Dialogue: 0,0:51:58.72,0:52:00.50,Default,,0,0,0,,It would be the worst if it rained.
+Dialogue: 0,0:52:00.50,0:52:02.39,Default,,0,0,0,,Yeah, the worst.
+Dialogue: 0,0:52:02.81,0:52:05.41,Default,,0,0,0,,Hey, if it's raining, let's go to the arcade!
+Dialogue: 0,0:52:10.16,0:52:12.38,Moyochan,,0,0,0,,Hah?! It's 3!
+Dialogue: 0,0:52:12.38,0:52:14.09,Moyochan,,0,0,0,,I'm going, then!
+Dialogue: 0,0:52:14.47,0:52:16.26,Default,,0,0,0,,Be careful of the rain.
+Dialogue: 0,0:52:16.26,0:52:18.18,Default,,0,0,0,,I'll send you a message tonight!
+Dialogue: 0,0:52:18.18,0:52:19.78,Moyochan,,0,0,0,,Roger that!
+Dialogue: 0,0:52:25.78,0:52:26.24,Default,,0,0,0,,Aah!
+Dialogue: 0,0:52:26.98,0:52:29.33,Default,,0,0,0,,Karen! You're leaving already?
+Dialogue: 0,0:52:29.33,0:52:31.29,Moyochan,,0,0,0,,Yeah, everyone's in there.
+Dialogue: 0,0:52:31.29,0:52:32.28,Default,,0,0,0,,What's today?
+Dialogue: 0,0:52:32.28,0:52:33.27,Moyochan,,0,0,0,,Vocal training!
+Dialogue: 0,0:52:33.27,0:52:35.38,Default,,0,0,0,,Did you finish your school trip guidebook?
+Dialogue: 0,0:52:35.38,0:52:37.52,Moyochan,,0,0,0,,Not even close! Sorry!
+Dialogue: 0,0:52:37.52,0:52:38.72,Default,,0,0,0,,OK!
+Dialogue: 0,0:52:50.88,0:52:52.69,Default,,0,0,0,,Ah, did you see Karen?
+Dialogue: 0,0:52:52.69,0:52:54.19,Default,,0,0,0,,I bumped into her, yeah.
+Dialogue: 0,0:52:54.19,0:52:55.53,Default,,0,0,0,,She said she has vocal training.
+Dialogue: 0,0:52:55.53,0:52:58.43,Default,,0,0,0,,Next week is the performance of her play!
+Dialogue: 0,0:52:59.07,0:53:01.10,Default,,0,0,0,,A play... I've never seen one.
+Dialogue: 0,0:53:02.80,0:53:06.05,Default,,0,0,0,,I hadn't either, until I saw Karen's.
+Dialogue: 0,0:53:06.05,0:53:08.26,Default,,0,0,0,,Karen is amazing on the stage!
+Dialogue: 0,0:53:08.26,0:53:11.28,Default,,0,0,0,,She's super great at singing and dancing!
+Dialogue: 0,0:53:11.28,0:53:12.54,Default,,0,0,0,,Like a totally different person!
+Dialogue: 0,0:53:14.08,0:53:17.16,Default,,0,0,0,,I was surprised when I saw it, too.
+Dialogue: 0,0:53:16.39,0:53:17.68,Moyochan,,0,0,0,,St..age...
+Dialogue: 0,0:53:17.16,0:53:19.31,Default,,0,0,0,,She didn't even look like she was Karen,
+Dialogue: 0,0:53:19.31,0:53:21.26,Default,,0,0,0,,when she was on stage.
+Dialogue: 0,0:53:22.97,0:53:26.16,Default,,0,0,0,,She's applying to some super hard school, isn't she?
+Dialogue: 0,0:53:26.16,0:53:26.96,Default,,0,0,0,,Aijo.
+Dialogue: 0,0:53:26.96,0:53:28.99,Default,,0,0,0,,Yeah, Seisho, right?
+Dialogue: 0,0:53:28.99,0:53:30.94,Default,,0,0,0,,Apparently the acceptance rate is 3.3%!
+Dialogue: 0,0:53:30.94,0:53:33.36,Default,,0,0,0,,Whaat, seriously?
+Dialogue: 0,0:53:33.36,0:53:35.42,Default,,0,0,0,,I hope she gets accepted...
+Dialogue: 0,0:53:35.42,0:53:37.91,Default,,0,0,0,,What do they do at that school?
+Dialogue: 0,0:53:37.91,0:53:40.72,Default,,0,0,0,,Well, study about theater, obviously?
+Dialogue: 0,0:53:40.72,0:53:42.84,Default,,0,0,0,,Like singing and dancing.
+Dialogue: 0,0:53:42.84,0:53:44.48,Default,,0,0,0,,To become a pro.
+Dialogue: 0,0:53:44.48,0:53:48.65,Default,,0,0,0,,Karen's always worked so hard to become a pro!
+Dialogue: 0,0:53:48.65,0:53:51.36,Default,,0,0,0,,What does a pro in theater do?
+Dialogue: 0,0:53:52.50,0:53:54.31,Default,,0,0,0,,Well, theater, obviously.
+Dialogue: 0,0:53:58.18,0:54:00.00,Default,,0,0,0,,She's amazing, Aijo.
+Dialogue: 0,0:54:00.00,0:54:02.32,Default,,0,0,0,,For thinking about the far future already.
+Dialogue: 0,0:54:02.32,0:54:03.51,Default,,0,0,0,,Right?
+Dialogue: 0,0:54:03.51,0:54:08.71,Default,,0,0,0,,Meanwhile, I haven't even decided what school I want to go to yet!
+Dialogue: 0,0:54:09.38,0:54:12.26,Default,,0,0,0,,Karen's really cool, isn't she?
+Dialogue: 0,0:54:12.26,0:54:13.48,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:54:13.48,0:54:16.85,Default,,0,0,0,,Heading straight for her dreams, or whatever they say.
+Dialogue: 0,0:54:18.38,0:54:20.23,Default,,0,0,0,,I wonder.
+Dialogue: 0,0:54:26.90,0:54:32.74,Default,,0,0,0,,I mean... she probably still has normal worries and stuff, right? Even Aijo.
+Dialogue: 0,0:54:39.89,0:54:40.98,Moyochan,,0,0,0,,I won't look, I won't listen, I won't look her up.
+Dialogue: 0,0:54:58.11,0:54:59.35,Moyochan,,0,0,0,,I won't look, I won't listen, I won't look her up.
+Dialogue: 0,0:55:26.90,0:55:30.47,Default,,0,0,0,,The play that those girls created.
+Dialogue: 0,0:55:30.47,0:55:33.08,Default,,0,0,0,,The continuation of Starlight.
+Dialogue: 0,0:55:33.96,0:55:37.94,Default,,0,0,0,,The final chapter that no one has seen yet.
+Dialogue: 0,0:55:43.20,0:55:44.82,Default,,0,0,0,,I understand.
+Dialogue: 0,0:55:55.76,0:55:57.74,Ayasa,,0,0,0,,Welcome. Clau-han of the gambling house.
+Dialogue: 0,0:56:03.22,0:56:05.46,Aiai,,0,0,0,,Don't glare at me like that,
+Dialogue: 0,0:56:05.46,0:56:08.42,Aiai,,0,0,0,,Honorable Kaoru of the dice.
+Dialogue: 0,0:56:09.06,0:56:11.24,Ayasa,,0,0,0,,I can't forgive you.
+Dialogue: 0,0:56:11.24,0:56:14.05,Ayasa,,0,0,0,,For taking my precious candy box... and eating, ravaging, and poisoning it!
+Dialogue: 0,0:56:20.12,0:56:22.14,Aiai,,0,0,0,,Is this about her?
+Dialogue: 0,0:56:23.28,0:56:27.64,Ayasa,,0,0,0,,It's all thanks to you, that we're...
+Dialogue: 0,0:56:27.64,0:56:29.36,Default,,0,0,0,,Come on, place your bet!
+Dialogue: 0,0:56:29.36,0:56:31.20,Default,,0,0,0,,Yeah! Bet!
+Dialogue: 0,0:56:31.20,0:56:34.06,Default,,0,0,0,,Come on, bet! Bet!
+Dialogue: 0,0:56:34.06,0:56:38.04,Default,,0,0,0,,Bet on it! Bet!
+Dialogue: 0,0:56:38.04,0:56:40.20,Default,,0,0,0,,Bet! Bet!
+Dialogue: 0,0:56:43.76,0:56:47.12,Terurin,,0,0,0,,Sorry to disturb you with all the lights.
+Dialogue: 0,0:56:47.12,0:56:51.47,Terurin,,0,0,0,,I was born in traditional Japanese dance, and grew up on stage.
+Dialogue: 0,0:56:51.47,0:56:55.09,Terurin,,0,0,0,,Last name's Isurugi, first name's Futaba.
+Dialogue: 0,0:56:55.92,0:56:58.43,Terurin,,0,0,0,,At the beck and call of my childhood friend,
+Dialogue: 0,0:56:58.43,0:57:00.60,Terurin,,0,0,0,,I've sung and danced for ten and eight years.
+Dialogue: 0,0:57:01.14,0:57:03.70,Terurin,,0,0,0,,The butterfly's selfishness, and the flower's nonsense, apologies for the inconvenience they've surely caused you all.
+Dialogue: 0,0:57:06.36,0:57:10.00,Terurin,,0,0,0,,Our rotten relationship slathered in candy—I'm betting on laying it to rest.
+Dialogue: 0,0:57:10.00,0:57:11.31,Terurin,,0,0,0,,Now for the match!
+Dialogue: 0,0:57:12.24,0:57:14.82,Terurin,,0,0,0,,99th Class, Isurugi Futaba!
+Dialogue: 0,0:57:14.82,0:57:17.46,Terurin,,0,0,0,,This is a straight path of parting!
+Dialogue: 0,0:57:17.46,0:57:20.62,Terurin,,0,0,0,,Alright, which one will you bet on?
+Dialogue: 0,0:57:22.40,0:57:24.75,Ayasa,,0,0,0,,With all due politeness, I thank you.
+Dialogue: 0,0:57:27.70,0:57:32.44,Ayasa,,0,0,0,,Myself, I'm the 12th generation heir to the Senka-ryu Japanese dance school, Hanayagi Kaoruko.
+Dialogue: 0,0:57:35.36,0:57:37.80,Ayasa,,0,0,0,,Teaching my childhood friend step by step,
+Dialogue: 0,0:57:37.80,0:57:40.03,Ayasa,,0,0,0,,I've sung and danced for ten and seven years.
+Dialogue: 0,0:57:40.78,0:57:43.26,Ayasa,,0,0,0,,With the camellia of spring lies a longing for tomorrow.
+Dialogue: 0,0:57:43.26,0:57:45.90,Ayasa,,0,0,0,,With the sweet flag of summer lies a cherished vow.
+Dialogue: 0,0:57:45.90,0:57:48.56,Ayasa,,0,0,0,,With the maple of fall lies a discordant farewell.
+Dialogue: 0,0:57:48.56,0:57:51.28,Ayasa,,0,0,0,,Cut the narcissus of winter, throw it away, and let it fall.
+Dialogue: 0,0:57:52.42,0:57:55.24,Ayasa,,0,0,0,,99th Class, Hanayagi Kaoruko.
+Dialogue: 0,0:57:55.24,0:57:57.42,Ayasa,,0,0,0,,This is a straight path of parting.
+Dialogue: 0,0:57:58.30,0:58:00.04,Ayasa,,0,0,0,,Now, fall like the flowers scatter!
+Dialogue: 0,0:58:09.00,0:58:11.60,Ayasa,,0,0,0,,I'll become the best dancer in the world!
+Dialogue: 0,0:58:12.08,0:58:15.92,Ayasa,,0,0,0,,And from the closest place in the world, you'll aim for that with me!
+Dialogue: 0,0:58:16.74,0:58:18.54,Ayasa,,0,0,0,,It was all a lie!
+Dialogue: 0,0:58:18.54,0:58:19.68,Terurin,,0,0,0,,It's not a lie!
+Dialogue: 0,0:58:20.04,0:58:21.28,Ayasa,,0,0,0,,It's a lie!
+Dialogue: 0,0:58:21.28,0:58:23.10,Ayasa,,0,0,0,,Next to me as I pushed forward, you were supposed to always be there!
+Dialogue: 0,0:58:25.62,0:58:27.48,Terurin,,0,0,0,,It's not a lie, Kaoruko!
+Dialogue: 0,0:58:27.92,0:58:33.12,Terurin,,0,0,0,,But, if I'm to stand by your side, I can't just stare at you from behind!
+Dialogue: 0,0:58:33.12,0:58:35.96,Terurin,,0,0,0,,I have to stand on the stage with my own two feet!
+Dialogue: 0,0:58:37.18,0:58:39.52,Terurin,,0,0,0,,I want to go to even greater heights!
+Dialogue: 0,0:58:40.40,0:58:43.48,Terurin,,0,0,0,,I want to stand on the stage at the summit!
+Dialogue: 0,0:58:43.48,0:58:46.66,Terurin,,0,0,0,,I want to become someone befitting of you!
+Dialogue: 0,0:58:50.62,0:58:53.90,Terurin,,0,0,0,,I have no choice but to change.
+Dialogue: 0,0:58:53.90,0:58:55.70,Terurin,,0,0,0,,For myself, and... for you, too! Okay?
+Dialogue: 0,0:59:03.02,0:59:04.74,Brush,done,0,0,0,,Sexy Main Hall
+Dialogue: 0,0:59:05.76,0:59:07.38,Ayasa,,0,0,0,,Whatta bother.
+Dialogue: 0,0:59:10.34,0:59:12.00,Ayasa,,0,0,0,,How irritating.
+Dialogue: 0,0:59:12.25,0:59:13.25,Terurin,,0,0,0,,Huh?
+Dialogue: 0,0:59:19.46,0:59:22.24,Ayasa,,0,0,0,,The hell is that "for you" nonsense?
+Dialogue: 0,0:59:22.24,0:59:24.24,Ayasa,,0,0,0,,Whatta bother.
+Dialogue: 0,0:59:27.02,0:59:31.00,Ayasa,,0,0,0,,The New National... why'd ya decide that all on your own?
+Dialogue: 0,0:59:32.96,0:59:34.45,Ayasa,,0,0,0,,Hmm?
+Dialogue: 0,0:59:36.60,0:59:38.05,Ayasa,,0,0,0,,Hey!
+Dialogue: 0,0:59:41.36,0:59:44.01,Terurin,,0,0,0,,Because you'd oppose it... right.
+Dialogue: 0,0:59:47.60,0:59:51.40,Terurin,,0,0,0,,I know. That I'm not good enough.
+Dialogue: 0,0:59:51.40,0:59:56.60,Terurin,,0,0,0,,Hoshimi's persistent determination, Mahiru's way of steeling herself for things, or something like Tendo or Clau's confidence, I don't have...
+Dialogue: 0,1:00:01.25,1:00:02.68,Terurin,,0,0,0,,Huh?!
+Dialogue: 0,1:00:03.58,1:00:08.79,Ayasa,,0,0,0,,"From the closest to you in the world, I want to see that brilliance with you, Kaoruko!"
+Dialogue: 0,1:00:10.46,1:00:12.56,Ayasa,,0,0,0,,Oh, what a liar.
+Dialogue: 0,1:00:12.56,1:00:15.14,Ayasa,,0,0,0,,From idealism to generalities.
+Dialogue: 0,1:00:15.14,1:00:18.50,Ayasa,,0,0,0,,You're just spouting a mess of rationalizations.
+Dialogue: 0,1:00:18.50,1:00:25.48,Ayasa,,0,0,0,,Hoshimi? Tendo? What do I care! About other women!
+Dialogue: 0,1:00:25.48,1:00:29.85,Ayasa,,0,0,0,,All this grown-up logic is such an annoyance.
+Dialogue: 0,1:00:32.40,1:00:35.10,Ayasa,,0,0,0,,Expose your real intentions.
+Dialogue: 0,1:00:40.96,1:00:42.36,Ayasa,,0,0,0,,Let's take this outside.
+Dialogue: 0,1:01:26.00,1:01:28.78,Ayasa,,0,0,0,,With this, we'll cut ties.
+Dialogue: 0,1:01:37.06,1:01:38.79,Terurin,,0,0,0,,I don't want to.
+Dialogue: 0,1:01:41.16,1:01:44.18,Terurin,,0,0,0,,Why... why, why!
+Dialogue: 0,1:01:44.80,1:01:47.16,Terurin,,0,0,0,,Why won't you understand!
+Dialogue: 0,1:01:47.84,1:01:53.06,Terurin,,0,0,0,,Every day, I bought you sweets, put you to sleep, picked you up and dropped you off!
+Dialogue: 0,1:01:53.30,1:01:54.89,Terurin,,0,0,0,,It's not fair!
+Dialogue: 0,1:01:54.89,1:01:55.69,Terurin,,0,0,0,,IT'S NOT FAIR!
+Dialogue: 0,1:02:22.21,1:02:24.10,Terurin,,0,0,0,,We can't go together anymore!
+Dialogue: 0,1:02:35.72,1:02:37.80,Ayasa,,0,0,0,,FUTABA!
+Dialogue: 0,1:02:37.80,1:02:39.62,Terurin,,0,0,0,,KAORUKO!
+Dialogue: 0,1:02:39.62,1:02:42.82,Ayasa,,0,0,0,,We really are useless, huh.
+Dialogue: 0,1:03:04.00,1:03:07.06,Ayasa,,0,0,0,,Didn't you say we were cutting ties?
+Dialogue: 0,1:03:12.28,1:03:14.62,Terurin,,0,0,0,,Unfair...
+Dialogue: 0,1:03:14.62,1:03:18.42,Terurin,,0,0,0,,In the end it's still you, hogging me all to yourself...
+Dialogue: 0,1:03:19.36,1:03:21.15,Terurin,,0,0,0,,You're so unfair...
+Dialogue: 0,1:03:37.98,1:03:41.42,Terurin,,0,0,0,,This time, it's my turn to say something selfish.
+Dialogue: 0,1:03:43.24,1:03:44.26,Terurin,,0,0,0,,It's my turn to—
+Dialogue: 0,1:03:44.26,1:03:46.71,Ayasa,,0,0,0,,"It's my turn to make you wait"?
+Dialogue: 0,1:03:48.84,1:03:52.26,Ayasa,,0,0,0,,I know that much, okay...
+Dialogue: 0,1:04:03.18,1:04:05.83,Terurin,,0,0,0,,Take good care of my bike, won't you?
+Dialogue: 0,1:04:08.99,1:04:12.32,Ayasa,,0,0,0,,I'm not waiting, even if you leave this with me.
+Dialogue: 0,1:04:17.00,1:04:21.21,Ayasa,,0,0,0,,We're really... useless.
+Dialogue: 0,1:04:21.78,1:04:26.71,Terurin,,0,0,0,,We're... truly useless.
+Dialogue: 0,1:04:34.80,1:04:37.61,Ayasa,,0,0,0,,I just can't win against the selfishness of a kid.
+Dialogue: 0,1:05:21.84,1:05:24.77,Mimorin,,0,0,0,,Mr. White...?
+Dialogue: 0,1:05:32.76,1:05:34.40,Mimorin,,0,0,0,,Mahiru?
+Dialogue: 0,1:05:43.20,1:05:44.44,Haruchan,,0,0,0,,I promise!
+Dialogue: 0,1:05:44.44,1:05:47.63,Haruchan,,0,0,0,,I will sing the joys of standing on stage, and dance my resolve to stand on stage.
+Dialogue: 0,1:05:50.20,1:05:55.92,Haruchan,,0,0,0,,I swear to continue acting with strength, lovingly, and beautifully.
+Dialogue: 0,1:05:55.92,1:05:58.90,Haruchan,,0,0,0,,99th Class, Tsuyuzaki Mahiru.
+Dialogue: 0,1:05:58.90,1:06:03.06,Haruchan,,0,0,0,,On the stage where dreams bloom, shine, me!
+Dialogue: 0,1:06:10.42,1:06:13.73,Haruchan,,0,0,0,,We finally met, on this stage.
+Dialogue: 0,1:06:13.73,1:06:15.03,Mimorin,,0,0,0,,Mahiru...
+Dialogue: 0,1:06:15.03,1:06:17.12,Mimorin,,0,0,0,,Where is Karen?
+Dialogue: 0,1:06:18.46,1:06:22.54,Haruchan,,0,0,0,,I'm finally standing on stage with you, Hikari-chan.
+Dialogue: 0,1:06:22.54,1:06:25.41,Mimorin,,0,0,0,,Hey, Mahiru, this isn't really the time—
+Dialogue: 0,1:06:37.04,1:06:39.76,Haruchan,,0,0,0,,All the "Karen-chan, Karen-chan".
+Dialogue: 0,1:06:39.76,1:06:42.47,Haruchan,,0,0,0,,But the one on stage right now is you, Hikari-chan.
+Dialogue: 0,1:06:42.69,1:06:44.10,Mimorin,,0,0,0,,What?
+Dialogue: 0,1:06:44.10,1:06:46.99,Haruchan,,0,0,0,,The performance has already begun!
+Dialogue: 0,1:06:47.66,1:06:50.90,Haruchan,,0,0,0,,A grand stage only held once every four years!
+Dialogue: 0,1:06:50.90,1:06:54.49,Haruchan,,0,0,0,,Only one of us can win the gold medal!
+Dialogue: 0,1:06:56.54,1:07:00.24,Haruchan,,0,0,0,,And I definitely... won't lose!
+Dialogue: 0,1:07:11.74,1:07:14.25,Mimorin,,0,0,0,,Wait a second! Mahiru!
+Dialogue: 0,1:07:25.26,1:07:28.31,Haruchan,,0,0,0,,On this stage, be sunnier than anyone else!
+Dialogue: 0,1:07:31.28,1:07:34.36,Haruchan,,0,0,0,,That's right! Look straight ahead!
+Dialogue: 0,1:07:34.88,1:07:37.96,Haruchan,,0,0,0,,Higher than anyone else!
+Dialogue: 0,1:07:39.08,1:07:42.30,Haruchan,,0,0,0,,A brilliance stronger than anyone else's!
+Dialogue: 0,1:07:43.16,1:07:44.98,Mimorin,,0,0,0,,Mahiru, listen to me!
+Dialogue: 0,1:07:44.98,1:07:47.80,Haruchan,,0,0,0,,We are rivals!
+Dialogue: 0,1:07:47.80,1:07:50.05,Haruchan,,0,0,0,,Technique, power!
+Dialogue: 0,1:07:50.05,1:07:53.34,Haruchan,,0,0,0,,Competing over them, acknowledging each other, and aiming for greater heights!
+Dialogue: 0,1:07:55.51,1:07:57.76,Haruchan,,0,0,0,,That's what rivals are!
+Dialogue: 0,1:07:57.76,1:07:58.72,Haruchan,,0,0,0,,Rivals!
+Dialogue: 0,1:07:58.72,1:07:59.55,Mimorin,,0,0,0,,Mahiru!
+Dialogue: 0,1:08:13.24,1:08:15.61,Haruchan,,0,0,0,,Why won't you act?
+Dialogue: 0,1:08:15.61,1:08:18.19,Haruchan,,0,0,0,,Even though you're on stage.
+Dialogue: 0,1:08:19.60,1:08:22.94,Haruchan,,0,0,0,,If you won't act on the stage...
+Dialogue: 0,1:08:33.26,1:08:35.58,Haruchan,,0,0,0,,You won't say anything, huh.
+Dialogue: 0,1:08:35.58,1:08:37.58,Haruchan,,0,0,0,,No matter what?
+Dialogue: 0,1:08:39.22,1:08:43.14,Haruchan,,0,0,0,,I hated you so much, Kagura Hikari.
+Dialogue: 0,1:08:43.14,1:08:44.98,Haruchan,,0,0,0,,You.
+Dialogue: 0,1:09:17.58,1:09:21.16,Haruchan,,0,0,0,,You're stepping off stage in the middle of the performance?
+Dialogue: 0,1:09:21.16,1:09:25.14,Haruchan,,0,0,0,,Just like how you stepped off Karen-chan's stage?
+Dialogue: 0,1:09:34.76,1:09:38.28,Haruchan,,0,0,0,,It was a promise you'd made when you were 5 years old, wasn't it?
+Dialogue: 0,1:09:38.28,1:09:41.72,Haruchan,,0,0,0,,The two of you would stand on the stage of fate together, right?
+Dialogue: 0,1:09:41.72,1:09:44.26,Haruchan,,0,0,0,,So, why did you get off?
+Dialogue: 0,1:09:44.26,1:09:46.66,Haruchan,,0,0,0,,Why did you run?!
+Dialogue: 0,1:09:49.34,1:09:54.06,Haruchan,,0,0,0,,Because if you were together, Karen would act too spoiled?
+Dialogue: 0,1:09:58.84,1:10:02.80,Haruchan,,0,0,0,,You're a really terrible liar.
+Dialogue: 0,1:10:03.88,1:10:06.58,Haruchan,,0,0,0,,Act more properly.
+Dialogue: 0,1:10:06.58,1:10:09.55,Haruchan,,0,0,0,,Put more emotion into it.
+Dialogue: 0,1:10:09.55,1:10:12.58,Haruchan,,0,0,0,,Say more genuine lines.
+Dialogue: 0,1:10:12.58,1:10:14.98,Haruchan,,0,0,0,,Act more properly!
+Dialogue: 0,1:10:14.98,1:10:17.32,Haruchan,,0,0,0,,Put more emotion into it!
+Dialogue: 0,1:10:17.32,1:10:19.98,Haruchan,,0,0,0,,Say more genuine lines!
+Dialogue: 0,1:10:19.98,1:10:22.10,Haruchan,,0,0,0,,More... more...!
+Dialogue: 0,1:10:22.10,1:10:23.50,Haruchan,,0,0,0,,More!
+Dialogue: 0,1:10:23.50,1:10:24.92,Haruchan,,0,0,0,,Show me!
+Dialogue: 0,1:10:24.92,1:10:28.70,Haruchan,,0,0,0,,Not an imitation, but the real Kagura Hikari!
+Dialogue: 0,1:10:35.02,1:10:37.74,Mimorin,,0,0,0,,The reason I went to London...
+Dialogue: 0,1:10:37.74,1:10:41.02,Mimorin,,0,0,0,,The reason I left Karen's side...
+Dialogue: 0,1:10:56.52,1:11:01.78,Haruchan,,0,0,0,,You, who won't even act on stage, what kind of face will you greet Karen with?
+Dialogue: 0,1:11:01.78,1:11:04.44,Haruchan,,0,0,0,,What lines will you say?
+Dialogue: 0,1:11:05.09,1:11:07.50,Haruchan,,0,0,0,,You, the one who ran away.
+Dialogue: 0,1:11:07.50,1:11:09.20,Haruchan,,0,0,0,,Hmm?
+Dialogue: 0,1:11:09.20,1:11:10.62,Haruchan,,0,0,0,,Well?
+Dialogue: 0,1:11:10.62,1:11:11.98,Haruchan,,0,0,0,,Well?!
+Dialogue: 0,1:11:11.98,1:11:13.16,Haruchan,,0,0,0,,Hey.
+Dialogue: 0,1:11:13.16,1:11:14.24,Haruchan,,0,0,0,,Hey!
+Dialogue: 0,1:11:14.24,1:11:15.37,Haruchan,,0,0,0,,HEY!
+Dialogue: 0,1:11:26.50,1:11:27.26,Mimorin,,0,0,0,,Karen...
+Dialogue: 0,1:11:45.66,1:11:48.24,Mimorin,,0,0,0,,I'm sorry...
+Dialogue: 0,1:11:48.24,1:11:50.40,Mimorin,,0,0,0,,I'm sorry!
+Dialogue: 0,1:11:50.40,1:11:52.92,Mimorin,,0,0,0,,For running from Karen!
+Dialogue: 0,1:11:52.92,1:11:55.79,Mimorin,,0,0,0,,I'm sorry!
+Dialogue: 0,1:11:56.98,1:11:59.10,Mimorin,,0,0,0,,I was scared...
+Dialogue: 0,1:11:59.10,1:12:01.41,Mimorin,,0,0,0,,so I ran away!
+Dialogue: 0,1:12:02.88,1:12:05.31,Mimorin,,0,0,0,,I'm sorry!
+Dialogue: 0,1:12:06.86,1:12:09.92,Haruchan,,0,0,0,,I see... so you were scared.
+Dialogue: 0,1:12:11.04,1:12:13.68,Haruchan,,0,0,0,,You're the same as me, then.
+Dialogue: 0,1:12:13.68,1:12:14.72,Mimorin,,0,0,0,,What?
+Dialogue: 0,1:12:15.69,1:12:17.98,Haruchan,,0,0,0,,Because I was scared, too.
+Dialogue: 0,1:12:17.98,1:12:21.23,Haruchan,,0,0,0,,About whether I would be able to act well.
+Dialogue: 0,1:12:22.42,1:12:25.32,Mimorin,,0,0,0,,You were acting... this whole time...
+Dialogue: 0,1:12:25.32,1:12:27.61,Haruchan,,0,0,0,,Yup! This whole time.
+Dialogue: 0,1:12:27.61,1:12:31.09,Mimorin,,0,0,0,,So you were scared too... Mahiru...
+Dialogue: 0,1:12:31.09,1:12:33.64,Haruchan,,0,0,0,,Even now, I'm still scared.
+Dialogue: 0,1:12:35.95,1:12:40.25,Mimorin,,0,0,0,,Mahiru... how were you able to stand on the stage?
+Dialogue: 0,1:12:41.92,1:12:43.96,Haruchan,,0,0,0,,Because I decided.
+Dialogue: 0,1:12:43.96,1:12:47.75,Haruchan,,0,0,0,,That I'm going to live on the stage.
+Dialogue: 0,1:13:24.87,1:13:26.00,Haruchan,,0,0,0,,And... I wanted to act on the same stage as you, Hikari-chan.
+Dialogue: 0,1:13:30.65,1:13:32.36,Mimorin,,0,0,0,,Mahiru...
+Dialogue: 0,1:13:32.36,1:13:34.42,Haruchan,,0,0,0,,But, you've got to go.
+Dialogue: 0,1:13:34.42,1:13:38.28,Haruchan,,0,0,0,,Your stage with Karen-chan hasn't concluded yet, right?
+Dialogue: 0,1:13:38.97,1:13:41.58,Haruchan,,0,0,0,,The lines you couldn't say to Karen-chan... say them to her, won't you?
+Dialogue: 0,1:13:49.02,1:13:51.40,Haruchan,,0,0,0,,Run! Kagura Hikari!
+Dialogue: 0,1:13:54.58,1:13:55.97,Mimorin,,0,0,0,,Yeah!
+Dialogue: 0,1:14:04.30,1:14:06.17,Haruchan,,0,0,0,,Hikari-chan!
+Dialogue: 0,1:14:06.50,1:14:09.59,Haruchan,,0,0,0,,I was really happy to stand on stage with you!
+Dialogue: 0,1:14:11.66,1:14:12.86,Mimorin,,0,0,0,,Me too!
+Dialogue: 0,1:14:12.86,1:14:14.72,Mimorin,,0,0,0,,You were so scary, Mahiru!
+Dialogue: 0,1:14:15.09,1:14:17.58,Mimorin,,0,0,0,,You were a real stage actress!
+Dialogue: 0,1:14:22.30,1:14:25.08,Haruchan,,0,0,0,,I'm still really terrible at it, though. At singing, and acting, too.
+Dialogue: 0,1:14:30.26,1:14:31.94,Haruchan,,0,0,0,,But, because I love the brilliant stage— I will head straight for my brilliant self!
+Dialogue: 0,1:14:39.20,1:14:42.64,Haruchan,,0,0,0,,99th Class, Tsuyuzaki Mahiru.
+Dialogue: 0,1:14:42.64,1:14:46.50,Haruchan,,0,0,0,,On the stage where dreams bloom, shine, me.
+Dialogue: 0,1:15:00.36,1:15:03.42,Hiichan,,0,0,0,,Putting an end... to what?
+Dialogue: 0,1:15:04.19,1:15:05.74,Hiichan,,0,0,0,,With who?
+Dialogue: 0,1:15:31.52,1:15:34.38,Moepii,,0,0,0,,"Just for now, just for now", stacking excuses on excuses,
+Dialogue: 0,1:15:34.38,1:15:38.18,Moepii,,0,0,0,,ugly fruit that's ashamed to live after surviving.
+Dialogue: 0,1:15:38.18,1:15:40.76,Moepii,,0,0,0,,You've lost your hope in the distance of the stars.
+Dialogue: 0,1:15:40.76,1:15:44.01,Moepii,,0,0,0,,Thou shalt not die.
+Dialogue: 0,1:15:49.64,1:15:52.38,Moepii,,0,0,0,,99th Class, Daiba Nana.
+Dialogue: 0,1:15:53.46,1:15:57.79,Moepii,,0,0,0,,If it is fate that you must ripen and fall, then now,
+Dialogue: 0,1:15:57.79,1:16:00.53,Moepii,,0,0,0,,I'll offer you a beautiful end.
+Dialogue: 0,1:16:27.22,1:16:29.40,Moepii,,0,0,0,,Even if you run away, it's futile.
+Dialogue: 0,1:16:29.40,1:16:33.65,Moepii,,0,0,0,,You can't take hold of your star anymore.
+Dialogue: 0,1:16:34.44,1:16:39.78,Hiichan,,0,0,0,,Even if I can't see my star, I must advance forward on my path!
+Dialogue: 0,1:16:43.87,1:16:47.87,Hiichan,,0,0,0,,If you're going to get in my way, I'll capture you.
+Dialogue: 0,1:16:47.87,1:16:50.54,Hiichan,,0,0,0,,In this Revue of Hunting!
+Dialogue: 0,1:16:50.54,1:16:51.72,Moepii,,0,0,0,,GAO!
+Dialogue: 0,1:16:58.24,1:17:04.05,Hiichan,,0,0,0,,"Whosoever unceasingly strives upward... him can we save." Goethe!
+Dialogue: 0,1:17:10.26,1:17:15.68,Hiichan,,0,0,0,,"He who would learn to fly one day must first learn to walk and run and dance." Nietzsche!
+Dialogue: 0,1:17:44.97,1:17:48.10,Hiichan,,0,0,0,,Words are what push me forward!
+Dialogue: 0,1:17:50.82,1:17:54.64,Hiichan,,0,0,0,,"Everyone who goes their own way is a hero." Hermann Hesse!
+Dialogue: 0,1:17:56.64,1:17:59.27,Hiichan,,0,0,0,,Words... are my power!
+Dialogue: 0,1:18:06.86,1:18:08.03,Moepii,,0,0,0,,It doesn't resonate.
+Dialogue: 0,1:18:08.03,1:18:09.53,Moepii,,0,0,0,,I can't feel it.
+Dialogue: 0,1:18:09.53,1:18:11.62,Moepii,,0,0,0,,It doesn't reach.
+Dialogue: 0,1:18:19.60,1:18:21.38,Moepii,,0,0,0,,With words like that... you won't be able to reach that stage.
+Dialogue: 0,1:18:29.16,1:18:32.16,Moepii,,0,0,0,,You... were beautiful.
+Dialogue: 0,1:18:33.98,1:18:37.82,Moepii,,0,0,0,,You were foolish, blazing, and beautiful.
+Dialogue: 0,1:18:39.31,1:18:42.26,Moepii,,0,0,0,,Even though you knew you couldn't become the lead, the appearance of you foolishly, insistently reaching your hand out to the lead...
+Dialogue: 0,1:18:47.18,1:18:49.18,Moepii,,0,0,0,,It was dazzling.
+Dialogue: 0,1:18:52.56,1:18:54.36,Moepii,,0,0,0,,It was dazzling.
+Dialogue: 0,1:18:55.24,1:18:57.82,Moepii,,0,0,0,,Junna-chan, you were!
+Dialogue: 0,1:19:09.82,1:19:13.24,Moepii,,0,0,0,,You were dazzling,
+Dialogue: 0,1:19:13.24,1:19:15.11,Moepii,,0,0,0,,Hoshimi Junna.
+Dialogue: 0,1:19:24.12,1:19:26.86,Hiichan,,0,0,0,,"Were dazzling"?
+Dialogue: 0,1:19:28.15,1:19:31.99,Hiichan,,0,0,0,,Why... is it in past tense?!
+Dialogue: 0,1:19:38.30,1:19:40.64,Moepii,,0,0,0,,Ah, she cried.
+Dialogue: 0,1:19:43.68,1:19:49.12,Hiichan,,0,0,0,,"Life isn't about finding yourself. Life is about creating yourself."
+Dialogue: 0,1:19:49.13,1:19:54.04,Hiichan,,0,0,0,,"I am the wisest man alive, for I know one thing, and that is that I know nothing."
+Dialogue: 0,1:19:54.39,1:20:00.68,Hiichan,,0,0,0,,"The greatest glory in living lies not in never falling, but every time we fall"—
+Dialogue: 0,1:20:01.86,1:20:04.90,Hiichan,,0,0,0,,"Every time we fall"...
+Dialogue: 0,1:20:07.24,1:20:08.22,Hiichan,,0,0,0,,It's no good!
+Dialogue: 0,1:20:09.78,1:20:13.16,Hiichan,,0,0,0,,Depending on the words of others isn't enough!
+Dialogue: 0,1:20:15.44,1:20:17.96,Hiichan,,0,0,0,,Even if people have stars they're destined for,
+Dialogue: 0,1:20:17.96,1:20:20.90,Hiichan,,0,0,0,,I'm tired of not being able to reach them, of not being enough.
+Dialogue: 0,1:20:20.90,1:20:24.17,Hiichan,,0,0,0,,I will struggle and writhe until I devour the leading role.
+Dialogue: 0,1:20:24.54,1:20:28.51,Hiichan,,0,0,0,,99th Student Council President, Hoshimi Junna.
+Dialogue: 0,1:20:28.51,1:20:31.97,Hiichan,,0,0,0,,Try and see if you can kill me, Daiba Nana!!
+Dialogue: 0,1:20:45.86,1:20:48.19,Moepii,,0,0,0,,Give me my katana back.
+Dialogue: 0,1:20:49.73,1:20:51.57,Moepii,,0,0,0,,I told you, it's futile.
+Dialogue: 0,1:20:51.57,1:20:54.54,Moepii,,0,0,0,,You've been blinded by the light of the stars you can't reach, and now, you can't see anything else!
+Dialogue: 0,1:21:22.53,1:21:26.07,Moepii,,0,0,0,,For you, who doesn't even see what's right in front of you anymore, you can't possibly do anything like taking a hold of your star.
+Dialogue: 0,1:21:46.08,1:21:47.62,Moepii,,0,0,0,,Stop it, already!
+Dialogue: 0,1:21:47.62,1:21:49.62,Moepii,,0,0,0,,Let the curtain fall already!
+Dialogue: 0,1:21:49.62,1:21:51.40,Moepii,,0,0,0,,Don't get up again!
+Dialogue: 0,1:21:51.40,1:21:56.56,Moepii,,0,0,0,,Screaming exaggerated lines like "try and kill me" won't change anything!
+Dialogue: 0,1:21:56.88,1:21:58.93,Moepii,,0,0,0,,My Junna-chan... isn't that kind of role!
+Dialogue: 0,1:22:05.52,1:22:08.77,Moepii,,0,0,0,,You're... not my Junna-chan.
+Dialogue: 0,1:22:10.72,1:22:12.76,Moepii,,0,0,0,,Who are you?
+Dialogue: 0,1:22:13.94,1:22:15.95,Moepii,,0,0,0,,Who on earth are you?!
+Dialogue: 0,1:22:15.95,1:22:17.64,Moepii,,0,0,0,,Hoshimi Junna!
+Dialogue: 0,1:22:27.76,1:22:31.16,Hiichan,,0,0,0,,I don't need the role you've given me.
+Dialogue: 0,1:22:31.96,1:22:35.55,Hiichan,,0,0,0,,My path is... something I will cut open for myself!
+Dialogue: 0,1:22:38.18,1:22:43.22,Hiichan,,0,0,0,,All the stages you've prepared for me, I'll cut them all short!
+Dialogue: 0,1:22:44.18,1:22:48.14,Hiichan,,0,0,0,,The one who's being blinded by the light is you! Because!
+Dialogue: 0,1:22:48.14,1:22:50.96,Hiichan,,0,0,0,,On this stage, right now, I am...
+Dialogue: 0,1:22:51.54,1:22:54.34,Hiichan,,0,0,0,,Of this stage, I am...!
+Dialogue: 0,1:22:58.88,1:23:03.58,Hiichan,,0,0,0,,The dazzling lead, Hoshimi Junna!
+Dialogue: 0,1:23:28.08,1:23:30.81,Hiichan,,0,0,0,,That will surely be my next stage.
+Dialogue: 0,1:23:30.81,1:23:33.87,Hiichan,,0,0,0,,Reaching out and never giving up, even if things are far away.
+Dialogue: 0,1:23:33.87,1:23:36.80,Hiichan,,0,0,0,,A stage where that Hoshimi Junna is the lead.
+Dialogue: 0,1:23:39.14,1:23:41.70,Moepii,,0,0,0,,I guess it might have ended, my reenactment, just now.
+Dialogue: 0,1:23:46.79,1:23:50.54,Moepii,,0,0,0,,I have to go to my next stage, too.
+Dialogue: 0,1:23:52.50,1:23:54.38,Hiichan,,0,0,0,,But, one day...
+Dialogue: 0,1:23:55.00,1:23:58.70,Hiichan,,0,0,0,,One day, on a new stage...
+Dialogue: 0,1:23:58.70,1:24:00.16,Hiichan,,0,0,0,,Together...
+Dialogue: 0,1:24:06.31,1:24:07.28,Moepii,,0,0,0,,See you, Hoshimi Junna.
+Dialogue: 0,1:24:09.84,1:24:10.94,Hiichan,,0,0,0,,See you, Daiba Nana.
+Dialogue: 0,1:24:13.64,1:24:16.42,Moepii,,0,0,0,,A brilliance that's like jewels set ablaze.
+Dialogue: 0,1:24:16.42,1:24:18.10,Moepii,,0,0,0,,I've finally arrived at it.
+Dialogue: 0,1:24:19.36,1:24:21.04,Moepii,,0,0,0,,Thank you, Junna-chan.
+Dialogue: 0,1:24:40.67,1:24:42.72,Moepii,,0,0,0,,After all... she's dazzling.
+Dialogue: 0,1:24:47.60,1:24:50.14,Hiichan,,0,0,0,,She cried.
+Dialogue: 0,1:25:11.88,1:25:13.44,Moyochan,,0,0,0,,I'm back~
+Dialogue: 0,1:25:13.44,1:25:14.80,Default,,0,0,0,,Welcome home!
+Dialogue: 0,1:25:14.80,1:25:16.48,Default,,0,0,0,,The bath is free to use!
+Dialogue: 0,1:25:22.02,1:25:24.90,Moyochan,,0,0,0,,Mom, I'm hungry...
+Dialogue: 0,1:25:25.88,1:25:28.43,Default,,0,0,0,,Okay, okay. Just wait a bit longer.
+Dialogue: 0,1:25:28.97,1:25:30.82,Moyochan,,0,0,0,,Where's Dad?
+Dialogue: 0,1:25:30.82,1:25:33.22,Default,,0,0,0,,He said he'll be late again today.
+Dialogue: 0,1:25:33.22,1:25:37.38,Default,,0,0,0,,Dad is working hard so his daughter can become a star.
+Dialogue: 0,1:25:37.38,1:25:38.94,Moyochan,,0,0,0,,Thanks, thanks~
+Dialogue: 0,1:25:38.94,1:25:41.07,Moyochan,,0,0,0,,I'm thankful~
+Dialogue: 0,1:25:50.58,1:25:54.04,Moyochan,,0,0,0,,I won't look, I won't listen, I won't look her up.
+Dialogue: 0,1:25:55.21,1:25:57.13,Moyochan,,0,0,0,,I won't look her up!
+Dialogue: 0,1:26:12.98,1:26:16.88,Moyochan,,0,0,0,,The... Royal Academy of...
+Dialogue: 0,1:26:16.88,1:26:19.68,Moyochan,,0,0,0,,The Royal Academy of Theatrical Actors.
+Dialogue: 0,1:26:19.68,1:26:21.90,Moyochan,,0,0,0,,In London, England, a drama school known for being the most difficult to get into in the world...
+Dialogue: 0,1:26:33.36,1:26:37.55,Moyochan,,0,0,0,,It's really... it's really, really you, Hikari-chan!
+Dialogue: 0,1:26:37.56,1:26:39.86,Moyochan,,0,0,0,,It's been SO long!
+Dialogue: 0,1:26:39.86,1:26:41.30,Moyochan,,0,0,0,,How many years has it been?
+Dialogue: 0,1:26:41.30,1:26:42.92,Mimorin,,0,0,0,,Twelve years.
+Dialogue: 0,1:26:48.04,1:26:49.80,Haruchan,,0,0,0,,But, you're amazing!
+Dialogue: 0,1:26:49.80,1:26:55.30,Haruchan,,0,0,0,,RATA is the hardest school to get into in the world, right?
+Dialogue: 0,1:26:55.64,1:26:57.52,Moyochan,,0,0,0,,Huh, really?
+Dialogue: 0,1:26:57.52,1:27:00.48,Haruchan,,0,0,0,,Huh? You don't know? It's famous!
+Dialogue: 0,1:27:02.15,1:27:03.32,Moyochan,,0,0,0,,That's right.
+Dialogue: 0,1:27:04.16,1:27:06.66,Moyochan,,0,0,0,,The Royal Academy of Theatrical Actors is... the hardest school to get into in the world.
+Dialogue: 0,1:27:12.30,1:27:14.16,Moyochan,,0,0,0,,I'm sorry. The truth is, I knew. That you were accepted into RATA, Hikari-chan.
+Dialogue: 0,1:27:22.48,1:27:23.84,Moyochan,,0,0,0,,I'm sorry. For looking you up all on my own.
+Dialogue: 0,1:27:27.18,1:27:28.14,Moyochan,,0,0,0,,But... It was a self-imposed rule, so maybe it's not something to apologize for.
+Dialogue: 0,1:27:34.39,1:27:37.06,Moyochan,,0,0,0,,Honestly, I was scared.
+Dialogue: 0,1:27:37.06,1:27:42.99,Moyochan,,0,0,0,,That maybe I was the only one who remembered our promise...
+Dialogue: 0,1:27:44.38,1:27:46.24,Moyochan,,0,0,0,,So, thank you for remembering our promise.
+Dialogue: 0,1:28:03.12,1:28:06.06,Moyochan,,0,0,0,,A stage that's only for me...
+Dialogue: 0,1:28:06.06,1:28:11.26,Moyochan,,0,0,0,,To me, what is the stage?
+Dialogue: 0,1:28:13.18,1:28:14.90,Aiai,,0,0,0,,And, check.
+Dialogue: 0,1:28:14.90,1:28:18.40,Mahonee,,0,0,0,,Ah— My chick was...?
+Dialogue: 0,1:28:18.40,1:28:20.66,Aiai,,0,0,0,,Aren't you too weak?
+Dialogue: 0,1:28:20.66,1:28:21.46,Mahonee,,0,0,0,,Th— That's not it!
+Dialogue: 0,1:28:22.85,1:28:26.20,Mahonee,,0,0,0,,Your chicks just look too pitiful for me to...
+Dialogue: 0,1:28:26.20,1:28:28.99,Aiai,,0,0,0,,You haven't won once, you know that?
+Dialogue: 0,1:28:29.84,1:28:31.32,Mahonee,,0,0,0,,Next time I will.
+Dialogue: 0,1:28:32.86,1:28:37.41,Aiai,,0,0,0,,Well, "weak" isn't a line that I have any right to say.
+Dialogue: 0,1:28:38.32,1:28:40.68,Aiai,,0,0,0,,The stage is my way of life.
+Dialogue: 0,1:28:40.68,1:28:43.42,Aiai,,0,0,0,,I thought I had decided that a long time ago.
+Dialogue: 0,1:28:43.42,1:28:47.05,Aiai,,0,0,0,,But I wasn't facing it. My next stage.
+Dialogue: 0,1:28:47.05,1:28:50.26,Aiai,,0,0,0,,I was satisfied with the revue I shared with you, and was decaying, nearly dying because of it.
+Dialogue: 0,1:28:59.48,1:29:02.46,Aiai,,0,0,0,,So, I'll be reborn.
+Dialogue: 0,1:29:02.46,1:29:04.64,Aiai,,0,0,0,,I'll put an end to this with you,
+Dialogue: 0,1:29:04.64,1:29:08.04,Aiai,,0,0,0,,in order to stand on the next stage.
+Dialogue: 0,1:29:14.06,1:29:16.10,Mahonee,,0,0,0,,Welcome to the stage.
+Dialogue: 0,1:29:19.08,1:29:20.34,Aiai,,0,0,0,,You're... really weak, aren't you?
+Dialogue: 0,1:29:28.30,1:29:29.84,Mimorin,,0,0,0,,Where is Karen?
+Dialogue: 0,1:29:31.92,1:29:35.85,Default,,0,0,0,,She is currently in the middle of role preparations.
+Dialogue: 0,1:29:37.66,1:29:41.30,Mimorin,,0,0,0,,What is wi(l)d-screen baroque?
+Dialogue: 0,1:29:42.56,1:29:46.11,Default,,0,0,0,,The continuation of the end that you all will perform.
+Dialogue: 0,1:29:46.76,1:29:52.03,Default,,0,0,0,,A new stage that the selfish and greedy audience longs for.
+Dialogue: 0,1:29:53.11,1:29:56.53,Default,,0,0,0,,That's right. It's because of all of you.
+Dialogue: 0,1:29:56.53,1:29:57.13,Mimorin,,0,0,0,,What?
+Dialogue: 0,1:29:58.36,1:30:03.24,Default,,0,0,0,,Throwing away the joys of the ordinary, the fun of girlhood, fated to continue performing.
+Dialogue: 0,1:30:06.62,1:30:13.38,Default,,0,0,0,,Brilliance so beautiful, that you have no choice but to be drawn to it.
+Dialogue: 0,1:30:14.20,1:30:15.88,Default,,0,0,0,,A stage girl.
+Dialogue: 0,1:30:17.46,1:30:21.89,Default,,0,0,0,,However, everything requires fuel.
+Dialogue: 0,1:30:22.30,1:30:25.40,Default,,0,0,0,,I am your food.
+Dialogue: 0,1:30:25.40,1:30:30.22,Default,,0,0,0,,The fuel to light the fire on the stage!
+Dialogue: 0,1:30:31.56,1:30:35.72,Default,,0,0,0,,Passion so hot it will burn you if you get too close!
+Dialogue: 0,1:30:35.72,1:30:40.03,Default,,0,0,0,,It's dangerous, truly, a stage girl is!
+Dialogue: 0,1:30:40.78,1:30:44.54,Default,,0,0,0,,It's because you're dangerous that you're all— beautiful...
+Dialogue: 0,1:30:51.76,1:30:57.22,Default,,0,0,0,,There was a role given to me as well, I see.
+Dialogue: 0,1:30:57.22,1:30:59.98,Default,,0,0,0,,To light a fire on the stage...
+Dialogue: 0,1:30:59.98,1:31:02.34,Default,,0,0,0,,That role...
+Dialogue: 0,1:31:12.08,1:31:14.32,Default,,0,0,0,,I understand.
+Dialogue: 0,1:31:51.10,1:31:54.11,Aiai,,0,0,0,,Won't you make a bet with me, O Stage Person?
+Dialogue: 0,1:31:56.61,1:32:00.24,Mahonee,,0,0,0,,What do you mean by "Stage Person", O devil I know not the name of?
+Dialogue: 0,1:32:00.24,1:32:03.16,Aiai,,0,0,0,,A playwright and philosopher.
+Dialogue: 0,1:32:03.16,1:32:07.37,Aiai,,0,0,0,,To you, who is said to have stood on every stage in this world, I thought I should try to show you.
+Dialogue: 0,1:32:10.36,1:32:15.25,Aiai,,0,0,0,,The "greatest brilliance" that nobody has ever bathed in!
+Dialogue: 0,1:32:16.58,1:32:19.02,Mahonee,,0,0,0,,And the price?
+Dialogue: 0,1:32:19.02,1:32:22.34,Mahonee,,0,0,0,,Devils always bring forth terms of exchange.
+Dialogue: 0,1:32:24.39,1:32:27.69,Aiai,,0,0,0,,When you have been shown that brilliance,
+Dialogue: 0,1:32:27.69,1:32:31.28,Aiai,,0,0,0,,I shall receive your soul.
+Dialogue: 0,1:32:37.40,1:32:38.29,Mahonee,,0,0,0,,Sounds interesting.
+Dialogue: 0,1:32:44.03,1:32:46.30,Aiai,,0,0,0,,The bet has been established.
+Dialogue: 0,1:32:46.74,1:32:49.18,Aiai,,0,0,0,,Well then, let us begin!
+Dialogue: 0,1:33:45.55,1:33:47.60,Aiai,,0,0,0,,Hand over that soul!
+Dialogue: 0,1:34:03.14,1:34:04.76,Mahonee,,0,0,0,,Rival, huh.
+Dialogue: 0,1:34:08.16,1:34:09.38,Aiai,,0,0,0,,What's so funny?
+Dialogue: 0,1:34:10.02,1:34:12.92,Mahonee,,0,0,0,,You have played it splendidly.
+Dialogue: 0,1:34:12.92,1:34:16.68,Mahonee,,0,0,0,,The role of a rival who chases after me.
+Dialogue: 0,1:34:16.68,1:34:18.86,Aiai,,0,0,0,,What do you mean by "role"?
+Dialogue: 0,1:34:18.86,1:34:21.38,Aiai,,0,0,0,,I... am your rival!
+Dialogue: 0,1:34:25.76,1:34:30.44,Mahonee,,0,0,0,,People called me a thoroughbred, a genius.
+Dialogue: 0,1:34:30.44,1:34:33.35,Mahonee,,0,0,0,,However, in the midst of the applause, I saw it.
+Dialogue: 0,1:34:33.35,1:34:35.78,Mahonee,,0,0,0,,The true role I must perform.
+Dialogue: 0,1:34:35.78,1:34:38.54,Mahonee,,0,0,0,,The ultimate Stage Person!
+Dialogue: 0,1:34:40.44,1:34:42.36,Mahonee,,0,0,0,,That is this vessel.
+Dialogue: 0,1:34:42.36,1:34:45.45,Mahonee,,0,0,0,,It can portray every single stage, every single lead!
+Dialogue: 0,1:34:45.45,1:34:47.14,Mahonee,,0,0,0,,The vessel of God!
+Dialogue: 0,1:34:47.14,1:34:50.76,Aiai,,0,0,0,,A vessel? That's... a vessel?
+Dialogue: 0,1:34:50.76,1:34:54.15,Mahonee,,0,0,0,,Yes. Detached from both emotions and instincts, this empty vessel... that is me.
+Dialogue: 0,1:34:58.42,1:35:02.17,Aiai,,0,0,0,,Do you mean to say that thing... is your soul?
+Dialogue: 0,1:35:15.14,1:35:17.60,Mahonee,,0,0,0,,For heroes, there are trials.
+Dialogue: 0,1:35:17.60,1:35:19.95,Mahonee,,0,0,0,,For saints, there are temptations.
+Dialogue: 0,1:35:20.26,1:35:23.02,Mahonee,,0,0,0,,For me, there is a devil.
+Dialogue: 0,1:35:32.08,1:35:33.60,Mahonee,,0,0,0,,Project!
+Dialogue: 0,1:36:05.23,1:36:12.17,Mahonee,,0,0,0,,This vessel of God reflects the thousands upon thousands, infinite multitudes of myself!
+Dialogue: 0,1:36:20.98,1:36:25.46,Aiai,,0,0,0,,If you're empty, then where is the soul that I sought?
+Dialogue: 0,1:36:25.46,1:36:28.34,Aiai,,0,0,0,,Who was it that I wagered with?!
+Dialogue: 0,1:36:39.14,1:36:42.06,Mahonee,,0,0,0,,For heroes, there are trials.
+Dialogue: 0,1:36:42.06,1:36:43.79,Mahonee,,0,0,0,,For saints, there are temptations.
+Dialogue: 0,1:36:48.02,1:36:50.78,Mahonee,,0,0,0,,For me, there is a devil.
+Dialogue: 0,1:36:55.98,1:36:57.17,Mahonee,,0,0,0,,Position Zero.
+Dialogue: 0,1:36:57.37,1:36:58.50,Mahonee,,0,0,0,,This is—
+Dialogue: 0,1:37:14.86,1:37:17.43,Mahonee,,0,0,0,,But, I'm certain the star was taken off.
+Dialogue: 0,1:37:22.56,1:37:25.69,Aiai,,0,0,0,,If it's a star you're looking for, there's still another here.
+Dialogue: 0,1:37:26.92,1:37:28.72,Mahonee,,0,0,0,,So you're going to bend them, then?
+Dialogue: 0,1:37:28.72,1:37:30.86,Mahonee,,0,0,0,,The laws of the stage?!
+Dialogue: 0,1:37:31.54,1:37:34.08,Aiai,,0,0,0,,Did you forget about the contract we made?
+Dialogue: 0,1:37:34.08,1:37:40.97,Aiai,,0,0,0,,This revue will only end when you've found the brilliance that no one has ever seen.
+Dialogue: 0,1:37:40.97,1:37:42.64,Mahonee,,0,0,0,,What do you mean?
+Dialogue: 0,1:37:42.64,1:37:44.75,Aiai,,0,0,0,,An empty vessel of God?
+Dialogue: 0,1:37:44.75,1:37:46.62,Aiai,,0,0,0,,You crack me up.
+Dialogue: 0,1:37:46.62,1:37:50.62,Aiai,,0,0,0,,You're not God's vessel, nor are you empty.
+Dialogue: 0,1:37:50.62,1:37:55.36,Aiai,,0,0,0,,You're stuffed full of arrogance and pride and envy and longing, a greedy human!
+Dialogue: 0,1:37:57.51,1:38:00.52,Aiai,,0,0,0,,No matter how many times I die, I will revive!
+Dialogue: 0,1:38:00.52,1:38:01.88,Aiai,,0,0,0,,Tendo Maya!
+Dialogue: 0,1:38:01.88,1:38:04.98,Aiai,,0,0,0,,To beat you, my rival, into submission!
+Dialogue: 0,1:38:15.03,1:38:18.28,Aiai,,0,0,0,,The shine of the moon, the love of the stars, and whatnot, are all pathetic, fleshless illusions through which no blood flows.
+Dialogue: 0,1:38:21.25,1:38:24.21,Aiai,,0,0,0,,I will fill myself with exploding passion, now, and bash it into your heart!
+Dialogue: 0,1:38:27.25,1:38:30.13,Aiai,,0,0,0,,99th Class, Saijo Claudine!
+Dialogue: 0,1:38:30.63,1:38:33.34,Aiai,,0,0,0,,Tonight, my brilliance will show you!
+Dialogue: 0,1:38:35.63,1:38:36.38,Mahonee,,0,0,0,,STOP IT!
+Dialogue: 0,1:38:51.34,1:38:53.62,Mahonee,,0,0,0,,What the hell did you just...
+Dialogue: 0,1:38:53.62,1:38:56.15,Mahonee,,0,0,0,,You'll "beat me into submission"?
+Dialogue: 0,1:38:56.94,1:39:00.70,Mahonee,,0,0,0,,Don't push your luck, Saijo Claudine!
+Dialogue: 0,1:39:10.98,1:39:13.71,Mahonee,,0,0,0,,The chance to shine is not equal, so tear apart and devour your co-stars.
+Dialogue: 0,1:39:16.51,1:39:19.80,Mahonee,,0,0,0,,Love and freedom are just nonsense from a loser.
+Dialogue: 0,1:39:19.80,1:39:22.70,Mahonee,,0,0,0,,Throughout heaven and earth, I alone am the brilliant one!
+Dialogue: 0,1:39:26.94,1:39:29.34,Mahonee,,0,0,0,,99th Class, Tendo Maya!
+Dialogue: 0,1:39:29.94,1:39:33.20,Mahonee,,0,0,0,,Look up from the abyss! I am the star!
+Dialogue: 0,1:40:11.64,1:40:14.11,Aiai,,0,0,0,,You've finally become like your usual self, huh!
+Dialogue: 0,1:40:14.11,1:40:18.00,Mahonee,,0,0,0,,Such an ugly, emotion-drenched appearance as this—
+Dialogue: 0,1:40:18.00,1:40:20.74,Aiai,,0,0,0,,Show me more, Tendo Maya!
+Dialogue: 0,1:40:21.61,1:40:24.12,Aiai,,0,0,0,,That's what the audience wants to see!
+Dialogue: 0,1:40:25.18,1:40:28.20,Aiai,,0,0,0,,Right now, you're the cutest you've ever been!
+Dialogue: 0,1:40:28.20,1:40:31.02,Mahonee,,0,0,0,,I'm always cute!
+Dialogue: 0,1:41:04.26,1:41:08.20,Mahonee,,0,0,0,,If it wasn't for you, I wouldn't have been exposed like this!
+Dialogue: 0,1:41:09.74,1:41:13.47,Aiai,,0,0,0,,Only I can make you lay everything bare!
+Dialogue: 0,1:41:15.56,1:41:19.04,Mahonee,,0,0,0,,I'll expose my everything, on the stage!
+Dialogue: 0,1:41:19.04,1:41:22.24,Aiai,,0,0,0,,There's a partner you can expose everything to, on the stage!
+Dialogue: 0,1:41:22.24,1:41:24.34,Mahonee,,0,0,0,,We love the stage, and we can't part from the stage!
+Dialogue: 0,1:41:25.84,1:41:27.10,Mahonee,,0,0,0,,Pathetic jesters!
+Dialogue: 0,1:41:27.10,1:41:28.18,Aiai,,0,0,0,,No, rivals!
+Dialogue: 0,1:41:28.18,1:41:30.98,Mahonee,,0,0,0,,If you're there, I have to strive higher!
+Dialogue: 0,1:41:30.98,1:41:33.69,Aiai,,0,0,0,,You make me even more beautiful!
+Dialogue: 0,1:41:34.06,1:41:34.73,Aiai,,0,0,0,,Maya!
+Dialogue: 0,1:41:34.73,1:41:35.44,Mahonee,,0,0,0,,Claudine!
+Dialogue: 0,1:41:36.11,1:41:38.14,Aiai,,0,0,0,,For heroes, there are trials!
+Dialogue: 0,1:41:38.14,1:41:39.96,Mahonee,,0,0,0,,For saints, there are temptations!
+Dialogue: 0,1:41:40.36,1:41:42.70,Default,,0,0,0,,For me, there is you!
+ialogue: 0,1:41:58.02,1:42:01.21,Mahonee,,0,0,0,,Saijo Claudine... You are beautiful.
+Dialogue: 0,1:42:41.76,1:42:44.90,Aiai,,0,0,0,,I won the bet.
+Dialogue: 0,1:42:46.18,1:42:51.06,Mahonee,,0,0,0,,Then, we'll continue this tomorrow, on this stage.
+Dialogue: 0,1:42:51.97,1:42:53.14,Aiai,,0,0,0,,Huh?
+Dialogue: 0,1:42:54.52,1:42:57.85,Mahonee,,0,0,0,,Who decided it was a one-round game?
+Dialogue: 0,1:42:58.94,1:43:01.16,Mahonee,,0,0,0,,Until the contest is decided.
+Dialogue: 0,1:43:01.16,1:43:03.65,Mahonee,,0,0,0,,Tomorrow, and the day after tomorrow.
+Dialogue: 0,1:43:05.11,1:43:06.66,Aiai,,0,0,0,,That's fine with me.
+Dialogue: 0,1:43:06.66,1:43:10.91,Aiai,,0,0,0,,The revue of rivals doesn't end, for all of eternity.
+Dialogue: 0,1:43:19.44,1:43:24.92,Default,,0,0,0,,We are flames that fall together while burning.
+Dialogue: 0,1:43:50.40,1:43:52.38,Moyochan,,0,0,0,,We've finally met.
+Dialogue: 0,1:43:54.76,1:43:56.72,Moyochan,,0,0,0,,Thank you, Hikari-chan.
+Dialogue: 0,1:43:58.37,1:44:02.32,Moyochan,,0,0,0,,For inviting me, that time.
+Dialogue: 0,1:44:02.32,1:44:05.09,Moyochan,,0,0,0,,For showing me, that time.
+Dialogue: 0,1:44:05.92,1:44:08.55,Moyochan,,0,0,0,,The Anemone Troupe, my beginning was entering that troupe in order to chase after you, and even after you went to London, I continued, and I started ballet lessons, too.
+Dialogue: 0,1:44:21.76,1:44:24.44,Moyochan,,0,0,0,,I also started modern dance and vocal training, and started getting better at singing and dancing.
+Dialogue: 0,1:44:27.11,1:44:30.49,Moyochan,,0,0,0,,Slowly, the stage became more and more fun.
+Dialogue: 0,1:44:30.49,1:44:35.70,Moyochan,,0,0,0,,I could enroll in Seisho Music Academy thanks to my hard work, and I got to meet everyone, and you, Hikari-chan, again.
+Dialogue: 0,1:44:43.96,1:44:47.88,Moyochan,,0,0,0,,It's because I had our promise, that I could come this far.
+Dialogue: 0,1:44:50.63,1:44:54.18,Moyochan,,0,0,0,,It's because I had our promise, that I could come to stand here.
+Dialogue: 0,1:44:57.26,1:45:00.01,Moyochan,,0,0,0,,In the end, to me... the stage is you, Hikari-chan.
+Dialogue: 0,1:45:02.08,1:45:04.11,Mimorin,,0,0,0,,Are those your own reminiscences?
+Dialogue: 0,1:45:04.11,1:45:06.79,Mimorin,,0,0,0,,Or, the lines of this stage?
+Dialogue: 0,1:45:08.36,1:45:09.57,Moyochan,,0,0,0,,What?
+Dialogue: 0,1:45:21.56,1:45:24.04,Moyochan,,0,0,0,,We're being watched... by someone...
+Dialogue: 0,1:45:24.79,1:45:27.02,Mimorin,,0,0,0,,The audience longs for it.
+Dialogue: 0,1:45:29.30,1:45:31.55,Mimorin,,0,0,0,,Our stage.
+Dialogue: 0,1:45:31.55,1:45:35.30,Moyochan,,0,0,0,,Were the seats always this close?
+Dialogue: 0,1:45:35.30,1:45:36.43,Mimorin,,0,0,0,,Yes.
+Dialogue: 0,1:45:36.43,1:45:40.20,Moyochan,,0,0,0,,Were the lights always this hot?
+Dialogue: 0,1:45:40.20,1:45:41.81,Mimorin,,0,0,0,,Yes.
+Dialogue: 0,1:45:41.81,1:45:46.08,Moyochan,,0,0,0,,Was the stage... always this terrifying?
+Dialogue: 0,1:45:46.08,1:45:47.57,Mimorin,,0,0,0,,Yes.
+Dialogue: 0,1:45:47.57,1:45:51.57,Moyochan,,0,0,0,,Everyone... was in such a scary place as this?
+Dialogue: 0,1:45:51.57,1:45:52.71,Moyochan,,0,0,0,,Hikari-chan, you too?
+Dialogue: 0,1:45:53.80,1:45:55.41,Mimorin,,0,0,0,,That's right.
+Dialogue: 0,1:45:55.41,1:45:58.33,Moyochan,,0,0,0,,But I couldn't see it.
+Dialogue: 0,1:45:59.20,1:46:01.70,Moyochan,,0,0,0,,I could only see Hikari-chan...
+Dialogue: 0,1:46:04.33,1:46:07.98,Moyochan,,0,0,0,,What should I do... I don't have anything.
+Dialogue: 0,1:46:07.98,1:46:10.46,Moyochan,,0,0,0,,After we've acted out Starlight...
+Dialogue: 0,1:46:12.84,1:46:15.14,Moyochan,,0,0,0,,What do I do? Hikari-chan?
+Dialogue: 0,1:46:16.55,1:46:18.23,Mimorin,,0,0,0,,I will continue acting.
+Dialogue: 0,1:46:19.39,1:46:22.68,Moyochan,,0,0,0,,Once we've acted out Starlight...
+Dialogue: 0,1:46:22.68,1:46:25.20,Mimorin,,0,0,0,,Then, to the next stage.
+Dialogue: 0,1:46:25.74,1:46:27.60,Moyochan,,0,0,0,,There's nothing...
+Dialogue: 0,1:46:27.60,1:46:29.23,Moyochan,,0,0,0,,that I have...!
+Dialogue: 0,1:46:40.94,1:46:42.10,Mimorin,,0,0,0,,Karen...
+Dialogue: 0,1:47:00.66,1:47:02.39,Mimorin,,0,0,0,,She's dead.
+Dialogue: 0,1:47:03.14,1:47:05.06,Mimorin,,0,0,0,,She's dead...
+Dialogue: 0,1:47:06.27,1:47:09.66,Mimorin,,0,0,0,,No way... it's acting, right?
+Dialogue: 0,1:47:10.08,1:47:12.90,Mimorin,,0,0,0,,Why... hey!
+Dialogue: 0,1:47:14.58,1:47:17.54,Mimorin,,0,0,0,,No... no!
+Dialogue: 0,1:47:17.54,1:47:19.87,Mimorin,,0,0,0,,I'm sorry! I'll apologize, okay?!
+Dialogue: 0,1:47:20.74,1:47:23.36,Mimorin,,0,0,0,,Don't die!
+Dialogue: 0,1:47:23.36,1:47:25.43,Mimorin,,0,0,0,,Karen...!
+Dialogue: 0,1:47:35.78,1:47:37.32,Mimorin,,0,0,0,,What do you mean, "to me, the stage is you, Hikari-chan"?!
+Dialogue: 0,1:47:41.56,1:47:43.76,Mimorin,,0,0,0,,Karenitwit!
+Dialogue: 0,1:47:49.12,1:47:52.88,Mimorin,,0,0,0,,The brilliance of the stars we saw that day...
+Dialogue: 0,1:47:52.88,1:47:55.82,Mimorin,,0,0,0,,It was so beautiful, I couldn't take my eyes off of it,
+Dialogue: 0,1:47:55.82,1:47:58.84,Mimorin,,0,0,0,,I didn't feel like I could reach it, and I was scared.
+Dialogue: 0,1:47:58.84,1:48:02.04,Mimorin,,0,0,0,,So I thought, "I'll just give up", on even aiming for it, if I couldn't reach it.
+Dialogue: 0,1:48:08.41,1:48:11.33,Moyochan,,0,0,0,,Let's go, to that stage!
+Dialogue: 0,1:48:11.33,1:48:12.44,Mimorin,,0,0,0,,Huh?
+Dialogue: 0,1:48:13.84,1:48:15.84,Moyochan,,0,0,0,,To become shining stars!
+Dialogue: 0,1:48:15.84,1:48:17.80,Moyochan,,0,0,0,,Together!
+Dialogue: 0,1:48:19.16,1:48:26.84,Mimorin,,0,0,0,,You brought Kagura Hikari back to life, into a stage girl.
+Dialogue: 0,1:48:33.94,1:48:36.82,Mimorin,,0,0,0,,I was scared. Of becoming your fan.
+Dialogue: 0,1:48:39.28,1:48:43.87,Mimorin,,0,0,0,,Because I couldn't forgive myself for being so captivated by you, I ran.
+Dialogue: 0,1:48:46.24,1:48:47.48,Mimorin,,0,0,0,,But... I'll send a letter to you again, okay? In order to conclude this stage.
+Dialogue: 0,1:49:00.20,1:49:01.84,Mimorin,,0,0,0,,I'm waiting for you on stage.
+Dialogue: 0,1:50:00.78,1:50:03.08,Mimorin,,0,0,0,,Karen! Come back!
+Dialogue: 0,1:50:49.49,1:50:50.99,Mimorin,,0,0,0,,This is the stage! Aijo Karen!
+Dialogue: 0,1:51:33.16,1:51:35.42,Moyochan,,0,0,0,,I am remade!
+Dialogue: 0,1:51:35.42,1:51:38.37,Moyochan,,0,0,0,,I'm back, after taking the train!
+Dialogue: 0,1:51:39.02,1:51:41.36,Mimorin,,0,0,0,,Welcome back, Karen.
+Dialogue: 0,1:51:41.98,1:51:44.30,Moyochan,,0,0,0,,The train will go to the next station without fail.
+Dialogue: 0,1:51:45.46,1:51:47.62,Mimorin,,0,0,0,,And the stage girl?
+Dialogue: 0,1:51:47.62,1:51:50.30,Moyochan,,0,0,0,,Will go to the next stage!
+Dialogue: 0,1:51:53.04,1:51:55.89,Moyochan,,0,0,0,,Even if the stardust falls and the flowers scatter, on a dazzling stage, I am reborn.
+Dialogue: 0,1:51:58.70,1:52:01.44,Moyochan,,0,0,0,,The new me has an unknown fate.
+Dialogue: 0,1:52:01.44,1:52:04.76,Moyochan,,0,0,0,,The new me is a play that has yet to be seen.
+Dialogue: 0,1:52:06.62,1:52:09.86,Moyochan,,0,0,0,,I, Aijo Karen, am alone on the stage!
+Dialogue: 0,1:52:09.86,1:52:13.98,Moyochan,,0,0,0,,I, Aijo Karen, will go to the next stage!
+Dialogue: 0,1:52:21.43,1:52:24.67,Mimorin,,0,0,0,,Illuminate me, all of the lights.
+Dialogue: 0,1:52:24.67,1:52:28.26,Mimorin,,0,0,0,,Be captivated by me, from all angles.
+Dialogue: 0,1:52:28.26,1:52:31.43,Mimorin,,0,0,0,,Right now, I am the most selfish.
+Dialogue: 0,1:52:31.43,1:52:34.39,Mimorin,,0,0,0,,Right now, I am the prettiest.
+Dialogue: 0,1:52:36.50,1:52:39.74,Mimorin,,0,0,0,,On the stage, there is only one star.
+Dialogue: 0,1:52:39.74,1:52:44.54,Mimorin,,0,0,0,,Kagura Hikari. I am the star!
+Dialogue: 0,1:53:09.20,1:53:12.48,Moyochan,,0,0,0,,Hikari-chan... is so pretty...
+Dialogue: 0,1:53:12.48,1:53:15.55,Moyochan,,0,0,0,,Hikari-chan is pretty, but... she's terrifying.
+Dialogue: 0,1:53:17.86,1:53:20.38,Moyochan,,0,0,0,,Hikari-chan is terrifying, but...
+Dialogue: 0,1:53:20.38,1:53:23.65,Moyochan,,0,0,0,,Hikari-chan makes me envious, Hikari-chan makes me frustrated, and I can't take my eyes off of her.
+Dialogue: 0,1:53:32.66,1:53:34.74,Moyochan,,0,0,0,,I know, now.
+Dialogue: 0,1:53:34.74,1:53:38.16,Moyochan,,0,0,0,,The reason why I'm standing on stage.
+Dialogue: 0,1:53:39.84,1:53:41.52,Moyochan,,0,0,0,,I have to say it...
+Dialogue: 0,1:53:41.52,1:53:44.17,Moyochan,,0,0,0,,The final line.
+Dialogue: 0,1:53:44.58,1:53:48.71,Mimorin,,0,0,0,,Try to pierce through me, with your brilliance.
+Dialogue: 0,1:54:13.07,1:54:16.91,Moyochan,,0,0,0,,I don't want to lose to you either, Hikari!
+Dialogue: 0,1:56:25.14,1:56:27.71,Moyochan,,0,0,0,,We've... acted it all out.
+Dialogue: 0,1:56:28.58,1:56:31.92,Moyochan,,0,0,0,,Revue Starlight.
+Dialogue: 0,1:56:39.06,1:56:40.72,Moyochan,,0,0,0,,Right now, I might be the emptiest in the world.
+Dialogue: 0,1:56:49.26,1:56:52.06,Mimorin,,0,0,0,,Then, go on and find it.
+Dialogue: 0,1:56:53.52,1:56:55.77,Mimorin,,0,0,0,,Your next stage.
+Dialogue: 0,1:56:55.77,1:56:57.90,Mimorin,,0,0,0,,Your next role!
+Dialogue: 0,1:57:03.28,1:57:04.00,Moyochan,,0,0,0,,Yeah!
+Dialogue: 0,1:59:56.22,1:59:58.00,Default,,0,0,0,,Is the music ready?
+Dialogue: 0,1:59:58.00,2:00:00.02,Default,,0,0,0,,The dance songs and vocal songs are both ready!
+Dialogue: 0,2:00:00.02,2:00:02.84,Default,,0,0,0,,Have numbers 20 to 40 enter the waiting room.
+Dialogue: 0,2:00:02.84,2:00:03.48,Default,,0,0,0,,Got it!
+Dialogue: 0,2:00:03.48,2:00:06.86,Default,,0,0,0,,Please fill in the respective columns for the first and second screenings.
+Dialogue: 0,2:00:06.86,2:00:09.72,Default,,0,0,0,,Then, let's start from the first person.
+Dialogue: 0,2:00:10.08,2:00:11.14,Moyochan,,0,0,0,,Yes!
+Dialogue: 0,2:00:11.76,2:00:14.28,Moyochan,,0,0,0,,Number 1, Aijo Karen!
+Dialogue: 0,2:00:14.28,2:00:17.18,Moyochan,,0,0,0,,I will Starlight everyone!
+0,0,0,,One day, surely (close together) the first star in the sky (the first star) let's see it, we said
+0,0,0,,For the two of us (this road) to split, it took (plenty) plenty enough time, didn't it
+0,0,0,,A long, long time…
+0,0,0,,Well, aren't you irritating (irritating) You're only concerned about yourself (myself)
+0,0,0,,I can see through it all, you won't even meet my eyes (won't meet your eyes)
+0,0,0,,You wouldn't get it (You, like that) What could I say to you (what would you say)
+0,0,0,,Not a single thing, that's all
+0,0,0,,Aah, on the windshield, the rain is flowing down—
+0,0,0,,To be far away enough for my cheek to feel the touch of your breath, let me use that as an excuse, han…
+0,0,0,,"I'm tired of it", with throwaway lines like that
+0,0,0,,On the highway of cutting ties (Highway Night)
+0,0,0,,A you that I don't know, that's what you've become (It might be so)
+0,0,0,,So just KEEP AWAY, KEEP AWAY TONIGHT
+0,0,0,,Solitude, Long time no see—I thought that was thanks to you
+0,0,0,,But the one who was satisfied with dreaming the same dream was me
+0,0,0,,It's good you came to see me, crossing this highway
+0,0,0,,We're passing by each other at 100km/h
+0,0,0,,Let me say it, for the first and last time
+0,0,0,,On this selfish highway (Highway Night)
+0,0,0,,For any longer than this, waiting is something I don't plan to do (How mean)
+0,0,0,,So RIGHT WAY, RIGHT WAY TONIGHT
+0,0,0,,It's almost as if the two of us are shooting stars
+0,0,0,,Dazzling, it's so dazzling
+0,0,0,,You won't get it (To you) is that really true (if I were to say something)
+0,0,0,,I won't leave you (until you return, I'll) always be waiting
+0,0,0,,"I just can't win against the selfishness of a kid"
+0,0,0,,You can't be here as a fan, miss
+0,0,0,,Even a cat must face rising hurdles when walking
+0,0,0,,As a performer, you must do your best, miss
+0,0,0,,Second, second, second place isn't what you want, is it?
+0,0,0,,Everything was given up for this big moment[5], this day
+0,0,0,,I'll hit back again and again and leap one millimeter higher
+0,0,0,,I can return any type of ball from synchronicity to cut-in
+0,0,0,,It's fine if you win with a straight
+0,0,0,,Or you could make news with a dramatic comeback
+0,0,0,,Take one round and we'll go into the second
+0,0,0,,A little bit higher, a little bit stronger
+0,0,0,,Yes, that's a rival
+0,0,0,,What color is the medal you just dropped?
+0,0,0,,I like when people are honest; gold, silver, or bronze?
+0,0,0,,Are you feeling up for a game, miss?
+0,0,0,,The truth is, I really hated
+0,0,0,,You You You You You You You You
+0,0,0,,I wonder if you'll be okay like that
+0,0,0,,Really? Will you really be okay
+0,0,0,,In that state, I can't leave anything up to you
+0,0,0,,Hey, are you even listening to me
+0,0,0,,I wonder if you'll be okay like that
+0,0,0,,Really? Will you really be okay
+0,0,0,,I can't leave such an important role to you
+0,0,0,,Hey, I want you to answer me
+0,0,0,,Come on, let's show them
+0,0,0,,That's right, what you've all been waiting for
+0,0,0,,Entertainment, that you risk your life for
+0,0,0,,In this life, do you have any regrets?
+0,0,0,,Not that we can do much about it
+0,0,0,,This is the main attraction, the final confession time
+0,0,0,,Now they'll flash before your eyes, the highlights
+0,0,0,,It's scary, right? How dazzling it is
+0,0,0,,But this isn't a solo performance
+0,0,0,,If you would bare your heart
+0,0,0,,You could perform more honestly
+0,0,0,,We, stage girls
+0,0,0,,The tears we shed backstage
+0,0,0,,I'd like you to tell me the reason behind them
+0,0,0,,We can share the burden because we are rivals
+0,0,0,,Come on now, let's pull those fangs out, tiger cub running amok to escape
+0,0,0,,If I let many stars become my guides, I will drift to the stage
+0,0,0,,Starting here, I still, can't stop walking yet
+0,0,0,,I shall never, ever give up on my journey
+0,0,0,,A hazy landscape, a perishing dream, go subsist on nothing but the haze of your pipe dream
+0,0,0,,All you do is parrot borrowed lines; your star is just a piece of space trash
+0,0,0,,Starting now, you've still, gotta try and kill me, right!! Don't you!!
+0,0,0,,I didn't look upwards so many times just for show
+0,0,0,,I will step over the limits and zero
+0,0,0,,What have you been looking at all this time?
+0,0,0,,This is my unbreakable pen, sometimes stronger than a sword, than even a katana
+0,0,0,,Let the curtain fall, we'll meet each other on stage in due time
+0,0,0,,O Stage Person, did you summon me?
+0,0,0,,Why would one such as I summon a devil?
+0,0,0,,That soul filled with obsession
+0,0,0,,Shall illuminate the very bottom of hell
+0,0,0,,That soul!
+0,0,0,,The greatest brilliance
+0,0,0,,Eternal boredom
+0,0,0,,Santé ! Santé !
+0,0,0,,Santé ! Santé !
+0,0,0,,Let's make a wager
+0,0,0,,Into those eyes, my form
+0,0,0,,Into that ear, my voice
+0,0,0,,Into that chest, I drive a stake
+0,0,0,,On the stage, sparks fly
+0,0,0,,For heroes, there are trials
+0,0,0,,For saints, there are temptations
+0,0,0,,For you, a devil
+0,0,0,,For me, a devil
+0,0,0,,Thence reflect, O water's surface, my infinite self
+0,0,0,,Right now, the stage belongs to me
+0,0,0,,With a grin of deception I'll tear this piece of cloth
+0,0,0,,I want to show you my feelings becoming dyed in black
+0,0,0,,Only me, always, forever
+0,0,0,,You only need to look at me
+0,0,0,,If I'm on the stage, if I'm in front of you, ugly and beautiful, I will expose anything and everything, all of me, all of me
+0,0,0,,Forever and ever, I'd like to cross swords with you
+0,0,0,,For each of us two, a rival
+0,0,0,,Aah, you are…!
+0,0,0,,Please, Karen—wake up
+0,0,0,,Remember the promise the two of us made
+0,0,0,,I believe that saying goodbye here isn't our fate
+0,0,0,,If you desire, gather a star
+0,0,0,,If you desire, become a star
+0,0,0,,If you desire, gather a star
+0,0,0,,If you desire, become a star
+0,0,0,,You are me, I am you
+0,0,0,,The past is the future, the future is now
+0,0,0,,Burn, burn, burn it all up
+0,0,0,,Onward to the next stage
+0,0,0,,Our, our Starlight, if we were to retrace it
+0,0,0,,I would be reborn as myself
+0,0,0,,Something lies within my pounding heart (Lead the way)
+0,0,0,,And I reach out to the stars (Over and over)
+0,0,0,,Round and round on the stage (I will not give up)
+0,0,0,,We become stronger (I awoke)
+0,0,0,,I wanted to see you all this time (Star to star)
+0,0,0,,Even if I'm battered by the headwind (I believe)
+0,0,0,,Then, to our promised place (Connect)
+0,0,0,,Starlight, Starlight
+0,0,0,,Starlight, Starlight
+0,0,0,,The longed for star, at the top of the tower
+0,0,0,,It's Hikari that burns your eyes
+0,0,0,,It's beautiful, it's dazzling, it's painful, it's frustrating
+0,0,0,,To take, to be taken from, it's heartrending
+0,0,0,,Being captivated, growing closer, being attracted, parting
+0,0,0,,In you, I end up losing myself
+0,0,0,,Just how many times can the stars burst?
+0,0,0,,Welcome, myself; to Position Zero
+0,0,0,,Someday, someday, may we reach it; the sky
