@@ -168,9 +168,9 @@ async def mrwhite(ctx):
                         await ctx.send(file=discord.File(fp=img_bytes, filename='mrwhiteface.png'))
                     else:
                         await ctx.send("no faces found")
+                    await loadingmessage.delete()
     else:
         await ctx.send('please include an image to mr whiteify')
-    await loadingmessage.delete()
 
 
 @bot.command(name='shitpostchar')
@@ -308,14 +308,14 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    if random.random() < 0.03: # 3% chance of replying
+    if random.random() < 0.01: # 1% chance of replying with a quote
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
 
-    if random.random() < 0.03: # 3% chance of replying
+    if random.random() < 0.01: # 3% chance of replying
         folder = 'talking'
         images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
         if images:
@@ -327,7 +327,7 @@ async def on_message(message):
         file = discord.File(os.path.join(os.getcwd(), 'hikariwhite.png'))
         await message.channel.send(file=file)
     
-    if random.random() < 0.03: # 3% chance of reacting
+    if random.random() < 0.01: # 1% chance of reacting
         if reactions:
             reaction = random.choice(reactions)
             try:
@@ -337,11 +337,11 @@ async def on_message(message):
         else:
             await message.reply("tried to send reaction but none found")
     
-    if random.random() < 0.03: # 3% chance of replying with a sticker
+    if random.random() < 0.01: # 1% chance of replying with a sticker
         png_url = get_random_png_url()
         await message.reply(png_url)
     
-    if random.random() < 0.03: # 3% chance of replying with a voice line
+    if random.random() < 0.01: # 1% chance of replying with a voice line
         text, file = get_random_voice()
         await message.reply(text, file=file)
     await bot.process_commands(message)

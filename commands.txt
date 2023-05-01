@@ -13,7 +13,7 @@
 `!shitpost` - same as above except it uses a quote from the Revue Starlight movie
 `!t` - reply to another message with this command to reply with a random frame with a speech bubble from the Revue Starlight movie
 
-The bot will also sometimes randomly reply (3% chance) to user messages with:
+The bot will also sometimes randomly reply (1% chance each, about 5% overall) to user messages with:
 - a random quote from the Revue Starlight movie
 - a random frame with a speech bubble from the Revue Starlight movie
 - a random sticker from Revue Starlight Re LIVE
