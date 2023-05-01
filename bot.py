@@ -211,16 +211,27 @@ async def revueshitpostchar(ctx):
         image_data = response.content
         image = Image.open(io.BytesIO(image_data))
 
-        # Create the captioned image/gif
-        caption = f'{random_quote.strip()}'
-        image_with_caption = await create_image_with_caption(image, caption)
-
         # Check if the file size exceeds the maximum allowed size
-        if image_with_caption.size > 8000000:  # 8 MB in bytes
-            await ctx.send("File was too large, try again")
+        with io.BytesIO() as buffer:
+            image.save(buffer, format='GIF')
+            file_size = len(buffer.getvalue())
+        if file_size > 8000000:  # 8 MB in bytes
+            # Open the image using PIL
+            image = Image.open(image.filename)
+
+            # Reduce the image size by half
+            new_size = (int(image.size[0] * 0.5), int(image.size[1] * 0.5))
+            image = image.resize(new_size, Image.ANTIALIAS)
+
+            # Reduce the image quality to 70%
+            image.save(image.filename, optimize=True, quality=70)
         else:
+            # Create the captioned image/gif
+            caption = f'{random_quote.strip()}'
+            image_with_caption = await create_image_with_caption(image, caption)
             try:
                 await ctx.send(file=image_with_caption)
+                await loadingmessage.delete()
             except discord.errors.HTTPException as error:
                 await ctx.send("File was too large, try again")
         return
@@ -265,14 +276,24 @@ async def revueshitpostquote(ctx):
         image_data = response.content
         image = Image.open(io.BytesIO(image_data))
 
-        # Create the captioned image/gif
-        caption = f'{random_quote.strip()}'
-        image_with_caption = await create_image_with_caption(image, caption)
-
         # Check if the file size exceeds the maximum allowed size
-        if image_with_caption.size > 8000000:  # 8 MB in bytes
-            await ctx.send("File was too large, try again")
+        with io.BytesIO() as buffer:
+            image.save(buffer, format='GIF')
+            file_size = len(buffer.getvalue())
+        if file_size > 8000000:  # 8 MB in bytes
+            # Open the image using PIL
+            image = Image.open(image.filename)
+
+            # Reduce the image size by half
+            new_size = (int(image.size[0] * 0.5), int(image.size[1] * 0.5))
+            image = image.resize(new_size, Image.ANTIALIAS)
+
+            # Reduce the image quality to 70%
+            image.save(image.filename, optimize=True, quality=70)
         else:
+            # Create the captioned image/gif
+            caption = f'{random_quote.strip()}'
+            image_with_caption = await create_image_with_caption(image, caption)
             try:
                 await ctx.send(file=image_with_caption)
             except discord.errors.HTTPException as error:
