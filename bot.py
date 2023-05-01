@@ -288,8 +288,9 @@ async def revueshitpostquote(ctx):
             new_size = (int(image.size[0] * 0.5), int(image.size[1] * 0.5))
             image = image.resize(new_size, Image.ANTIALIAS)
 
-            # Reduce the image quality to 70%
-            image.save(image.filename, optimize=True, quality=70)
+            # Reduce the image quality to 50%
+            image.save(image.filename, optimize=True, quality=50)
+            print('image quality successfully reduced')
         else:
             # Create the captioned image/gif
             caption = f'{random_quote.strip()}'
