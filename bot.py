@@ -229,11 +229,14 @@ async def revueshitpostchar(ctx):
             # Create the captioned image/gif
             caption = f'{random_quote.strip()}'
             image_with_caption = await create_image_with_caption(image, caption)
+            if image_with_caption.filename == 'captioned.png':
+                await ctx.send("File was too large, try again [1]")
+                return
             try:
                 await ctx.send(file=image_with_caption)
                 await loadingmessage.delete()
             except discord.errors.HTTPException as error:
-                await ctx.send("File was too large, try again")
+                await ctx.send("File was too large, try again [2]")
         return
     else:
         top_8gifs = None
@@ -295,10 +298,13 @@ async def revueshitpostquote(ctx):
             # Create the captioned image/gif
             caption = f'{random_quote.strip()}'
             image_with_caption = await create_image_with_caption(image, caption)
+            if image_with_caption.filename == 'captioned.png':
+                await ctx.send("File was too large, try again [1]")
+                return
             try:
                 await ctx.send(file=image_with_caption)
             except discord.errors.HTTPException as error:
-                await ctx.send("File was too large, try again")
+                await ctx.send("File was too large, try again [2]")
 
         await loadingmessage.delete()
         return
@@ -505,6 +511,11 @@ async def create_image_with_caption(image, caption, max_width_ratio=0.3):
         buf = io.BytesIO()
         frames[0].save(buf, format='GIF', save_all=True, append_images=frames[1:], duration=image.info['duration'], loop=0)
     buf.seek(0)
+
+    file_size = len(buf.getvalue())
+
+    if file_size > 8000000:  # 8 MB in bytes
+        return discord.File(buf, filename='captioned.png')
 
     return discord.File(buf, filename='captioned.gif' if image.format == 'GIF' else 'captioned.png')
 
