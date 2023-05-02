@@ -231,6 +231,7 @@ async def revueshitpostchar(ctx):
             image_with_caption = await create_image_with_caption(image, caption)
             if image_with_caption.filename == 'captioned.png':
                 await ctx.send("File was too large, try again [1]")
+                await loadingmessage.delete()
                 return
             try:
                 await ctx.send(file=image_with_caption)
@@ -300,6 +301,7 @@ async def revueshitpostquote(ctx):
             image_with_caption = await create_image_with_caption(image, caption)
             if image_with_caption.filename == 'captioned.png':
                 await ctx.send("File was too large, try again [1]")
+                await loadingmessage.delete()
                 return
             try:
                 await ctx.send(file=image_with_caption)
