@@ -13,12 +13,15 @@
 `!shitpost` - same as above except it uses a quote from the Revue Starlight movie
 `!t` - reply to another message with this command to reply with a random frame with a speech bubble from the Revue Starlight movie
 
-The bot will also sometimes randomly reply (1% chance each, about 5% overall) to user messages with:
+The bot will sometimes randomly reply (default 1% chance each, about 5% overall) to user messages with:
 - a random quote from the Revue Starlight movie
 - a random frame with a speech bubble from the Revue Starlight movie
 - a random sticker from Revue Starlight Re LIVE
 - a random voice line from Revue Starlight Re LIVE story mode
 - a random reaction from NCSU FGC Discord server
+
+`!rate` - displays the rate the bot replies to user messages
+`!setrate x` - replace x with a number you want to set the rate to
 
 It will also automatically send a "good morning," "good afternoon," or "good night" GIF depending on the time of day.
 

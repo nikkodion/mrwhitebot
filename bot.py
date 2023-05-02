@@ -427,6 +427,11 @@ async def on_message(message):
         file = discord.File(os.path.join(os.getcwd(), 'hikariwhite.png'))
         await message.channel.send(file=file)
     
+    if 'for now' in message.content.lower() and random.random() < 0.5:
+        file_path = os.path.join(os.getcwd(), 'talking', 'newjunna.png')
+        file = discord.File(file_path)
+        await message.channel.send(file=file)
+    
     if random.random() < rate: # default 1% chance of reacting
         if reactions:
             reaction = random.choice(reactions)
