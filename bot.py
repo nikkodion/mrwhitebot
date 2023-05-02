@@ -424,8 +424,7 @@ async def on_message(message):
             await message.reply("No images found.")
     
     if 'white' in message.content.lower():
-        file = discord.File(os.path.join(os.getcwd(), 'hikariwhite.png'))
-        await message.channel.send(file=file)
+        await message.channel.send("https://i.ibb.co/vzQZ9yz/hikariwhitesmall.png")
     
     if 'for now' in message.content.lower() and random.random() < 0.5:
         file_path = os.path.join(os.getcwd(), 'talking', 'newjunna.png')
