@@ -387,7 +387,7 @@ server_rates = {}
 @bot.command(name='rate')
 async def ratecall(ctx):
     # Get the rate for the current server from the dictionary, or use a default value of 0.01
-    rate = server_rates.get(ctx.guild.id, 0.01)
+    rate = server_rates.get(ctx.guild.id, 0.0015)
     rate_percent = rate * 100
     overall_rate_percent = (1 - ((1 - rate)**5)) * 100
     await ctx.send("There is currently a {}% chance of each type of reply, and a {}% chance of any kind of reply overall!".format(rate_percent, overall_rate_percent))
