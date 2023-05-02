@@ -406,16 +406,16 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
-    rate = server_rates.get(message.guild.id, 0.01)
+    rate = server_rates.get(message.guild.id, 0.0015) # get server rate, if none than default .15%
 
-    if random.random() < rate: # default 1% chance of replying with a quote
+    if random.random() < rate: # default .15% chance of replying with a quote
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
 
-    if random.random() < rate: # default 1% chance of replying
+    if random.random() < rate: # default .15% chance of replying
         folder = 'talking'
         images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
         if images:
@@ -426,12 +426,12 @@ async def on_message(message):
     if 'white' in message.content.lower():
         await message.channel.send("https://i.ibb.co/vzQZ9yz/hikariwhitesmall.png")
     
-    if 'for now' in message.content.lower() and random.random() < 0.5:
+    if 'for now' in message.content.lower() and random.random() < 0.5: # 50% chance to reply with junna if "for now" in message
         file_path = os.path.join(os.getcwd(), 'talking', 'newjunna.png')
         file = discord.File(file_path)
         await message.channel.send(file=file)
     
-    if random.random() < rate: # default 1% chance of reacting
+    if random.random() < rate: # default .15% chance of reacting
         if reactions:
             reaction = random.choice(reactions)
             try:
@@ -441,11 +441,11 @@ async def on_message(message):
         else:
             await message.reply("tried to send reaction but none found")
     
-    if random.random() < rate: # default 1% chance of replying with a sticker
+    if random.random() < rate: # default .15% chance of replying with a sticker
         png_url = get_random_png_url()
         await message.reply(png_url)
     
-    if random.random() < rate: # default 1% chance of replying with a voice line
+    if random.random() < rate: # default .15% chance of replying with a voice line
         text, file = get_random_voice()
         await message.reply(text, file=file)
     await bot.process_commands(message)
