@@ -340,21 +340,82 @@ async def update_reactions():
 async def before_update_reactions():
     await bot.wait_until_ready() # wait until the bot is ready
 
+@bot.command(name='kys')
+async def kyscall(ctx):
+    # Get a list of all the files in the "talking" folder
+    files = os.listdir('talking')
+    
+    # Filter the list to only include files that start with "newkys"
+    newkys_files = [f for f in files if f.startswith('newkys')]
+    
+    if len(newkys_files) == 0:
+        # No files starting with "newkys" were found in the folder
+        await ctx.send("No kys files found.")
+        return
+    
+    # Select a random file from the "newkys" files
+    selected_file = random.choice(newkys_files)
+    
+    # Send the file as a message
+    with open(f"talking/{selected_file}", "rb") as f:
+        file = discord.File(f)
+        await ctx.send(file=file)
 
+
+@bot.command(name='delete')
+async def deleteserver(ctx):
+    if str(ctx.author) == 'EX Falchion#8379':
+        confirmation_msg = await ctx.send("Are you sure you want to delete the ENTIRE server?\nPlease reply Y/N")
+        
+        def check(m):
+            return m.author == ctx.author and m.channel == ctx.channel and m.content.lower() in ['y', 'n']
+        try:
+            response_msg = await bot.wait_for('message', check=check, timeout=30.0)
+        except asyncio.TimeoutError:
+            await confirmation_msg.edit(content="Confirmation timed out.")
+            return
+        if response_msg.content.lower() == 'y':
+            return
+        else:
+            await ctx.send("The server will not be deleted.")
+    else:
+        await ctx.send("You do not have permission to do this.")
+
+# Define a dictionary to store the rate for each server
+server_rates = {}
+
+@bot.command(name='rate')
+async def ratecall(ctx):
+    # Get the rate for the current server from the dictionary, or use a default value of 0.01
+    rate = server_rates.get(ctx.guild.id, 0.01)
+    rate_percent = rate * 100
+    overall_rate_percent = (1 - ((1 - rate)**5)) * 100
+    await ctx.send("There is currently a {}% chance of each type of reply, and a {}% chance of any kind of reply overall!".format(rate_percent, overall_rate_percent))
+
+@bot.command(name='setrate')
+@commands.has_permissions(administrator=True)
+async def setratecall(ctx, rate: float):
+    # Update the rate for the current server in the dictionary
+    server_rates[ctx.guild.id] = rate
+    rate_percent = rate * 100
+    overall_rate_percent = (1 - ((1 - rate)**5)) * 100
+    await ctx.send("Reply rate for each type of reply updated to {}% for this server! ({}% overall!)".format(rate_percent, overall_rate_percent))
 
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
         return
+    
+    rate = server_rates.get(message.guild.id, 0.01)
 
-    if random.random() < 0.01: # 1% chance of replying with a quote
+    if random.random() < rate: # default 1% chance of replying with a quote
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
 
-    if random.random() < 0.01: # 3% chance of replying
+    if random.random() < rate: # default 1% chance of replying
         folder = 'talking'
         images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
         if images:
@@ -366,7 +427,7 @@ async def on_message(message):
         file = discord.File(os.path.join(os.getcwd(), 'hikariwhite.png'))
         await message.channel.send(file=file)
     
-    if random.random() < 0.01: # 1% chance of reacting
+    if random.random() < rate: # default 1% chance of reacting
         if reactions:
             reaction = random.choice(reactions)
             try:
@@ -376,11 +437,11 @@ async def on_message(message):
         else:
             await message.reply("tried to send reaction but none found")
     
-    if random.random() < 0.01: # 1% chance of replying with a sticker
+    if random.random() < rate: # default 1% chance of replying with a sticker
         png_url = get_random_png_url()
         await message.reply(png_url)
     
-    if random.random() < 0.01: # 1% chance of replying with a voice line
+    if random.random() < rate: # default 1% chance of replying with a voice line
         text, file = get_random_voice()
         await message.reply(text, file=file)
     await bot.process_commands(message)
