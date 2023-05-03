@@ -27,4 +27,6 @@ The bot will sometimes randomly reply (default .1% chance each, about .5% overal
 
 It will also automatically send a "good morning," "good afternoon," or "good night" GIF depending on the time of day.
 
+He will also join in the conversation if you ping or reply to him.
+
 there is also a secret function
