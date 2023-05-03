@@ -34,12 +34,17 @@ reactions = [] # list to store available reactions
 async def setup(bot):
     await bot.add_cog(MainCog(bot))
 
+server_rates = {}
+
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
     await setup(bot)
     update_reactions.start() # start background task to update reactions
     bot.loop.create_task(schedule_image())
+    global server_rates
+    with open('server_rates.json', 'r') as f:
+        server_rates = json.load(f)
 
 @bot.command(name='t')
 async def tcall(ctx):
@@ -311,10 +316,182 @@ async def revueshitpostquote(ctx):
         await loadingmessage.delete()
         return
     
+@bot.command(name='captionchar')
+async def captionrevuechar(ctx):
+    await captiongivenmessage(ctx, 'quotes.txt')
+
+@bot.command(name='caption')
+async def captionrevue(ctx):
+    await captiongivenmessage(ctx, 'qotd.txt')
+
+async def captiongivenmessage(ctx, txtfile):
+    if not ctx.message.attachments and not ctx.message.content.startswith('http'): # check if the current message has no attachments or link
+        replied_to = ctx.message.reference and ctx.message.reference.resolved # if no attachments, check the replied to message
+        if replied_to: # first check that replied to message exists
+            if replied_to.attachments or replied_to.content.startswith('http'): # if the replied to message has attachment or link
+                message = replied_to # then make the message to edit the replied message
+            else:
+                await ctx.send("Please either attach an image or reply to a message with an attached image")
+        else: # if still the replied to message doesn't have an attachment or link
+            await ctx.send("Please either attach an image or reply to a message with an attached image")
+            return
+    else: # if the current message has attachments or link,
+        message = ctx.message # then make the message to edit the message itself
+
+    if message.attachments: # check if the message has an attachment
+        attachment = message.attachments[0] # set attachment to the first attachment
+        if attachment.content_type.startswith('image/'): # or attachment.content_type.startswith('video/'): if the attachment is an image
+            loadingmessage = await ctx.send("loading randomly generated revue starlight shitpost") # send a loading message
+
+            # read lines from text file (qotd.txt needs special treatment)
+            if txtfile == 'qotd.txt':
+                with open('qotd.txt', encoding='utf-8') as f:
+                    quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
+            else:
+                with open(txtfile) as f:
+                    quotes = f.read().splitlines()
+
+            random_quote = random.choice(quotes) # get a random line from text file
+
+            # read the image/gif file
+            image_data = await attachment.read()
+            image = Image.open(io.BytesIO(image_data))
+
+            # create the captioned gif (don't need to check file size because discord already does for attached images)
+            caption = f'{random_quote.strip()}'
+            image_with_caption = await create_image_with_caption(image, caption)
+
+            # send the captioned gif
+            await ctx.send(file=image_with_caption)
+            await loadingmessage.delete() # delete loading message
+            return
+    elif message.content.startswith('http'): # if the message has no attachment, then check if it has a link
+        link = message.content.strip() # take link
+        if link.endswith('.jpg') or link.endswith('.jpeg') or link.endswith('.png') or link.endswith('.gif'): # check if its already a direct link
+            await ctx.send('loading randomly generated revue starlight shitpost') #if so, start loading
+
+            # read lines from text file (qotd.txt needs special treatment)
+            if txtfile == 'qotd.txt':
+                with open('qotd.txt', encoding='utf-8') as f:
+                    quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
+            else:
+                with open(txtfile) as f:
+                    quotes = f.read().splitlines()
+
+            random_quote = random.choice(quotes) # get a random line from text file
+
+            # download the image/gif from the link
+            response = requests.get(link)
+            image_data = response.content
+            image = Image.open(io.BytesIO(image_data))
+
+            if link.endswith('.gif'): # if the link was a gif
+                # check if the file size exceeds the maximum allowed size
+                with io.BytesIO() as buffer:
+                    image.save(buffer, format='GIF')
+                    file_size = len(buffer.getvalue())
+                if file_size > 8000000:  # 8 MB in bytes
+                    # open the image using PIL
+                    image = Image.open(image.filename)
+
+                    # reduce the image size by half
+                    new_size = (int(image.size[0] * 0.5), int(image.size[1] * 0.5))
+                    image = image.resize(new_size, Image.ANTIALIAS)
+
+                    # reduce the image quality to 70%
+                    image.save(image.filename, optimize=True, quality=70)
+                else:
+                    # create the captioned gif
+                    caption = f'{random_quote.strip()}'
+                    image_with_caption = await create_image_with_caption(image, caption)
+                    if image_with_caption.filename == 'captioned.png':
+                        await ctx.send("File was too large, try again [1]")
+                        await loadingmessage.delete()
+                        return
+                    try:
+                        await ctx.send(file=image_with_caption)
+                        await loadingmessage.delete()
+                    except discord.errors.HTTPException as error:
+                        await ctx.send("File was too large, try again [2]")
+                    return   
+            else:
+                # create the captioned image
+                caption = f'{random_quote.strip()}'
+                image_with_caption = await create_image_with_caption(image, caption)
+
+                # send the captioned image
+                await ctx.send(file=image_with_caption)
+                await loadingmessage.delete() # delete loading message
+                return  
+        elif link.startswith('https://tenor.com'): # check if a tenor link instead of direct
+            # set the apikey
+            apikey = TENOR_TOKEN 
+            ckey = "mrwhitebot"
+            gifid = link.split("-")[-1] # get the gif id from the tenor link
+
+            # request the link from the api
+            r = requests.get("https://tenor.googleapis.com/v2/posts?key=%s&ids=%s&ckey=%s&media_filter=gif" % (apikey, gifid, ckey))
+
+            if r.status_code == 200: # if successful
+
+                # read lines from text file (qotd.txt needs special treatment)
+                if txtfile == 'qotd.txt':
+                    with open('qotd.txt', encoding='utf-8') as f:
+                        quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
+                else:
+                    with open(txtfile) as f:
+                        quotes = f.read().splitlines()
+
+                random_quote = random.choice(quotes) # get a random line from text file
+
+                loadingmessage = await ctx.send("loading randomly generated revue starlight shitpost") # send loading message
+
+                # get the direct image url from the json
+                r_data = r.json()
+                url = r_data['results'][0]['media_formats']['gif']['url']
+                image_data = requests.get(url)
+                    
+                # open the url
+                image = Image.open(io.BytesIO(image_data.content))
+
+                # check if the file size exceeds the maximum allowed size
+                with io.BytesIO() as buffer:
+                    image.save(buffer, format='GIF')
+                    file_size = len(buffer.getvalue())
+                if file_size > 8000000:  # 8 MB in bytes
+                    # open the image using PIL
+                    image = Image.open(image.filename)
+
+                    # reduce the image size by half
+                    new_size = (int(image.size[0] * 0.5), int(image.size[1] * 0.5))
+                    image = image.resize(new_size, Image.ANTIALIAS)
+
+                    # reduce the image quality to 70%
+                    image.save(image.filename, optimize=True, quality=70)
+                else:
+                    # create the captioned gif
+                    caption = f'{random_quote.strip()}'
+                    image_with_caption = await create_image_with_caption(image, caption)
+                    if image_with_caption.filename == 'captioned.png':
+                        await ctx.send("File was too large, try again [1]")
+                        await loadingmessage.delete()
+                        return
+                    try:
+                        await ctx.send(file=image_with_caption)
+                        await loadingmessage.delete()
+                    except discord.errors.HTTPException as error:
+                        await ctx.send("File was too large, try again [2]")
+                    return    
+
+    
 @bot.command(name='sticker')
 async def relivesticker(ctx):
     png_url = get_random_png_url()
-    await ctx.send(png_url)
+    if ctx.message.reference:
+        replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
+        await replied_message.reply(png_url)
+    else:
+        await ctx.send(png_url)
 
 @bot.command(name='bday')
 async def relivebday(ctx):
@@ -324,7 +501,11 @@ async def relivebday(ctx):
 @bot.command(name='voice')
 async def relivevoice(ctx):
     text, file = get_random_voice()
-    await ctx.send(text, file=file)
+    if ctx.message.reference:
+        replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
+        await replied_message.reply(text, file=file)
+    else:
+        await ctx.send(text, file=file)
 
 @tasks.loop(hours=24)
 async def update_reactions():
@@ -339,28 +520,6 @@ async def update_reactions():
 @update_reactions.before_loop
 async def before_update_reactions():
     await bot.wait_until_ready() # wait until the bot is ready
-
-@bot.command(name='kys')
-async def kyscall(ctx):
-    # Get a list of all the files in the "talking" folder
-    files = os.listdir('talking')
-    
-    # Filter the list to only include files that start with "newkys"
-    newkys_files = [f for f in files if f.startswith('newkys')]
-    
-    if len(newkys_files) == 0:
-        # No files starting with "newkys" were found in the folder
-        await ctx.send("No kys files found.")
-        return
-    
-    # Select a random file from the "newkys" files
-    selected_file = random.choice(newkys_files)
-    
-    # Send the file as a message
-    with open(f"talking/{selected_file}", "rb") as f:
-        file = discord.File(f)
-        await ctx.send(file=file)
-
 
 @bot.command(name='delete')
 async def deleteserver(ctx):
@@ -381,41 +540,66 @@ async def deleteserver(ctx):
     else:
         await ctx.send("You do not have permission to do this.")
 
-# Define a dictionary to store the rate for each server
-server_rates = {}
-
 @bot.command(name='rate')
 async def ratecall(ctx):
     # Get the rate for the current server from the dictionary, or use a default value of 0.01
-    rate = server_rates.get(ctx.guild.id, 0.0015)
+    if str(ctx.guild.id) in server_rates:
+        rate = server_rates[str(ctx.guild.id)]
+    else:
+        rate = 0.001  # Default rate
     rate_percent = rate * 100
     overall_rate_percent = (1 - ((1 - rate)**5)) * 100
-    await ctx.send("There is currently a {}% chance of each type of reply, and a {}% chance of any kind of reply overall!".format(rate_percent, overall_rate_percent))
+    await ctx.send("There is currently a {}% chance of each type of reply, and a {:.2f}% chance of any kind of reply overall!".format(rate_percent, overall_rate_percent))
 
 @bot.command(name='setrate')
 @commands.has_permissions(administrator=True)
 async def setratecall(ctx, rate: float):
     # Update the rate for the current server in the dictionary
-    server_rates[ctx.guild.id] = rate
+    global server_rates
+    server_rates[str(ctx.guild.id)] = rate
+    with open('server_rates.json', 'w') as f:
+        json.dump(server_rates, f)
     rate_percent = rate * 100
     overall_rate_percent = (1 - ((1 - rate)**5)) * 100
-    await ctx.send("Reply rate for each type of reply updated to {}% for this server! ({}% overall!)".format(rate_percent, overall_rate_percent))
+    await ctx.send("Reply rate for each type of reply updated to {}% for this server! ({:.2f}% overall!)".format(rate_percent, overall_rate_percent))
 
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
         return
     
-    rate = server_rates.get(message.guild.id, 0.0015) # get server rate, if none than default .15%
+    if bot.user in message.mentions or message.reference and message.reference.resolved.author == bot.user:
+        if not message.content.startswith('!'):
+            random_number = random.randint(1, 3)
+            if random_number == 1:
+                with open('qotd.txt', encoding='utf-8') as f:
+                    quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
-    if random.random() < rate: # default .15% chance of replying with a quote
+                # Get a random quote
+                await message.reply(random.choice(quotes))
+            elif random_number == 2:
+                png_url = get_random_png_url()
+                await message.reply(png_url)
+            elif random_number == 3:
+                text, file = get_random_voice()
+                await message.reply(text, file=file)
+
+    for guild in bot.guilds:
+        if guild.id == message.guild.id:
+            if str(guild.id) in str(server_rates):
+                rate = server_rates[str(guild.id)]
+            else:
+                rate = 0.001  # get server rate, if none than default .1%
+            break
+
+    if random.random() < rate: # default .1% chance of replying with a quote
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
         # Get a random quote
         await message.reply(random.choice(quotes))
 
-    if random.random() < rate: # default .15% chance of replying
+    if random.random() < rate: # default .1% chance of replying
         folder = 'talking'
         images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith('.png')]
         if images:
@@ -431,7 +615,7 @@ async def on_message(message):
         file = discord.File(file_path)
         await message.channel.send(file=file)
     
-    if random.random() < rate: # default .15% chance of reacting
+    if random.random() < rate: # default .1% chance of reacting
         if reactions:
             reaction = random.choice(reactions)
             try:
@@ -441,11 +625,11 @@ async def on_message(message):
         else:
             await message.reply("tried to send reaction but none found")
     
-    if random.random() < rate: # default .15% chance of replying with a sticker
+    if random.random() < rate: # default .1% chance of replying with a sticker
         png_url = get_random_png_url()
         await message.reply(png_url)
     
-    if random.random() < rate: # default .15% chance of replying with a voice line
+    if random.random() < rate: # default .1% chance of replying with a voice line
         text, file = get_random_voice()
         await message.reply(text, file=file)
     await bot.process_commands(message)
@@ -488,9 +672,9 @@ def get_random_bday_voice():
     elif random_number == 108: character = "Futaba"
     elif random_number == 109: character = "Kaoruko"
 
-    character1 = character + " would like to say something:\n"
-    character2 = character + " has this to say:\n"
-    character3 = character + " has a message:\n"
+    character1 = character + " would like to congratulate you on your birthday:\n"
+    character2 = character + " has this to say about your birthday:\n"
+    character3 = character + " has a birthday message:\n"
 
     characterw = random.choice([character1, character2, character3])
 
@@ -557,13 +741,21 @@ async def create_image_with_caption(image, caption, max_width_ratio=0.3):
     x = (width - text_width) / 2
     y = height - (text_height * 2)
 
+    if (text_height > 50):
+        frame_height = height + (text_height//2 * (len(wrapped_caption) + 1))
+    else:
+        frame_height = height + (text_height * (len(wrapped_caption) + 1))
+
     frames = []
     # Loop through all frames of the gif and add the caption text to each frame
     try:
         while True:
             image.seek(len(frames))
-            frame = Image.new('RGB', (width, height + (text_height * (len(wrapped_caption) + 1))), color='white')
-            frame.paste(image, (0, text_height * (len(wrapped_caption) + 1)))
+            frame = Image.new('RGB', (width, frame_height), color='white')
+            if (text_height > 50):
+                frame.paste(image, (0, text_height//2 * (len(wrapped_caption) + 1)))
+            else:
+                frame.paste(image, (0, text_height * (len(wrapped_caption) + 1)))
             frame_draw = ImageDraw.Draw(frame)
             frame_draw.text((x, 0), '\n'.join(wrapped_caption), font=font, fill='black')
             frames.append(frame)

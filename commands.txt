@@ -11,9 +11,11 @@
 `!gn` - send a random PicMix good night Revue Starlight GIF
 `!shitpostchar` - randomly generates a Revue Starlight meme with a random gif from Tenor with a character's name
 `!shitpost` - same as above except it uses a quote from the Revue Starlight movie
+`!captionchar` - same as !shitpostchar, but attach an image or reply to one to caption it
+`!caption` - same as above except it uses a quote from the Revue Starlight movie
 `!t` - reply to another message with this command to reply with a random frame with a speech bubble from Revue Starlight
 
-The bot will sometimes randomly reply (default .15% chance each, about .75% overall) to user messages with:
+The bot will sometimes randomly reply (default .1% chance each, about .5% overall) to user messages with:
 - a random quote from the Revue Starlight movie
 - a random frame with a speech bubble from the Revue Starlight movie
 - a random sticker from Revue Starlight Re LIVE
