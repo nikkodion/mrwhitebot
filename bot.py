@@ -368,7 +368,7 @@ async def captiongivenmessage(ctx, txtfile):
     elif message.content.startswith('http'): # if the message has no attachment, then check if it has a link
         link = message.content.strip() # take link
         if link.endswith('.jpg') or link.endswith('.jpeg') or link.endswith('.png') or link.endswith('.gif'): # check if its already a direct link
-            await ctx.send('loading randomly generated revue starlight shitpost') #if so, start loading
+            loadingmessage = await ctx.send('loading randomly generated revue starlight shitpost') #if so, start loading
 
             # read lines from text file (qotd.txt needs special treatment)
             if txtfile == 'qotd.txt':
