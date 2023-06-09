@@ -17,46 +17,80 @@ from maincog import MainCog
 import asyncio
 import datetime
 
+# get the environment variables from .env
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 TENOR_TOKEN = os.getenv('TENOR_TOKEN')
 
+# make sure discord intents all enabled
 intents = discord.Intents.all()
 intents.members = True
 intents.messages = True
 intents.guilds = True
 intents.guild_messages = True
 
+# create bot with command prefix of ! and intents
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 reactions = [] # list to store available reactions
 
 async def setup(bot):
+    """
+    Adds MainCog from maincog.py to bot, which has the "tspeak" function.
+    Necessary to be in an asycn def function, so that bot.add_cog() can be awaited.
+    This function is called in the on_ready() function below.
+
+    Args:
+        bot (commands.Bot()): the Discord bot
+    """
     await bot.add_cog(MainCog(bot))
 
-server_rates = {}
+server_rates = {} # list to store server rates
 
 @bot.event
 async def on_ready():
-    print(f'{bot.user.name} has connected to Discord!')
-    await setup(bot)
-    update_reactions.start() # start background task to update reactions
-    bot.loop.create_task(schedule_image())
+    """
+    Automatically runs when the bot goes online.
+    Prints to console to know when it has connected to Discord,
+    adds the cog, updates reactions, schedules timed messages,
+    and loads the server rates from the json.
+    """
+    print(f'{bot.user.name} has connected to Discord!') # generic print statement to know it's online
+    await setup(bot) # call setup method above to add cog
+
+    # start background task to update reactions
+    update_reactions.start()
+
+    # schedule good morning, good afternoon, good night messages
+    bot.loop.create_task(schedule_image()) 
+
+    # load server rates from json file into list (so that it doesn't reset when bot goes offline)
     global server_rates
     with open('server_rates.json', 'r') as f:
         server_rates = json.load(f)
 
+# !t: replies to replied to message with a speech bubble image (method in cog)
 @bot.command(name='t')
 async def tcall(ctx):
+    """
+    Triggers upon !t command, which, on user reply to a message, the bot
+    replies to that message with a Revue Starlight frame with a speech bubble
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
+    # get an instance of the cog and call the function in it
     main_cog = bot.get_cog("MainCog")
     await main_cog.tspeak(ctx)
 
+# !commands: sends info from commands.txt
 @bot.command(name='commands')
 async def helpcommands(ctx):
     with open('commands.txt') as f:
         textcommands = f.read()
     await ctx.send(textcommands)
 
+# !help: removes default help command and replaces with custom (same function as above)
 bot.remove_command('help')
 
 @bot.command(name='help')
@@ -65,15 +99,17 @@ async def helpcommands1(ctx):
         textcommands = f.read()
     await ctx.send(textcommands)
 
+# !quote: gets a quote from 'qotd.txt' and send it
 @bot.command(name='quote')
 async def quote(ctx):
+    # need to open as utf-8
     with open('qotd.txt', encoding='utf-8') as f:
         quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
 
     # Get a random quote
     await ctx.send(random.choice(quotes))
     
-
+# !gif: sends a random gif from tenor under the search term "revue starlight"
 @bot.command(name='gif')
 async def revuegif(ctx):
 
@@ -364,10 +400,13 @@ async def captiongivenmessage(ctx, txtfile):
             # send the captioned gif
             await ctx.send(file=image_with_caption)
             await loadingmessage.delete() # delete loading message
+            await ctx.send(f"(!caption used by {ctx.author.name})")
+            await ctx.message.delete()
             return
     elif message.content.startswith('http'): # if the message has no attachment, then check if it has a link
         link = message.content.strip() # take link
         if link.endswith('.jpg') or link.endswith('.jpeg') or link.endswith('.png') or link.endswith('.gif'): # check if its already a direct link
+            print(link)
             loadingmessage = await ctx.send('loading randomly generated revue starlight shitpost') #if so, start loading
 
             # read lines from text file (qotd.txt needs special treatment)
@@ -411,6 +450,8 @@ async def captiongivenmessage(ctx, txtfile):
                     try:
                         await ctx.send(file=image_with_caption)
                         await loadingmessage.delete()
+                        await ctx.send(f"(!caption used by {ctx.author.name})")
+                        await ctx.message.delete()
                     except discord.errors.HTTPException as error:
                         await ctx.send("File was too large, try again [2]")
                     return   
@@ -422,6 +463,8 @@ async def captiongivenmessage(ctx, txtfile):
                 # send the captioned image
                 await ctx.send(file=image_with_caption)
                 await loadingmessage.delete() # delete loading message
+                await ctx.send(f"(!caption used by {ctx.author.name})")
+                await ctx.message.delete()
                 return  
         elif link.startswith('https://tenor.com'): # check if a tenor link instead of direct
             # set the apikey
@@ -479,6 +522,8 @@ async def captiongivenmessage(ctx, txtfile):
                     try:
                         await ctx.send(file=image_with_caption)
                         await loadingmessage.delete()
+                        await ctx.send(f"(!caption used by {ctx.author.name})")
+                        await ctx.message.delete()
                     except discord.errors.HTTPException as error:
                         await ctx.send("File was too large, try again [2]")
                     return    
@@ -490,6 +535,8 @@ async def relivesticker(ctx):
     if ctx.message.reference:
         replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
         await replied_message.reply(png_url)
+        await ctx.send(f"(!sticker used by {ctx.author.name})")
+        await ctx.message.delete()
     else:
         await ctx.send(png_url)
 
@@ -504,6 +551,8 @@ async def relivevoice(ctx):
     if ctx.message.reference:
         replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
         await replied_message.reply(text, file=file)
+        await ctx.send(f"(!voice used by {ctx.author.name})")
+        await ctx.message.delete()    
     else:
         await ctx.send(text, file=file)
 
