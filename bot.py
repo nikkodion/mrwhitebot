@@ -37,7 +37,7 @@ reactions = [] # list to store available reactions
 async def setup(bot):
     """
     Adds MainCog from maincog.py to bot, which has the "tspeak" function.
-    Necessary to be in an asycn def function, so that bot.add_cog() can be awaited.
+    Necessary to be in an async def function, so that bot.add_cog() can be awaited.
     This function is called in the on_ready() function below.
 
     Args:
@@ -86,6 +86,13 @@ async def tcall(ctx):
 # !commands: sends info from commands.txt
 @bot.command(name='commands')
 async def helpcommands(ctx):
+    """
+    Triggers upon !commands command, sends a message containing the
+    bot commands, stored in commands.txt
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     with open('commands.txt') as f:
         textcommands = f.read()
     await ctx.send(textcommands)
@@ -95,6 +102,13 @@ bot.remove_command('help')
 
 @bot.command(name='help')
 async def helpcommands1(ctx):
+    """
+    Triggers upon !help command, sends a message containing the
+    bot commands, stored in commands.txt
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     with open('commands.txt') as f:
         textcommands = f.read()
     await ctx.send(textcommands)
@@ -102,6 +116,13 @@ async def helpcommands1(ctx):
 # !quote: gets a quote from 'qotd.txt' and send it
 @bot.command(name='quote')
 async def quote(ctx):
+    """
+    Triggers upon !quote command, sends a random quote from the Revue
+    Starlight movie, from qotd.txt
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     # need to open as utf-8
     with open('qotd.txt', encoding='utf-8') as f:
         quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
@@ -112,6 +133,13 @@ async def quote(ctx):
 # !gif: sends a random gif from tenor under the search term "revue starlight"
 @bot.command(name='gif')
 async def revuegif(ctx):
+    """
+    Triggers upon !gif command, sends a random gif using Tenor API
+    from the keywords "revue starlight"
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
 
     apikey = TENOR_TOKEN 
     lmt = 1
@@ -123,14 +151,21 @@ async def revuegif(ctx):
         "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s&random=true" % (search_term, apikey, ckey,  lmt))
 
     if r.status_code == 200:
-        top_8gifs = json.loads(r.content)
-        gif_urls = [gif['url'] for gif in top_8gifs['results']]
+        top_gif = json.loads(r.content)
+        gif_urls = [gif['url'] for gif in top_gif['results']]
         await ctx.send("\n".join(gif_urls))
     else:
-        top_8gifs = None
+        top_gif = None
 
 @bot.command(name='gm')
 async def good_morning(ctx):
+    """
+    Triggers upon !gm command, sends a random gif using Tenor API
+    from the keywords "revue starlight good morning"
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -150,6 +185,13 @@ async def good_morning(ctx):
 
 @bot.command(name='ga')
 async def good_afternoon(ctx):
+    """
+    Triggers upon !ga command, sends a random gif using Tenor API
+    from the keywords "revue starlight good afternoon"
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -169,6 +211,14 @@ async def good_afternoon(ctx):
 
 @bot.command(name='gn')
 async def good_night(ctx):
+    """
+    Triggers upon !gn command, sends a random gif using Tenor API
+    from the keywords "revue starlight good night"
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
+
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -188,6 +238,14 @@ async def good_night(ctx):
 
 @bot.command(name='mrwhite')
 async def mrwhite(ctx):
+    """
+    Triggers upon !mrwhite command, if the message has an image, it tries
+    to use OpenCV to detect faces and uses PIL to open that image and
+    put mrwhiteface.png where there are faces.
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     if ctx.message.attachments:
             for attachment in ctx.message.attachments:
                 if attachment.content_type.startswith('image/'):
@@ -217,6 +275,14 @@ async def mrwhite(ctx):
 
 @bot.command(name='shitpostchar')
 async def revueshitpostchar(ctx):
+    """
+    Triggers upon !shitpostchar command, sends a random gif using Tenor API
+    and then captions it using PIL with a random character from Revue
+    Starlight from quotes.txt
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     # set the apikey and limit
     apikey = TENOR_TOKEN 
     lmt = 1
@@ -236,7 +302,7 @@ async def revueshitpostchar(ctx):
         "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s&random=true" % (search_term, apikey, ckey,  lmt))
 
     if r.status_code == 200:
-        top_8gifs = json.loads(r.content)
+        top_gif = json.loads(r.content)
         with open('quotes.txt') as f:
             quotes = f.read().splitlines()
 
@@ -246,7 +312,7 @@ async def revueshitpostchar(ctx):
         loadingmessage = await ctx.send("loading randomly generated revue starlight shitpost")
 
         # Read the image/gif file
-        all_formats= [gif['media_formats'] for gif in top_8gifs['results']]
+        all_formats= [gif['media_formats'] for gif in top_gif['results']]
         gif_url = all_formats[0]['mediumgif']['url']
         response = requests.get(gif_url)
         image_data = response.content
@@ -281,10 +347,18 @@ async def revueshitpostchar(ctx):
                 await ctx.send("File was too large, try again [2]")
         return
     else:
-        top_8gifs = None
+        top_gif = None
 
 @bot.command(name='shitpost')
 async def revueshitpostquote(ctx):
+    """
+    Triggers upon !shitpost command, sends a random gif using Tenor API
+    and then captions it using PIL with a random quote from the Revue
+    Starlight movie from qotd.txt
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     # set the apikey and limit
     apikey = TENOR_TOKEN 
     lmt = 1
@@ -304,7 +378,7 @@ async def revueshitpostquote(ctx):
         "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s&random=true" % (search_term, apikey, ckey,  lmt))
 
     if r.status_code == 200:
-        top_8gifs = json.loads(r.content)
+        top_gif = json.loads(r.content)
 
         with open('qotd.txt', encoding='utf-8') as f:
             quotes = [line.rsplit(",,", 1)[-1] for line in f.readlines()]
@@ -315,7 +389,7 @@ async def revueshitpostquote(ctx):
         loadingmessage = await ctx.send("loading randomly generated revue starlight shitpost")
 
         # Read the image/gif file
-        all_formats= [gif['media_formats'] for gif in top_8gifs['results']]
+        all_formats= [gif['media_formats'] for gif in top_gif['results']]
         gif_url = all_formats[0]['mediumgif']['url']
         response = requests.get(gif_url)
         image_data = response.content
@@ -354,13 +428,37 @@ async def revueshitpostquote(ctx):
     
 @bot.command(name='captionchar')
 async def captionrevuechar(ctx):
+    """
+    Triggers upon !captionchar, if the message has an image or a replied-to message
+    has an image, it sends quotes.txt to captiongivenmessage,
+    which handles captioning the image with a Revue Starlight character
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     await captiongivenmessage(ctx, 'quotes.txt')
 
 @bot.command(name='caption')
 async def captionrevue(ctx):
+    """
+    Triggers upon !caption, if the message has an image or a replied-to message
+    has an image, it sends qotd.txt to captiongivenmessage,
+    which handles captioning the image with a quote from the Revue Starlight movie
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     await captiongivenmessage(ctx, 'qotd.txt')
 
 async def captiongivenmessage(ctx, txtfile):
+    """
+    Called by !captionchar and !caption, if the message has an image or a replied-to message
+    has an image, it uses the given text file to caption the image with PIL
+
+    Args:
+        ctx (context): "context" containing info about command message
+        txtfile (text file): text file containing either the character names or Revue Starlight movie quotes
+    """
     if not ctx.message.attachments and not ctx.message.content.startswith('http'): # check if the current message has no attachments or link
         replied_to = ctx.message.reference and ctx.message.reference.resolved # if no attachments, check the replied to message
         if replied_to: # first check that replied to message exists
@@ -531,6 +629,13 @@ async def captiongivenmessage(ctx, txtfile):
     
 @bot.command(name='sticker')
 async def relivesticker(ctx):
+    """
+    Triggers upon !sticker, sends a random sticker from Revue Starlight
+    Re LIVE using Karthuria API
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     png_url = get_random_png_url()
     if ctx.message.reference:
         replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
@@ -542,11 +647,25 @@ async def relivesticker(ctx):
 
 @bot.command(name='bday')
 async def relivebday(ctx):
+    """
+    Triggers upon !bday, sends a birthday voice line from Revue Starlight
+    Re LIVE using Karthuria API
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     text, file = get_random_bday_voice()
     await ctx.send(text, file=file)
 
 @bot.command(name='voice')
 async def relivevoice(ctx):
+    """
+    Triggers upon !voice, sends a random voice line from Revue Starlight
+    Re LIVE story mode using Karthuria API
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     text, file = get_random_voice()
     if ctx.message.reference:
         replied_message = await ctx.fetch_message(ctx.message.reference.message_id)
@@ -558,6 +677,9 @@ async def relivevoice(ctx):
 
 @tasks.loop(hours=24)
 async def update_reactions():
+    """
+    Task that updates emotes the bot can react with every 24 hours
+    """
     guild = bot.get_guild(593878082654568458)
     if guild:
         emojis = await guild.fetch_emojis()
@@ -568,10 +690,19 @@ async def update_reactions():
 
 @update_reactions.before_loop
 async def before_update_reactions():
-    await bot.wait_until_ready() # wait until the bot is ready
+    """
+    Waits until the bot is ready before updating reactions
+    """
+    await bot.wait_until_ready()
 
 @bot.command(name='delete')
 async def deleteserver(ctx):
+    """
+    Triggers upon !delete, joke method that only works if EX Falchion
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
     if str(ctx.author) == 'EX Falchion#8379':
         confirmation_msg = await ctx.send("Are you sure you want to delete the ENTIRE server?\nPlease reply Y/N")
         
@@ -591,7 +722,13 @@ async def deleteserver(ctx):
 
 @bot.command(name='rate')
 async def ratecall(ctx):
-    # Get the rate for the current server from the dictionary, or use a default value of 0.01
+    """
+    Triggers upon !rate, sends the current rate for a random message
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
+    # Get the rate for the current server from server_rates.json, or use a default value of 0.01
     if str(ctx.guild.id) in server_rates:
         rate = server_rates[str(ctx.guild.id)]
     else:
@@ -603,7 +740,13 @@ async def ratecall(ctx):
 @bot.command(name='setrate')
 @commands.has_permissions(administrator=True)
 async def setratecall(ctx, rate: float):
-    # Update the rate for the current server in the dictionary
+    """
+    Triggers upon !setrate, sets the current rate for a random message
+
+    Args:
+        ctx (context): "context" containing info about command message
+    """
+    # Update the rate for the current server in server_rates.json
     global server_rates
     server_rates[str(ctx.guild.id)] = rate
     with open('server_rates.json', 'w') as f:
@@ -614,6 +757,13 @@ async def setratecall(ctx, rate: float):
 
 @bot.event
 async def on_message(message):
+    """
+    Triggers upon any message by a user in the server, handling all random
+    replies and any special prompts such as "white" and "for now"
+
+    Args:
+        message: the message that was most recently sent
+    """
     if message.author == bot.user:
         return
     
@@ -686,6 +836,10 @@ async def on_message(message):
 
 
 def get_random_png_url():
+    """
+    Helper method called when using !sticker to take Karthuria endpoint and send
+    URL of a random sticker
+    """
     png_endpoint = 'https://cdn.karth.top/api/assets/ww/res_en/res/item_root/medium'
     response = requests.get(png_endpoint)
     png_list = response.json()['response_data']
@@ -701,6 +855,10 @@ def get_random_png_url():
 
 
 def get_random_bday_voice():
+    """
+    Helper method called when using !bday to take Karthuria endpoint and send
+    URL of a random bday voice line
+    """
     random_number = random.randint(101, 109)
     random_numberstr = str(random_number)
     voices = f'https://cdn.karth.top/api/assets/jp/res/sound/voice/{random_numberstr}'
@@ -733,6 +891,10 @@ def get_random_bday_voice():
     return characterw, file
 
 def get_random_voice():
+    """
+    Helper method called when using !voice to take Karthuria endpoint and send
+    URL of a random voice line
+    """
     advjson = 'https://karth.top/api/adventure.json'
     advresponse = requests.get(advjson)
     advdata = advresponse.json()
@@ -768,6 +930,9 @@ def get_random_voice():
 
 
 async def create_image_with_caption(image, caption, max_width_ratio=0.3):
+    """
+    Helper method called to edit images for any methods that need it
+    """
     # Create a draw object
     draw = ImageDraw.Draw(image)
 
@@ -830,6 +995,9 @@ async def create_image_with_caption(image, caption, max_width_ratio=0.3):
 
 
 async def send_gm_image(channel_ids):
+    """
+    Helper method called to use Tenor API to find good morning message
+    """
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -852,6 +1020,9 @@ async def send_gm_image(channel_ids):
             await channel.send("It's 10AM!\n" + "there was an error but good morning anyway")
 
 async def send_ga_image(channel_ids):
+    """
+    Helper method called to use Tenor API to find good afternoon message
+    """
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -874,6 +1045,9 @@ async def send_ga_image(channel_ids):
             await channel.send("It's 2PM!\n" + "there was an error but good afternoon anyway")
 
 async def send_gn_image(channel_ids):
+    """
+    Helper method called to use Tenor API to find good night message
+    """
     apikey = TENOR_TOKEN 
     lmt = 2
     ckey = "mrwhitebot"
@@ -896,6 +1070,9 @@ async def send_gn_image(channel_ids):
             await channel.send("It's 10PM!\n" + "there was an error but good night anyway")
 
 async def schedule_image():
+    """
+    Method that schedules and sends the gm, ga, and gn messages
+    """
     await bot.wait_until_ready()
     while not bot.is_closed():
         now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))
